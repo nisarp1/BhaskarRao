@@ -66,21 +66,35 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-white">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/2.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Bhaskar Rao IPS">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-7 text-center">
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">RECOGNITIONS</span>
+                <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Honors & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Awards.</span></h3>
             </div>
-            <div class="col-lg-5 offset-lg-1">
-                <h4 class="alt-font text-dark-gray fw-600">Honors & Awards</h4>
-                <p class="fs-17">Recognized for distinguished service and international peacekeeping efforts.</p>
-                <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>President’s Police Medal for Distinguished Service (2015).</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Police Medal for Meritorious Service (2008).</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>United Nations Medal for International Peacekeeping (2000).</li>
-                </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center journey-timeline-row">
+            <!-- Award 1 -->
+            <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h2 class="journey-year text-gradient-san-blue-new-york-red">2000</h2>
+                <div class="journey-dot blue"></div>
+                <h6 class="journey-subtitle">United Nations Medal</h6>
+                <p class="journey-description">Awarded for International Peacekeeping while leading UN operations in the high-risk war zone of Kosovo.</p>
+            </div>
+            <!-- Award 2 -->
+            <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <h2 class="journey-year text-gradient-san-blue-new-york-red">2008</h2>
+                <div class="journey-dot blue"></div>
+                <h6 class="journey-subtitle">Meritorious Service</h6>
+                <p class="journey-description">Police Medal for Meritorious Service, recognizing exceptional dedication and consistent performance in the force.</p>
+            </div>
+            <!-- Award 3 -->
+            <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <h2 class="journey-year text-gradient-san-blue-new-york-red">2015</h2>
+                <div class="journey-dot navy"></div>
+                <h6 class="journey-subtitle">Distinguished Service</h6>
+                <p class="journey-description">President’s Police Medal for Distinguished Service, the highest honor an officer can receive for contribution to the nation.</p>
             </div>
         </div>
     </div>
@@ -88,46 +102,46 @@
 <!-- end section -->
 
 
-<!-- start key assignments section -->
-<section class="bg-white py-5">
+<section class="bg-gradient-solitude-blue-fair-pink py-5">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">DIVERSE ASSIGNMENTS</span>
-                <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Key Postings & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Impact</span></h3>
+                <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Key Postings & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Impact.</span></h3>
             </div>
         </div>
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <img src="images/new/approach.jpg" class="border-radius-10px box-shadow-quadruple-large w-100" alt="Key Roles">
-            </div>
-            <div class="col-lg-6 px-lg-5 md-mt-40px">
-                <div class="mb-4">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">1. Commissioner of Police, Bengaluru (2019–2020)</h5>
-                    <p><strong>COVID-19 Response:</strong> Launched the "Happy to Help" initiative and recruited thousands of volunteers to support the city during the first wave of the pandemic.<br/>
-                    <strong>Modern Policing:</strong> Deployed police mannequins at traffic junctions to encourage rule-following and introduced accessible "visiting cards" for emergency response.<br/>
-                    <strong>Communal Harmony:</strong> Proactively ensured peace during sensitive national events (Article 370 and Ayodhya verdict) by building direct bridges with all community leaders.</p>
-                </div>
-                <div class="mb-4">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">2. State Transport Commissioner</h5>
-                    <p><strong>Safety First:</strong> Made BIS-certified helmets mandatory across Karnataka and transitioned the state to Smart Card licenses.<br/>
-                    <strong>Global Innovation:</strong> Built Asia’s first Automated Vehicle Driving Testing Track, using electronic sensors to eliminate human error and corruption in licensing.</p>
-                </div>
-                <div class="mb-4">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">3. Internal Security & Specialized Forces</h5>
-                    <p><strong>ISD Activation:</strong> Operationalized the Internal Security Division (ISD) by filing its first-ever FIRs and forming the Karnataka State Industrial Security Force (KSISF).<br/>
-                    <strong>Critical Defense:</strong> Oversaw the security of Karnataka’s major dams and trained women officers in the Garuda Force (Counter-Terrorism).</p>
-                </div>
-                <div>
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">4. Global Service & Personnel Welfare</h5>
-                    <p><strong>UN Peacekeeping:</strong> Awarded the United Nations Medal for service in the high-risk war zone of Kosovo (2000).<br/>
-                    <strong>The Fitness Mandate:</strong> Introduced mandatory BMI monitoring and exercise regimes for the police force to combat lifestyle diseases and improve officer readiness.</p>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="v-timeline">
+                    <!-- Item 1 -->
+                    <div class="v-timeline-item" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "easing": "easeOutQuad" }'>
+                        <div class="v-timeline-dot"></div>
+                        <h5 class="alt-font text-dark-gray fw-700 mb-10px">Commissioner of Police, Bengaluru (2019–2020)</h5>
+                        <p class="mb-0"><strong>Leadership during Crisis:</strong> Orchestrated the "Happy to Help" initiative during COVID-19. Ensured communal harmony during Article 370 and Ayodhya verdict through proactive community engagement. Introduced police mannequins and emergency visiting cards for hyper-accessible policing.</p>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="v-timeline-item" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "easing": "easeOutQuad" }'>
+                        <div class="v-timeline-dot"></div>
+                        <h5 class="alt-font text-dark-gray fw-700 mb-10px">State Transport Commissioner</h5>
+                        <p class="mb-0"><strong>Safety & Digitization:</strong> Revolutionized road safety by making BIS-certified helmets mandatory. Transitioned the state to Smart Card licenses and operationalized Asia’s first Automated Driving Testing Track with zero-human intervention.</p>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="v-timeline-item" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "easing": "easeOutQuad" }'>
+                        <div class="v-timeline-dot"></div>
+                        <h5 class="alt-font text-dark-gray fw-700 mb-10px">Internal Security & Specialized Forces</h5>
+                        <p class="mb-0"><strong>Tactical Strength:</strong> Operationalized the Internal Security Division (ISD) and established the Karnataka State Industrial Security Force (KSISF). Pioneered women’s inclusion in the high-readiness Garuda Force.</p>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="v-timeline-item" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 800, "easing": "easeOutQuad" }'>
+                        <div class="v-timeline-dot"></div>
+                        <h5 class="alt-font text-dark-gray fw-700 mb-10px">United Nations Peacekeeping (Kosovo)</h5>
+                        <p class="mb-0"><strong>Global Diplomacy:</strong> Led critical UN operations in a high-risk war zone, representing India's commitment to global peace and administrative excellence.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end key assignments section -->
 
 <!-- start quote section -->
 <section class="py-5 bg-quote-brand position-relative overflow-hidden">
