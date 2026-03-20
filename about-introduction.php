@@ -104,7 +104,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center journey-timeline-row">
                     <!-- Item 1 -->
                     <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h2 class="journey-year text-gradient-san-blue-new-york-red">1990s</h2>

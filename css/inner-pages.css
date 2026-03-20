@@ -138,28 +138,56 @@
 }
 
 .journey-dot {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     margin: 0 auto 30px;
     position: relative;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    z-index: 2;
 }
 
-.journey-dot::after {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border-radius: 50%;
-    background: inherit;
-    opacity: 0.2;
-}
-
+.journey-dot.blue { background-color: #1a237e; }
 .journey-dot.saffron { background-color: #FF9933; }
 .journey-dot.green { background-color: #388E3C; }
 .journey-dot.navy { background-color: #1a237e; }
+
+/* Timeline Connecting Line */
+.journey-timeline-row {
+    position: relative;
+}
+
+.journey-timeline-row::before {
+    content: '';
+    position: absolute;
+    top: 106px; /* Optimized value for alignment */
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background-color: #E4E4E4;
+    z-index: 0;
+}
+
+@media (max-width: 991px) {
+    .journey-timeline-row::before {
+        display: none;
+    }
+}
+
+.journey-column:hover .journey-dot {
+    transform: scale(1.3);
+    box-shadow: rgba(26, 35, 126, 0.3) 0px 0px 20px;
+}
+
+.journey-column:hover .journey-year {
+    color: #1a237e !important;
+}
+
+.journey-column:hover .journey-subtitle {
+    color: #1a237e;
+}
 
 .journey-subtitle {
     font-weight: 700;
