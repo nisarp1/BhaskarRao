@@ -208,11 +208,18 @@
     font-size: 45px;
     margin-bottom: 25px;
     display: inline-block;
-    background: linear-gradient(135deg, #1a237e 0%, #FF9933 100%);
+    background: linear-gradient(135deg, #388E3C 0%, #FF9933 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.4s ease;
+}
+
+.text-gradient-san-blue-new-york-red {
+    background-image: linear-gradient(to right, #388E3C, #FF9933) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .premium-value-card:hover .value-icon {
