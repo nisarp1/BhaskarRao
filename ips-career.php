@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-lock-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Police Modernization</h5>
-                    <p>Pioneering the use of technology and digital surveillance to make urban centers safer and more responsive to emergencies.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-lock-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Police Modernization</h5>
+                    <p class="mb-0">Pioneering the use of technology and digital surveillance to make urban centers safer and more responsive to emergencies.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-heart-pulse-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Community Policing</h5>
-                    <p>Bridging the gap between the police and public through empathy-led initiatives like 'Suraksha' and citizen outreach.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-heart-pulse-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Community Policing</h5>
+                    <p class="mb-0">Bridging the gap between the police and public through empathy-led initiatives like 'Suraksha' and citizen outreach.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-globe-americas fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Global Service</h5>
-                    <p>Representing India on the world stage, notably leading United Nations Peacekeeping operations in Kosovo.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-globe-americas value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Global Service</h5>
+                    <p class="mb-0">Representing India on the world stage, notably leading United Nations Peacekeeping operations in Kosovo.</p>
                 </div>
             </div>
         </div>
