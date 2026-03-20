@@ -1,7 +1,6 @@
 <?php include 'parts/shared/html-header.php'; ?>
 <?php include 'parts/shared/header.php'; ?>
-
-    <!-- start slider section -->
+    <!-- start banner slider -->
     <section class="p-0 bg-dark-gray">
         <div class="swiper full-screen ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-01"
             data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 5000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'
@@ -9,256 +8,668 @@
             <div class="swiper-wrapper">
                 <!-- start slider item -->
                 <div class="swiper-slide cover-background" style="background-image:url('images/new/slider/1.png');">
+                    <div class="bg-hero-gradient-overlay"></div>
+                    <img src="images/new/slider/2.png" class="hero-foreground-img" alt="Bhaskar Rao"
+                        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-xl-6 col-lg-7 col-md-10 position-relative z-index-1"
-                                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <span class="d-inline-block text-white fw-500 mb-20px opacity-7">Dedicated to Karnataka</span>
-                                <h1 class="alt-font text-white fw-700 ls-minus-2px mb-40px">A Life of Public Service.</h1>
-                                <a href="about-introduction.php" class="btn btn-extra-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Learn about me<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-7 position-relative text-white z-index-2">
+                                <span
+                                    class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-10px d-inline-block"
+                                    data-anime='{ "opacity": [0, 1], "duration": 1000, "delay": 200, "easing": "easeOutQuint" }'>Discipline.
+                                    Innovation. Empathy.</span>
+                                <div class="alt-font text-white ls-minus-3px mb-25px"
+                                    style="font-size: 3.875rem; line-height: 3.875rem;">
+                                    <span
+                                        data-fancy-text='{ "opacity": [0, 1], "delay": 500, "speed": 50, "string": ["Bhaskar Rao,"], "easing": "easeOutQuad" }'></span>
+                                    <span class="fw-700 font-style-italic"
+                                        data-fancy-text='{ "opacity": [0, 1], "speed": 50, "delay": 1200, "string": ["IPS (Retd.)"], "easing": "easeOutQuad" }'></span>
+                                </div>
+                                <p
+                                    class="text-white opacity-9 fs-20 w-80 mb-35px xs-mb-25px lg-w-90 md-w-100 sm-w-80 xs-w-100">
+                                    Former Commissioner of Police, Bengaluru
+                                    City.<br>Vice President, Indian Red Cross Society (Karnataka).</p>
+                                <a href="about-introduction.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow fw-600"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Read
+                                    Biography<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
+                                <a href="constituency.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded btn-transparent-white-light btn-box-shadow fw-600 ms-20px"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Safety
+                                    Initiatives<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end slider item -->
                 <!-- start slider item -->
-                <div class="swiper-slide cover-background" style="background-image:url('images/new/slider/2.png');">
+                <div class="swiper-slide cover-background" style="background-image:url('images/new/slider/1.png');">
+                    <div class="bg-hero-gradient-overlay"></div>
+                    <img src="images/new/slider/3.png" class="hero-foreground-img" alt="Leadership"
+                        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-xl-6 col-lg-7 col-md-10 position-relative z-index-1"
-                                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <span class="d-inline-block text-white fw-500 mb-20px opacity-7">Vision for Progress</span>
-                                <h1 class="alt-font text-white fw-700 ls-minus-2px mb-40px">Building a Safer Society.</h1>
-                                <a href="contact.php" class="btn btn-extra-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Contact us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-7 position-relative text-white z-index-2">
+                                <span
+                                    class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-10px d-inline-block"
+                                    data-anime='{ "opacity": [0, 1], "duration": 1000, "delay": 200, "easing": "easeOutQuint" }'>People's
+                                    Commissioner</span>
+                                <div class="alt-font text-white ls-minus-3px mb-25px"
+                                    style="font-size: 3.875rem; line-height: 3.875rem;">
+                                    <span
+                                        data-fancy-text='{ "opacity": [0, 1], "delay": 500, "speed": 50, "string": ["Leadership in"], "easing": "easeOutQuad" }'>Leadership
+                                        in</span>
+                                    <span class="fw-700 font-style-italic"
+                                        data-fancy-text='{ "opacity": [0, 1], "speed": 50, "delay": 1200, "string": ["Crisis."], "easing": "easeOutQuad" }'>Crisis.</span>
+                                </div>
+                                <p
+                                    class="text-white opacity-9 fs-20 w-80 mb-35px xs-mb-25px lg-w-90 md-w-100 sm-w-80 xs-w-100">
+                                    Leading from the front during the COVID-19 pandemic.
+                                </p>
+                                <a href="politics.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow fw-600"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>View
+                                    Initiatives<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end slider item -->
+                <!-- start slider item -->
+                <div class="swiper-slide cover-background" style="background-image:url('images/new/slider/1.png');">
+                    <div class="bg-hero-gradient-overlay"></div>
+                    <img src="images/new/slider/4.png" class="hero-foreground-img" alt="Service"
+                        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
+                    <div class="container h-100">
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-7 position-relative text-white z-index-2">
+                                <span
+                                    class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-10px d-inline-block"
+                                    data-anime='{ "opacity": [0, 1], "duration": 1000, "delay": 200, "easing": "easeOutQuint" }'>Service
+                                    Beyond Uniform</span>
+                                <div class="alt-font text-white ls-minus-3px mb-25px"
+                                    style="font-size: 3.875rem; line-height: 3.875rem;">
+                                    <span
+                                        data-fancy-text='{ "opacity": [0, 1], "delay": 500, "speed": 50, "string": ["Citizen First"], "easing": "easeOutQuad" }'>Citizen
+                                        First</span>
+                                    <span class="fw-700 font-style-italic"
+                                        data-fancy-text='{ "opacity": [0, 1], "speed": 50, "delay": 1200, "string": ["Approach."], "easing": "easeOutQuad" }'>Approach.</span>
+                                </div>
+                                <p
+                                    class="text-white opacity-9 fs-20 w-80 mb-35px xs-mb-25px lg-w-90 md-w-100 sm-w-80 xs-w-100">
+                                    Ensuring dignity and safety for every citizen.</p>
+                                <a href="join-movement.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow fw-600"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Join
+                                    the Mission<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end slider item -->
             </div>
-            <!-- start slider pagination -->
-            <div class="swiper-number d-none d-md-flex"></div>
-            <!-- end slider pagination -->
-        </div>
-    </section>
-    <!-- end slider section -->
-
-    <!-- start section: Introduction -->
-    <section class="pb-0" id="intro">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 col-md-10 md-mb-50px text-center text-lg-start" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-15px d-inline-block">Dedicated Service</span>
-                    <h3 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-30px">From Law Enforcement to Public Service: A Life Dedicated to Karnataka.</h3>
-                    <p class="w-90 lg-w-100 mb-30px fs-18">Shri Bhaskar Rao (I.P.S Retd.) is a name synonymous with integrity, discipline, and reform. With a distinguished career spanning over 32 years in the Indian Police Service, he has transitioned from safeguarding the streets to empowering the citizens. His journey is defined by a singular mission: to build a safer, more equitable, and self-reliant society through proactive leadership and unwavering commitment to the "National Spirit."</p>
-                    <a href="about-introduction.php" class="btn btn-link btn-hover-animation-switch btn-extra-large text-dark-gray text-uppercase fw-700 p-0">
-                        <span>
-                            <span class="btn-text">Read More</span>
-                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-lg-5 offset-lg-1 col-md-10 position-relative">
-                    <div class="position-relative overflow-hidden border-radius-6px box-shadow-quadruple-large" data-anime='{ "effect": "slide", "direction": "lr", "color": "#f7f7f7", "duration": 1000, "delay": 200 }'>
-                        <img src="images/new/rao.jpg" alt="Bhaskar Rao" />
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 position-relative">
+                        <!-- start slider pagination -->
+                        <div class="swiper-pagination left-0 text-start swiper-pagination-clickable swiper-number">
+                        </div>
+                        <!-- end slider pagination -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end section -->
-
-    <!-- start section: Mission & Vision -->
-    <section class="bg-gradient-solitude-blue-fair-pink">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Core Values</span>
-                    <h3 class="alt-font fw-700 text-dark-gray ls-minus-1px">Mission & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Vision Statement</span></h3>
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 justify-content-center">
-                <!-- Mission -->
-                <div class="col mb-4 md-mb-0" data-anime='{ "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
-                        <div class="feature-box-icon mb-25px">
-                            <i class="feather icon-feather-target fs-40 text-gradient-saffron"></i>
-                        </div>
-                        <h4 class="alt-font fw-700 text-dark-gray mb-15px ls-minus-1px">Mission</h4>
-                        <p class="fs-18 mb-0">To bridge the gap between governance and the grassroots, ensuring every citizen of Karnataka—and specifically Chamarajpet—has access to justice, skill development, and a dignified quality of life.</p>
-                    </div>
-                </div>
-                <!-- Vision -->
-                <div class="col" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
-                        <div class="feature-box-icon mb-25px">
-                            <i class="feather icon-feather-eye fs-40 text-gradient-green"></i>
-                        </div>
-                        <h4 class="alt-font fw-700 text-dark-gray mb-15px ls-minus-1px">Vision</h4>
-                        <p class="fs-18 mb-0">To foster a "Sanaatana" inspired modern society where progress is rooted in cultural values, environmental sustainability, and the empowerment of the youth and marginalized sections.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section: IPS Career -->
-    <section>
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-5 col-md-10 md-mb-50px">
-                    <div class="position-relative overflow-hidden border-radius-6px box-shadow-quadruple-large" data-anime='{ "effect": "slide", "direction": "rl", "color": "#f7f7f7", "duration": 1000, "delay": 0 }'>
-                        <img src="images/new/news/1.jpg" alt="IPS Legacy" />
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1 col-md-10 text-center text-lg-start" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-15px d-inline-block">Career & Leadership</span>
-                    <h3 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-30px">IPS Career: A Legacy of Integrity & Security.</h3>
-                    <p class="fs-18 mb-30px">From 1990 to 2022, Shri Bhaskar Rao held pivotal roles across the state, leaving an indelible mark on internal security, law and order, and public transportation. His career was not just about maintaining the status quo but about driving systemic change that put the citizen first.</p>
-                    <div class="row row-cols-1 row-cols-sm-2">
-                        <div class="col mb-20px">
-                            <h6 class="alt-font text-dark-gray fw-700 mb-5px ls-minus-05px">Internal Security</h6>
-                            <p class="fs-16 opacity-8 mb-0">Strengthening the state against diverse threats.</p>
-                        </div>
-                        <div class="col mb-20px">
-                            <h6 class="alt-font text-dark-gray fw-700 mb-5px ls-minus-05px">City Policing</h6>
-                            <p class="fs-16 opacity-8 mb-0">Modernizing Bengaluru's police infrastructure.</p>
-                        </div>
-                    </div>
-                    <a href="ips-career.php" class="btn btn-extra-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-20px">Explore His Career<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section: Core Initiatives -->
-    <section class="bg-dark-gray py-0">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <!-- left content -->
-                <div class="col-lg-6 p-70px lg-p-50px md-p-30px sm-p-20px order-2 order-lg-1">
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-20px d-inline-block">Modern Governance</span>
-                    <h3 class="alt-font text-white fw-700 ls-minus-2px mb-40px">Crisis Management & Tech Leadership.</h3>
-                    <div class="row row-cols-1 row-cols-sm-2 g-4">
-                        <div class="col">
-                            <div class="d-flex align-items-start">
-                                <i class="feather icon-feather-shield fs-30 text-white me-20px"></i>
-                                <div>
-                                    <h6 class="text-white alt-font fw-600 mb-5px">Crisis Management</h6>
-                                    <p class="text-white opacity-7">Led Bengaluru through unprecedented global challenges with a proactive approach.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex align-items-start">
-                                <i class="feather icon-feather-cpu fs-30 text-white me-20px"></i>
-                                <div>
-                                    <h6 class="text-white alt-font fw-600 mb-5px">Tech in Governance</h6>
-                                    <p class="text-white opacity-7">Pioneered the state-of-the-art Command Centre and digitized police-citizen touchpoints.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex align-items-start">
-                                <i class="feather icon-feather-map fs-30 text-white me-20px"></i>
-                                <div>
-                                    <h6 class="text-white alt-font fw-600 mb-5px">Urban Development</h6>
-                                    <p class="text-white opacity-7">Revolutionizing public transport and infrastructure through the KSRTC & BMTC.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex align-items-start">
-                                <i class="feather icon-feather-users fs-30 text-white me-20px"></i>
-                                <div>
-                                    <h6 class="text-white alt-font fw-600 mb-5px">Community Policing</h6>
-                                    <p class="text-white opacity-7">Building trust through dialogue and people-centric initiatives.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- right content image -->
-                <div class="col-lg-6 order-1 order-lg-2 cover-background md-h-500px" style="background-image: url('images/new/services/1.jpg');"></div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section: Politics -->
-    <section>
+    <!-- end banner slider -->
+    <!-- start section -->
+    <section id="about" class="bg-gradient-solitude-blue-fair-pink">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-10 md-mb-50px text-center text-lg-start" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-15px d-inline-block">The New Chapter</span>
-                    <h3 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-30px">Politics: Transitioning from Policing to Policy.</h3>
-                    <p class="fs-18 mb-30px">With a deep understanding of governance, Shri Bhaskar Rao transitioned into politics to address issues at their structural roots. Currently a key member of the Bharatiya Janata Party (BJP), he focuses on leveraging his administrative expertise for political reforms and socio-economic empowerment in Karnataka.</p>
-                    <ul class="p-0 list-style-02 mb-30px">
-                        <li class="pb-5px fs-17 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Political Reforms & Transparency</li>
-                        <li class="pb-5px fs-17 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Socio-economic Empowerment</li>
-                        <li class="pb-5px fs-17 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Leveraging Administrative Expertise</li>
+                <div class="col-lg-6 position-relative md-mb-50px">
+                    <div class="overflow-hidden position-relative w-80 md-w-90 ms-auto" data-shadow-animation="true"
+                        data-anime='{ "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <img src="images/new/rao.jpg" class="w-100 border-radius-6px" alt="Bhaskar Rao">
+                    </div>
+                    <div class="position-absolute z-index-1 left-0px bottom-100px sm-left-15px sm-bottom-30px ps-30px pe-30px pt-25px pb-25px bg-white box-shadow-quadruple-large border-radius-5px w-180px text-center overflow-hidden"
+                        data-animation-delay="100" data-shadow-animation="true"
+                        data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)"
+                        data-anime='{ "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span
+                            class="ls-minus-4px text-dark-gray fw-700 alt-font font-style-italic fs-90 lh-80 mb-15px d-block">30+</span>
+                        <span class="d-inline-block lh-22 alt-font fs-22 fw-500 font-style-italic text-dark-gray">years
+                            of service</span>
+                        <div
+                            class="h-150px w-150px border-radius-100 bg-gradient-solitude-blue-fair-pink position-absolute left-minus-35px sm-left-minus-40px top-minus-30px sm-top-minus-50px z-index-minus-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1"
+                    data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+
+                    <div class="mb-25px">
+                        <span
+                            class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">IPS
+                            Career</span>
+                        <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px mb-0">From Enforcement to <span
+                                class="fw-700 font-style-italic text-decoration-line-bottom-medium">Empowerment</span>
+                        </h3>
+                    </div>
+
+                    <p class="w-85 lg-w-100 mb-20px">A decorated officer of the Indian Police Service, Bhaskar Rao has
+                        led critical divisions including the Internal Security Division, Railways, and the Bengaluru
+                        City Police. Known as the "People's Commissioner," he is now dedicated to public service through
+                        the Bharatiya Janata Party (BJP).</p>
+                    <!-- start list style -->
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="pb-5px fs-18 text-dark-gray ls-minus-05px fw-600"><i
+                                class="feather icon-feather-check-circle icon-small me-10px"></i>President's Medal for
+                            Distinguished Service (2015).</li>
+                        <li class="pb-5px fs-18 text-dark-gray ls-minus-05px fw-600"><i
+                                class="feather icon-feather-check-circle icon-small me-10px"></i>UN Medal for services
+                            in Kosovo warzone.</li>
                     </ul>
-                    <a href="politics.php" class="btn btn-extra-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow">His Political Vision<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
-                </div>
-                <div class="col-lg-5 offset-lg-1 col-md-10">
-                    <div class="position-relative overflow-hidden border-radius-6px box-shadow-quadruple-large" data-anime='{ "effect": "slide", "direction": "lr", "color": "#f7f7f7", "duration": 1000, "delay": 200 }'>
-                        <img src="images/new/news/1.jpg" alt="Bhaskar Rao Politics" />
+                    <!-- end list style -->
+                    <div class="d-inline-block mt-30px">
+                        <a href="about-introduction.php"
+                            class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow me-20px">Learn
+                            more<span class="bg-blue-licorice text-white"><i
+                                    class="feather icon-feather-arrow-right"></i></span></a>
+                        <a href="tel:+919845352310" class="fw-600 d-inline-block align-middle text-dark-gray xs-mt-15px xs-mb-15px"><i
+                                class="feather icon-feather-phone-outgoing icon-small me-10px"></i>+91 98453 52310</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end section -->
-
-    <!-- start section: Media Coverage -->
-    <section class="bg-gradient-solitude-blue-fair-pink">
+    <!-- start section -->
+    <section id="politics" class="overflow-hidden bg-blue-whale position-relative">
+        <div class="bg-mild-footer-gradient"></div>
+        <div class="container position-relative z-index-2">
+            <div class="row align-items-center">
+                <div class="col-lg-4 md-mb-40px text-center text-lg-start"
+                    data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <span
+                        class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-10px d-inline-block">Key
+                        Initiatives</span>
+                    <h3 class="alt-font fw-500 text-white mb-55px md-mb-40px ls-minus-1px">Service to the <span
+                            class="fw-600 font-style-italic text-decoration-line-bottom-medium">Nation.</span></h3>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <!-- start slider navigation -->
+                        <div
+                            class="slider-one-slide-prev-1 swiper-button-prev slider-navigation-style-04 bg-transparent border border-color-white">
+                            <i class="bi bi-arrow-left-short icon-very-medium text-white"></i>
+                        </div>
+                        <div
+                            class="slider-one-slide-next-1 swiper-button-next slider-navigation-style-04 bg-transparent border border-color-white">
+                            <i class="bi bi-arrow-right-short icon-very-medium text-white"></i>
+                        </div>
+                        <!-- end slider navigation -->
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="outside-box-right-25 sm-outside-box-right-0"
+                        data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 50, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <div class="swiper base-color slider-one-slide"
+                            data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                            <div class="swiper-wrapper">
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/1.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="about-mission-vision.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="about-mission-vision.php" class="text-white">Crisis Management</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">Led
+                                                            enforcement of safety guidelines, converted marriage halls
+                                                            to shelters, and launched oxygen centers.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- end slider item -->
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/2.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="politics.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="politics.php" class="text-white">Tech in Governance</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">
+                                                            Introduced "AVATHAR" online booking for KSRTC and Asia’s
+                                                            first automated driving test tracks.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- end slider item -->
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/3.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="ips-career.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="ips-career.php" class="text-white">Internal Security</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">
+                                                            Activated the Internal Security Division (ISD) station and
+                                                            trained the "Garuda Force" for anti-terror.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- end slider item -->
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/4.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="about-introduction.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="about-introduction.php" class="text-white">Community Policing</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">
+                                                            Launched "Happy to Help" cards and enforced mandatory
+                                                            birthday leave for constables.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/5.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="constituency.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="constituency.php" class="text-white">Urban Development</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">
+                                                            Spearheading sustainable infrastructure and smart city
+                                                            projects for a better Bengaluru.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- start slider item -->
+                                <div class="swiper-slide">
+                                    <!-- start interactive banner item -->
+                                    <div class="col interactive-banner-style-08">
+                                        <figure
+                                            class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                            <img src="images/new/services/6.jpg" alt="" />
+                                            <figcaption
+                                                class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-30px">
+                                                <a href="volunteer-development.php"
+                                                    class="position-absolute top-30px right-30px circle-box w-55px h-55px rounded-circle z-index-2"
+                                                    style="background-color: rgba(255,255,255,0.8);">
+                                                    <i
+                                                        class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/new/lotus.png" class="w-60px" alt="">
+                                                </a>
+                                                <div class="d-flex w-100 align-items-center mt-auto">
+                                                    <div class="col last-paragraph-no-margin">
+                                                        <h6 class="alt-font fw-500 font-style-italic mb-0 w-80 xl-w-95">
+                                                            <a href="volunteer-development.php" class="text-white">Youth Engagement</a>
+                                                        </h6>
+                                                        <p class="text-white mt-10px mb-0 line-clamp-3"
+                                                            style="font-size: 17px; line-height: 22px;">
+                                                            Empowering the next generation through education, sports,
+                                                            and mentorship programs.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="position-absolute left-0px top-0px w-100 h-100 z-index-minus-1"
+                                                    style="background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- end interactive banner item -->
+                                </div>
+                                <!-- end slider item -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="position-absolute bottom-minus-40px md-bottom-minus-30px sm-bottom-minus-20px left-0px w-100 text-center d-none d-sm-block">
+            <div class="container-fluid">
+                <div
+                    class="fs-170 lg-fs-140 md-fs-130 sm-fs-100 fw-600 text-outline text-outline-color-white opacity-05 ls-minus-4px sm-ls-minus-1px">
+                    legal practices</div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section id="ips-career" class="bg-gradient-solitude-blue-fair-pink">
         <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Stay Updated</span>
-                    <h3 class="alt-font fw-700 text-dark-gray ls-minus-1px">Media & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public Impact.</span></h3>
+            <div class="row">
+                <div class="col-lg-6 position-relative md-mb-50px"
+                    data-anime='{ "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="d-flex flex-column box-shadow-quadruple-large bg-white border-radius-8px overflow-hidden position-relative z-index-9"
+                        data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                        <img src="images/new/duty.jpg" class="w-100" alt="Bhaskar Rao Profile">
+                    </div>
+                    <img src="images/demo-lawyer-home-dotted-pattern.png"
+                        class="position-absolute right-minus-20px sm-right-0px bottom-minus-30px opacity-5" alt="">
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6"
+                    data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="mb-15px">
+                        <span
+                            class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Career
+                            Highlights</span>
+                        <h3 class="alt-font fw-500 text-dark-gray w-85 xl-w-100 ls-minus-1px mb-0">Milestones in <span
+                                class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public
+                                Service.</span>
+                        </h3>
+                    </div>
+                    <div class="accordion accordion-style-02" id="accordion-style-02" data-active-icon="fa-angle-up"
+                        data-inactive-icon="fa-angle-down">
+                        <!-- start accordion item -->
+                        <div class="accordion-item active-accordion">
+                            <div class="accordion-header border-bottom border-color-extra-medium-gray">
+                                <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-01"
+                                    aria-expanded="true" data-bs-parent="#accordion-style-02">
+                                    <div class="accordion-title mb-0 position-relative text-dark-gray fs-19 alt-font">
+                                        <i class="fa-solid fa-angle-up icon-small"></i><span class="fw-600">UN
+                                            Peacekeeping Medal</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="accordion-style-02-01" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordion-style-02">
+                                <div
+                                    class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                    <p>Awarded the UN Medal for distinguished services in the Kosovo warzone (2000),
+                                        recognized for leadership in conflict resolution and peacekeeping.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end accordion item -->
+                        <!-- start accordion item -->
+                        <div class="accordion-item">
+                            <div class="accordion-header border-bottom border-color-extra-medium-gray fs-19 alt-font">
+                                <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-02"
+                                    aria-expanded="false" data-bs-parent="#accordion-style-02">
+                                    <div class="accordion-title mb-0 position-relative text-dark-gray">
+                                        <i class="fa-solid fa-angle-down icon-small"></i><span class="fw-600">Green
+                                            Initiatives</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="accordion-style-02-02" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion-style-02">
+                                <div
+                                    class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                    <p>Led the 1,756 km "Karnataka Darshan" cycle tour to promote Swachh Bharat and
+                                        ecological conservation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end accordion item -->
+                        <!-- start accordion item -->
+                        <div class="accordion-item">
+                            <div class="accordion-header border-bottom border-color-transparent">
+                                <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-03"
+                                    aria-expanded="false" data-bs-parent="#accordion-style-02">
+                                    <div class="accordion-title mb-0 position-relative text-dark-gray fs-19 alt-font">
+                                        <i class="fa-solid fa-angle-down icon-small"></i><span class="fw-600">Traffic
+                                            Reform</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="accordion-style-02-03" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion-style-02">
+                                <div
+                                    class="accordion-body last-paragraph-no-margin border-bottom border-color-transparent">
+                                    <p>Enforced BIS-standard helmets and introduced microprocessor-based smart cards for
+                                        transport safety.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end accordion item -->
+                    </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
-                <!-- Blog Item 1 -->
-                <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="card border-0 border-radius-6px overflow-hidden box-shadow-quadruple-large h-100">
-                        <div class="blog-image">
-                            <a href="#"><img src="images/new/news/1.jpg" alt="News 1" /></a>
-                        </div>
-                        <div class="card-body p-30px">
-                            <span class="fs-13 text-uppercase fw-700 text-gradient-saffron mb-10px d-inline-block">The South First</span>
-                            <a href="#" class="card-title mb-15px fw-700 fs-19 alt-font text-dark-gray d-block lh-26">"Ex-ADGP turned BJP leader Bhaskar Rao faults Congress government for communal tension"</a>
-                            <p class="fs-16 opacity-7 mb-0 lh-24">Analyzing the current socio-political landscape and advocating for stability.</p>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start video section -->
+    <section class="p-0 bg-gradient-solitude-blue-fair-pink">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center appear anime-complete"
+                data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <div class="col-12">
+                    <div class="border-radius-6px h-450px md-h-350px sm-h-400px d-flex flex-wrap align-items-center justify-content-center overflow-hidden cover-background box-shadow-quadruple-large pt-15 position-relative"
+                        style="background-image: url('images/new/video-bg.jpg'); background-position: center;">
+                        <div class="opacity-full-dark bg-gradient-regal-blue-transparent"></div>
+                        <div
+                            class="row justify-content-center m-0 w-100 h-100 align-items-center position-relative z-index-1">
+                            <div class="col-lg-7 col-md-8 text-center text-md-start sm-mb-20px">
+                                <h3 class="text-white mb-0 fw-400 fancy-text-style-4">Committed to <br><span
+                                        class="fw-600 text-decoration-line-bottom"
+                                        data-fancy-text='{ "effect": "rotate", "string": ["Law & Order", "Crisis Management", "Urban Safety", "Women&#39;s Empowerment", "Employment", "Youth Welfare", "Infrastructure Development"] }'></span>
+                                </h3>
+                            </div>
+                            <div
+                                class="col-lg-5 col-md-4 text-center d-flex align-items-center justify-content-center justify-content-md-end gap-4 sm-mb-20px">
+                                <div class="text-center">
+                                    <a href="https://www.youtube.com/watch?v=ze8TW4HCFl0"
+                                        class="position-relative d-inline-block text-center border border-2 border-color-white rounded-circle video-icon-box video-icon-large popup-youtube">
+                                        <span>
+                                            <span class="video-icon">
+                                                <i class="fa-solid fa-play fs-20 text-white"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="text-white fs-16 fw-500 mt-10px">Interview</div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="https://www.youtube.com/watch?v=2qtP5FrSDAQ"
+                                        class="position-relative d-inline-block text-center border border-2 border-color-white rounded-circle video-icon-box video-icon-large popup-youtube">
+                                        <span>
+                                            <span class="video-icon">
+                                                <i class="fa-solid fa-play fs-20 text-white"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="text-white fs-16 fw-500 mt-10px">Speech</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Blog Item 2 -->
-                <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="card border-0 border-radius-6px overflow-hidden box-shadow-quadruple-large h-100">
-                        <div class="blog-image">
-                            <a href="#"><img src="images/new/news/2.jpg" alt="News 2" /></a>
+            </div>
+        </div>
+    </section>
+    <!-- end video section -->
+    <!-- start section -->
+    <section class="p-0"
+        data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+        <div class="container-fluid p-0">
+            <div class="row justify-content-center justify-content-md-end g-0">
+                <div class="col-lg-6 ps-8 pe-8 pt-6 pb-6 xxl-p-5 sm-p-30px bg-blue-whale">
+                    <span
+                        class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-5px d-inline-block">Our
+                        Approach</span>
+                    <h3 class="alt-font fw-500 text-white ls-minus-1px w-80 lg-w-100">Dedicated to transparency and
+                        <span class="fw-600 font-style-italic text-decoration-line-bottom-medium">effective
+                            governance.</span>
+                    </h3>
+                    <p class="w-80 md-w-100 text-white opacity-7">By leveraging technology and community participation, we aim to build a
+                        safer, smarter Bengaluru.</p>
+                    <div
+                        class="row row-cols-1 row-cols-xxl-2 row-cols-lg-1 row-cols-md-2 mt-40px me-60px xxl-me-30px md-me-0">
+                        <!-- start pie chart item -->
+                        <div class="col xl-mb-30px">
+                            <div class="chart-percent d-flex align-items-center">
+                                <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
+                                    data-track-color="#152833" data-start-color="#b98e44" data-end-color="#b98e44">
+                                    <span
+                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-blue-ironstone-brown w-80px h-80px rounded-circle"></span>
+                                </span>
+                                <div class="chart-text fs-18 lh-28 text-white d-inline-block ms-20px w-70 xxl-w-100">
+                                    Commitment to Service</div>
+                            </div>
                         </div>
-                        <div class="card-body p-30px">
-                            <span class="fs-13 text-uppercase fw-700 text-gradient-saffron mb-10px d-inline-block">Deccan Herald</span>
-                            <a href="#" class="card-title mb-15px fw-700 fs-19 alt-font text-dark-gray d-block lh-26">"Bhaskar Rao faulting the state's approach to internal security concerns"</a>
-                            <p class="fs-16 opacity-7 mb-0 lh-24">Expert perspective on maintaining law and order in challenging times.</p>
+                        <!-- end pie chart item -->
+                        <!-- start pie chart item -->
+                        <div class="col">
+                            <div class="chart-percent d-flex align-items-center">
+                                <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
+                                    data-track-color="#152833" data-start-color="#b98e44" data-end-color="#b98e44">
+                                    <span
+                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-blue-ironstone-brown w-80px h-80px rounded-circle"></span>
+                                </span>
+                                <div class="chart-text fs-18 lh-28 text-white d-inline-block ms-20px w-70 xxl-w-100">
+                                    Public Accessibility</div>
+                            </div>
                         </div>
+                        <!-- end pie chart item -->
                     </div>
                 </div>
-                <!-- Blog Item 3 -->
-                <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="card border-0 border-radius-6px overflow-hidden box-shadow-quadruple-large h-100">
-                        <div class="blog-image">
-                            <a href="#"><img src="images/new/news/3.jpg" alt="News 3" /></a>
-                        </div>
-                        <div class="card-body p-30px">
-                            <span class="fs-13 text-uppercase fw-700 text-gradient-saffron mb-10px d-inline-block">The Times of India</span>
-                            <a href="#" class="card-title mb-15px fw-700 fs-19 alt-font text-dark-gray d-block lh-26">"Leading the charge for community policing and public trust"</a>
-                            <p class="fs-16 opacity-7 mb-0 lh-24">Focusing on modernizing the relationship between law enforcement and citizens.</p>
+                <div class="col-lg-6 position-relative">
+                    <div class="h-100 md-h-600px sm-h-450px cover-background overflow-visible"
+                        style="background-image: url(images/new/approach.jpg)">
+                        <div class="bg-white ps-50px pe-50px pt-40px pb-40px xxl-p-30px sm-p-25px d-inline-block w-45 xl-w-55 xs-w-85 border-radius-6px position-absolute left-minus-100px bottom-100px md-left-20px md-bottom-minus-30px mb-50px box-shadow-quadruple-large"
+                            data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <p class="text-dark-gray fs-20 lh-28 ls-minus-05px fw-500">"Ensured peace in Bengaluru
+                                during the Ayodhya verdict through dialogue with <span
+                                    class="font-style-italic fw-700 fs-22 alt-font text-decoration-line-bottom">all
+                                    communities."</span></p>
+                            <div class="author">
+                                <img src="images/new/rao.jpg" class="rounded-circle w-90px me-15px" alt="">
+                                <div class="d-inline-block align-middle lh-20">
+                                    <span class="fw-600 fs-19 lh-28 ls-minus-05px text-dark-gray d-block mb-5px">Law &
+                                        Order Maintenance</span>
+                                    <div
+                                        class="review-star-icon fs-19 text-gradient-san-blue-new-york-red d-inline-block">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -266,25 +677,155 @@
         </div>
     </section>
     <!-- end section -->
-
-    <!-- start section: Map & Contact -->
-    <section id="contact-office" class="p-0 h-500px sm-h-auto position-relative">
+    <section id="media" class="bg-gradient-solitude-blue-fair-pink">
+        <div class="container">
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-7 text-center"
+                    data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <span
+                        class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Press
+                        & Media</span>
+                    <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Latest <span
+                            class="fw-700 font-style-italic text-decoration-line-bottom-medium">Media Coverage</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row sm-m-0">
+                <div class="col-12 p-0">
+                    <ul class="blog-grid blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
+                        data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuint" }'>
+                        <li class="grid-sizer"></li>
+                        <!-- start blog item -->
+                        <li class="grid-item">
+                            <div class="card border-0 border-radius-8px overflow-hidden box-shadow-quadruple-large h-100">
+                                <div class="blog-image">
+                                    <a href="https://www.socialnews.xyz/2026/01/12/bjp-delegation-meets-ktaka-guv-asks-him-not-to-sign-hate-speech-bill/"
+                                        target="_blank" class="d-block"><img src="images/new/news/1.jpg" alt="" /></a>
+                                    <div class="blog-categories">
+                                        <a href="https://www.socialnews.xyz/2026/01/12/bjp-delegation-meets-ktaka-guv-asks-him-not-to-sign-hate-speech-bill/"
+                                            target="_blank"
+                                            class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase fw-600 ls-minus-05px">Social
+                                            News XYZ</a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-45px md-p-30px">
+                                    <a href="https://www.socialnews.xyz/2026/01/12/bjp-delegation-meets-ktaka-guv-asks-him-not-to-sign-hate-speech-bill/"
+                                        target="_blank"
+                                        class="card-title mb-15px fw-600 fs-22 alt-font text-dark-gray d-inline-block">BJP
+                                        delegation meets Ktaka Guv, asks him not to sign ‘hate speech’ bill</a>
+                                    <div
+                                        class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
+                                        <div class="me-auto fw-500">
+                                            <span class="blog-date d-inline-block">January 12, 2026</span>
+                                            <div class="d-inline-block author-name">By <span
+                                                    class="text-dark-gray fw-600">Staff Reporter</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end blog item -->
+                        <!-- start blog item -->
+                        <li class="grid-item">
+                            <div class="card border-0 border-radius-6px overflow-hidden box-shadow-quadruple-large h-100">
+                                <div class="blog-image">
+                                    <a href="https://www.indiatoday.in/india/video/karnataka-power-tussle-bjps-bhaskar-rao-calls-siddaramaiah-caretaker-cm-amid-rift-ytvd-2829577-2025-12-02"
+                                        target="_blank" class="d-block"><img src="images/new/news/2.jpg" alt="" /></a>
+                                    <div class="blog-categories">
+                                        <a href="https://www.indiatoday.in/india/video/karnataka-power-tussle-bjps-bhaskar-rao-calls-siddaramaiah-caretaker-cm-amid-rift-ytvd-2829577-2025-12-02"
+                                            target="_blank"
+                                            class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase fw-600 ls-minus-05px">India
+                                            Today</a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-45px md-p-30px">
+                                    <a href="https://www.indiatoday.in/india/video/karnataka-power-tussle-bjps-bhaskar-rao-calls-siddaramaiah-caretaker-cm-amid-rift-ytvd-2829577-2025-12-02"
+                                        target="_blank"
+                                        class="card-title mb-15px fw-600 fs-22 alt-font text-dark-gray d-inline-block">Karnataka
+                                        power tussle: BJP calls Siddaramaiah 'caretaker CM'</a>
+                                    <div
+                                        class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
+                                        <div class="me-auto fw-500">
+                                            <span class="blog-date d-inline-block">December 2, 2025</span>
+                                            <div class="d-inline-block author-name">By <span
+                                                    class="text-dark-gray fw-600">News Desk</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end blog item -->
+                        <!-- start blog item -->
+                        <li class="grid-item">
+                            <div class="card border-0 border-radius-6px overflow-hidden box-shadow-quadruple-large h-100">
+                                <div class="blog-image">
+                                    <a href="https://thesouthfirst.com/karnataka/ex-adgp-turned-bjp-leader-bhaskar-rao-faults-congress-government-for-communal-tension-in-maddur/"
+                                        target="_blank" class="d-block"><img src="images/new/news/3.jpg" alt="" /></a>
+                                    <div class="blog-categories">
+                                        <a href="https://thesouthfirst.com/karnataka/ex-adgp-turned-bjp-leader-bhaskar-rao-faults-congress-government-for-communal-tension-in-maddur/"
+                                            target="_blank"
+                                            class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase fw-600 ls-minus-05px">The
+                                            South First</a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-45px md-p-30px">
+                                    <a href="https://thesouthfirst.com/karnataka/ex-adgp-turned-bjp-leader-bhaskar-rao-faults-congress-government-for-communal-tension-in-maddur/"
+                                        target="_blank"
+                                        class="card-title mb-15px fw-600 fs-22 alt-font text-dark-gray d-inline-block">Bhaskar
+                                        Rao faults Congress government for communal tension in Maddur</a>
+                                    <div
+                                        class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
+                                        <div class="me-auto fw-500">
+                                            <span class="blog-date d-inline-block">September 9, 2025</span>
+                                            <div class="d-inline-block author-name">By <span
+                                                    class="text-dark-gray fw-600">Staff Reporter</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end blog item -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section id="contact-office" class="p-0 h-550px sm-h-auto position-relative">
         <iframe class="w-100 h-100 position-absolute left-0px top-0px dark-hover"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8814839218!2d77.49870966530182!3d12.953997415178653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="container h-100 position-relative sm-pt-30px sm-pb-30px pointer-events-none">
-            <div class="row h-100 align-items-center justify-content-end pointer-events-none">
-                <div class="col-md-auto pointer-events-all" data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <div class="bg-white box-shadow-quadruple-large w-380px md-w-300px sm-w-100 border-radius-6px shadow-xl">
-                        <div class="ps-50px pe-50px pt-50px pb-40px md-p-30px text-center text-md-start">
-                            <h4 class="alt-font text-dark-gray mb-10px fw-700">Contact Office</h4>
-                            <span class="text-dark-gray fw-700 fs-18 d-block mb-10px">Shri Bhaskar Rao Office</span>
-                            <p class="mb-20px lh-28">Indian Red Cross Society, Karnataka State Branch, Bengaluru.</p>
-                            <div class="w-100 d-block mb-25px">
-                                <span class="d-block mb-5px"><span class="fw-700 text-dark-gray">Email:</span> <a href="mailto:contact@bhaskarrao.in" class="text-dark-gray text-decoration-line-bottom fw-500">contact@bhaskarrao.in</a></span>
-                                <span class="d-block"><span class="fw-700 text-dark-gray">Phone:</span> <a href="tel:+919845352310" class="text-dark-gray">+91 98453 52310</a></span>
+        <div class="container h-100 position-relative sm-pt-30px sm-pb-30px pointer-events-none"
+            data-anime='{"translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <div class="row h-100 align-items-end justify-content-end align-items-lg-center pointer-events-none">
+                <div class="col-md-auto pointer-events-all">
+                    <div
+                        class="bg-white box-shadow-quadruple-large w-380px md-w-300px sm-w-100 border-radius-6px md-mb-20px xs-mb-0">
+                        <div class="ps-60px pe-60px pt-50px pb-40px md-p-30px text-center text-md-start">
+                            <h4 class="alt-font text-dark-gray mb-10px" style="font-size: 1.7rem; line-height: 2.2rem;">
+                                Contact Office</h4>
+                            <span class="text-dark-gray fw-600">Bhaskar Rao Office</span>
+                            <p class="w-80 mb-10px lh-30 sm-w-100">Indian Red Cross Society,<br>Karnataka State Branch.
+                            </p>
+                            <div class="w-100 d-block">
+                                <span class="d-block"><span class="fw-600 text-dark-gray">Phone:</span> <a
+                                        href="tel:+919845352310" class="text-medium-gray">+91 98453 52310</a></span>
+                                <span class="d-block"><span class="fw-600 text-dark-gray">Email:</span> <a
+                                        href="mailto:contact@bhaskarrao.in"
+                                        class="text-dark-gray text-decoration-line-bottom fw-500">contact@bhaskarrao.in</a></span>
                             </div>
-                            <a href="https://www.google.com/maps/search/Indian+Red+Cross+Society,+Karnataka+State+Branch/@12.9716,77.5946,15z" target="_blank" class="btn btn-dark-gray btn-small btn-rounded btn-box-shadow">Get Directions</a>
+                        </div>
+                        <div class="text-center pt-15px pb-15px border-top border-color-extra-medium-gray">
+                            <a href="https://www.google.com/maps/search/Indian+Red+Cross+Society,+Karnataka+State+Branch/@12.9716,77.5946,15z"
+                                target="_blank"
+                                class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray text-uppercase btn-icon-left fw-700 p-0">
+                                <span>
+                                    <span class="btn-text">Show on google maps</span>
+                                    <span class="btn-icon"><i class="feather icon-feather-map-pin"></i></span>
+                                    <span class="btn-icon"><i class="feather icon-feather-map-pin"></i></span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -292,6 +833,5 @@
         </div>
     </section>
     <!-- end section -->
-
 <?php include 'parts/shared/footer.php'; ?>
 <?php include 'parts/shared/html-footer.php'; ?>
