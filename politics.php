@@ -89,7 +89,7 @@
 
 
 <!-- start timeline section -->
-<section class="bg-white py-5 overflow-hidden">
+<section class="bg-gradient-solitude-blue-fair-pink py-5 overflow-hidden">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>

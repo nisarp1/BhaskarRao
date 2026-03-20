@@ -66,7 +66,7 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5 bg-white">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
