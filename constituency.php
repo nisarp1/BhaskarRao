@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-shaded fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Slum Redevelopment</h5>
-                    <p>Moving beyond temporary fixes by implementing Smart City standards for permanent housing, clean water, and drainage in high-density areas.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-shaded value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Slum Redevelopment</h5>
+                    <p class="mb-0">Moving beyond temporary fixes by implementing Smart City standards for permanent housing, clean water, and drainage in high-density areas.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-droplet-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Civic Amenities</h5>
-                    <p>Revitalizing local government schools and upgrading primary health centers with modern diagnostic equipment for the elderly and low-income families.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-droplet-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Civic Amenities</h5>
+                    <p class="mb-0">Revitalizing local government schools and upgrading primary health centers with modern diagnostic equipment for the elderly and low-income families.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-mortarboard-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">K.R. Market Modernization</h5>
-                    <p>Overhauling waste management systems and streamlining traffic logistics at this vital economic hub.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-mortarboard-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">K.R. Market Modernization</h5>
+                    <p class="mb-0">Overhauling waste management systems and streamlining traffic logistics at this vital economic hub.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +60,7 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
@@ -171,11 +165,14 @@
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
+            <div class="col text-center"><img src="images/new/services/1.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/3.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/4.jpg" alt="" class="h-40px"></div>
             <div class="col text-center"><img src="images/new/services/5.jpg" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="images/new/approach.jpg"></div>
-            <div class="col text-center"><img src="images/new/duty.jpg"col text-center"><img src="images/new/services/1.jpg" alt="" class="h-40pimages/new/news/2.jpgter"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
         </div>
-images/new/news/3.jpgn -->
+    </div>
+</section>
 <!-- start quote section -->
 <section class="py-5 bg-quote-brand position-relative overflow-hidden">
     <div class="bg-hero-gradient-overlay opacity-8"></div>
