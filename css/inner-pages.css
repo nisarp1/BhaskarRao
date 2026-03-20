@@ -1,0 +1,188 @@
+/* Inner Pages Header Styles - Re-styled with Brand Colors */
+.border-bottom-tricolor {
+    border-bottom: 3px solid;
+    /* Brand Tricolor: Saffron (#FF9933), White (#FFFFFF), Green (#388E3C) */
+    border-image: linear-gradient(to right, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #388E3C 66%) 1;
+}
+
+.border-bottom-tricolor-thick {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #388E3C 66%) 1;
+}
+
+.hero-horizontal-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Using Brand Dark Gray (#212121) for the main horizontal fade */
+    background: linear-gradient(to right, rgba(33, 33, 33, 0.95) 0%, rgba(33, 33, 33, 0.7) 35%, rgba(33, 33, 33, 0.3) 50%, transparent 80%);
+    z-index: 1;
+}
+
+.bg-gradient-dark-transparent {
+    /* Vertical fade using Brand Dark Gray (#212121) */
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #212121), to(transparent));
+    background: linear-gradient(to top, #212121 7%, transparent 100%);
+}
+
+.inner-hero-header {
+    height: 650px;
+    padding-top: 80px;
+}
+
+.inner-hero-label {
+    background-image: linear-gradient(to right, #ffffff, #FF9933, #FF9933);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Brand Text Gradients */
+.text-gradient-saffron {
+    background-image: linear-gradient(to right, #FF9933, #E68A00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.text-gradient-green {
+    background-image: linear-gradient(to right, #388E3C, #2E7D32);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Brand Background Gradients */
+.bg-gradient-saffron {
+    background: linear-gradient(to right, #FF9933, #FFB366);
+}
+
+.bg-brand-gradient {
+    background: linear-gradient(to right, #388E3C 0%, #FF9933 100%) !important;
+}
+
+.bg-gradient-brand-light {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+/* Quote Section Special Gradient */
+.bg-quote-brand {
+    background: linear-gradient(to right, #1f3c24 0%, #7b5c2a 100%) !important;
+}
+
+.border-color-brand-saffron {
+    border-color: #FF9933 !important;
+}
+
+.border-color-brand-green {
+    border-color: #388E3C !important;
+}
+
+@media (max-width: 991px) {
+    .inner-hero-header {
+        height: 500px;
+    }
+}
+
+/* Journey Section Styles (Adapted from Ajay Kumar) */
+.journey-header-underline {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.journey-header-underline span {
+    width: 30px;
+    height: 3px;
+    margin: 0 5px;
+}
+
+/* Background Text Styles */
+.journey-column {
+    position: relative;
+    padding: 20px 20px;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.journey-column:hover {
+    transform: translateY(-10px);
+}
+
+.journey-bg-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    font-weight: 800;
+    color: rgba(33, 33, 33, 0.045);
+    z-index: -1;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.journey-year {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 25px;
+    letter-spacing: -2px;
+}
+
+.journey-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+.journey-dot::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: 0.2;
+}
+
+.journey-dot.saffron { background-color: #FF9933; }
+.journey-dot.green { background-color: #388E3C; }
+.journey-dot.navy { background-color: #1a237e; }
+
+.journey-subtitle {
+    font-weight: 700;
+    font-size: 19px;
+    color: #212121;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.journey-description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+
+.text-gradient-light-saffron {
+    background-image: linear-gradient(to right, #ffffff, #FF9933, #FF9933) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block !important;
+}
