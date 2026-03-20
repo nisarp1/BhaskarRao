@@ -8,7 +8,7 @@
                     <h5 class="alt-font d-inline-block align-middle text-white mb-0 me-35px md-me-0 position-relative">
                         Connect for a <span class="text-decoration-line-bottom-medium fw-600 font-style-italic">Better
                             Bengaluru.</span></h5>
-                    <a href="#join"
+                    <a href="join-movement.php"
                         class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow fw-600 md-mt-40px sm-mt-30px">Join
                         the Vision<span class="bg-dark-gray text-white"><i
                                 class="feather icon-feather-arrow-right"></i></span></a>
