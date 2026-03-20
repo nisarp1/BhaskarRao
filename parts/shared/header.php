@@ -103,14 +103,7 @@
                             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                         </ul>
 
-                        <div class="d-lg-none mt-15px text-center pb-20px">
-                            <a href="https://www.facebook.com/IPSBhaskarRao/" target="_blank"
-                                class="text-white ms-10px me-10px"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://x.com/Nimmabhaskar22" target="_blank" class="text-white ms-10px me-10px"><i
-                                    class="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://www.instagram.com/bhaskarrao/?hl=en" target="_blank"
-                                class="text-white ms-10px me-10px"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-auto ms-auto d-none d-lg-flex">
@@ -121,14 +114,7 @@
                                 class="w-40px h-40px bg-gradient-blue-ironstone-brown d-flex align-items-center justify-content-center flex-shrink-0 rounded-circle fs-15 text-white"><i
                                     class="bi bi-telephone-outbound"></i></a>
                         </div>
-                        <div class="header-social-icon d-flex align-items-center">
-                            <a href="https://www.facebook.com/IPSBhaskarRao/" target="_blank" class="text-white ms-3"><i
-                                    class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://x.com/Nimmabhaskar22" target="_blank" class="text-white ms-3"><i
-                                    class="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://www.instagram.com/bhaskarrao/?hl=en" target="_blank"
-                                class="text-white ms-3"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
+
                     </div>
                 </div>
             </div>
