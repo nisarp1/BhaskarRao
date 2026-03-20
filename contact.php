@@ -2,9 +2,10 @@
 <?php include 'parts/shared/header.php'; ?>
 
 <!-- start page title -->
-<section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/demo-lawyer-about-title-bg.jpg');">
-    <div class="hero-horizontal-gradient"></div>
-    <div class="opacity-extra-medium bg-gradient-dark-transparent"></div>
+<section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
+    <div class="bg-hero-gradient-overlay"></div>
+    <img src="images/new/slider/3.png" class="hero-foreground-img" alt="Bhaskar Rao"
+        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
