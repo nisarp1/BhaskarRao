@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Interactive Citizen Forum</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Interactive Citizen Forum</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Your Concerns are Our Priority: <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Report & Resolve</span></h3>
                 <p class="fs-18">This portal is designed to make governance accessible. Shri Bhaskar Rao believes that no problem is too small and no area is too remote. Use our simple online form to report issues directly to our team.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-chat-left-dots-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-chat-left-dots-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Submit a Grievance</h5>
                     <p>Use our simple online form to report issues directly to our team regarding sanitation, roads, safety, water, or corrupt practices.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-lightbulb-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-lightbulb-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Attach Photos & Geography</h5>
                     <p>Easily upload pictures and pin your location to help our team verify and act on the grievance quickly.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-check-all fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-check-all fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Track Your Complaint</h5>
                     <p>Every submission generates a unique ID, allowing you to track its status—from "Acknowledged" to "Resolved."</p>
@@ -70,7 +70,7 @@
             <div class="col-lg-6 md-mb-50px">
                 <h4 class="alt-font text-dark-gray fw-600 mb-20px">Your feedback drives us.</h4>
                 <p class="fs-17 w-90">Please provide as much detail as possible so we can route your message to the correct department within our ward offices.</p>
-                <div class="bg-very-light-gray p-4 border-radius-8px border-start border-4 border-color-brand-saffron mt-30px">
+                <div class="bg-very-light-gray p-4 border-radius-8px border-start border-4 border-color-brand-blue mt-30px">
                     <p class="fs-16 mb-0 text-dark-gray font-style-italic">"I promise to personally review the most critical issues weekly. Transparency is not just a word for us; it's a daily practice."</p>
                     <div class="mt-15px text-uppercase fs-13 fw-700 ls-1px text-dark-gray">Bhaskar Rao IPS (Retd.)</div>
                 </div>
@@ -100,7 +100,7 @@
                         <textarea class="border-radius-4px border-color-extra-medium-gray bg-white form-control" name="comment" rows="4" placeholder="Description of your concern*"></textarea>
                     </div>
                     <div class="col-md-12">
-                        <button class="btn btn-medium btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow w-100" type="submit">Submit Voice<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></button>
+                        <button class="btn btn-medium btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow w-100" type="submit">Submit Voice<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></button>
                     </div>
                 </form>
             </div>
@@ -115,7 +115,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Open Door Policy</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Open Door Policy</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Weekly Town <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Halls.</span></h3>
                 <p class="fs-18">As part of his commitment to transparency, Shri Bhaskar Rao holds standard "Janatha Darshana" (People's Meetings). Dates and locations for the upcoming weekly meetings are posted here.</p>
             </div>

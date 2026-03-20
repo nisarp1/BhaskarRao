@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">FROM THE HEART</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">FROM THE HEART</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Service is a <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Privilege.</span></h3>
                 <p class="fs-18">"Having served in the police for over three decades, I have seen both the strength and the struggle of our people. The Bhaskar Rao Charitable Trust is my way of continuing that service beyond the uniform. Our focus is simple: to be there for those who have no one else to turn to."</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-person-heart fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-person-heart fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Empathy-Led Design</h5>
                     <p>Every program we launch starts with a simple question: How does this make a real difference in a person's life?</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-clock-history fs-40 text-gradient-green"></i>
+                        <i class="bi bi-clock-history fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Lifetime Legacy</h5>
                     <p>Building institutions that will continue to serve the community for generations, long after the initial spark.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-hand-index-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-hand-index-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Direct Intervention</h5>
                     <p>Eliminating middlemen to ensure that every resource reaches the intended beneficiary directly and efficiently.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">A Personal Pledge</h4>
                 <p class="fs-17">"I invite you to join me in this journey. Whether as a donor, a volunteer, or a well-wisher, your support is what drives our mission forward."</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Integrity in Every Action</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Transparency in Every Rupee</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Service to Every Citizen</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Integrity in Every Action</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Transparency in Every Rupee</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Service to Every Citizen</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
             <!-- Stat 4 -->
             <div class="col text-center">
                 <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">5.0</h2>
-                <span class="fs-14 text-uppercase fw-700 text-gradient-saffron ls-1px">Impact Rating</span>
+                <span class="fs-14 text-uppercase fw-700 text-gradient-san-blue-new-york-red ls-1px">Impact Rating</span>
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Led by <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Visionaries.</span></h3>
             </div>
         </div>

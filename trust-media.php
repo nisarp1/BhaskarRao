@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Commitment to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public Service.</span></h3>
                 <p class="fs-18">This is a sample content for the <strong>Trust Media</strong> page. We are in the process of gathering all the relevant information and media to showcase the full scope of our work in this area. Our goal is to provide a transparent and comprehensive view of our initiatives and their impact on the community.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Core Objectives</h5>
                     <p>Detailed exploration of the primary goals and objectives associated with Trust Media. We aim for excellence in every endeavor.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-green"></i>
+                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Community Engagement</h5>
                     <p>Focusing on how Trust Media interacts with and empowers the local communities and stakeholders.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Sustainable Impact</h5>
                     <p>Ensuring that the outcomes of our work in Trust Media are long-lasting and continue to benefit society for years to come.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
                 <p class="fs-17">Public service requires a deep understanding of the challenges faced by citizens. Through Trust Media, we address these challenges head-on with innovative solutions and a human-centric approach.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Strategic Planning and Execution</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Transparent Governance and Integrity</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Measurable Outcomes and Results</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Strategic Planning and Execution</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Transparent Governance and Integrity</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Measurable Outcomes and Results</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Impact in <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Action.</span></h3>
             </div>
         </div>

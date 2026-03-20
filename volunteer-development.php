@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Youth as the Engine of Growth</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Youth as the Engine of Growth</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Nurturing the Leaders of <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Tomorrow.</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao strongly believes that the youth are not just the future; they are the present. The focus of the Volunteer (Youth Development) program is to shift the narrative from "youth as dependents" to "youth as active nation-builders." Through structured mentorship and skill-building exercises, we aim to prepare the youth of Chamarajpet to thrive in a competitive, tech-driven world while remaining rooted in cultural values.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-book fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-book fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">The "Sanaatana" Mentorship Program</h5>
                     <p>Blending modern education with traditional ethical frameworks by pairing young individuals with experienced mentors.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-laptop fs-40 text-gradient-green"></i>
+                        <i class="bi bi-laptop fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Tech & Digital Literacy</h5>
                     <p>Sponsoring coding boot camps and digital literacy drives in local government schools to bridge the digital divide.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-person-arms-up fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-person-arms-up fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Fitness & Discipline</h5>
                     <p>Organizing NCC-style boot camps, sports tournaments, and yoga sessions to instill physical fitness and mental resilience.</p>
@@ -61,9 +61,9 @@
             </div>
             <!-- Feature 4 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-briefcase fs-40 text-gradient-green"></i>
+                        <i class="bi bi-briefcase fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Job Fairs & Counseling</h5>
                     <p>Connecting local talent with corporate recruiters and providing free resume-building workshops and interview prep.</p>
@@ -85,11 +85,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Empowering the Youth</h4>
                 <p class="fs-17">"The future of our state lies in the hands of informed and active citizens. We are committed to giving every volunteer the tools they need to lead."</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Certifications for Training Completion</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Internship Opportunities in Public Policy</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Direct Exposure to Administrative Systems</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Certifications for Training Completion</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Internship Opportunities in Public Policy</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Direct Exposure to Administrative Systems</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Frequently Asked <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Questions.</span></h3>
             </div>
         </div>

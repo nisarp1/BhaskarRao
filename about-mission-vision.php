@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Mission & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Vision</span></h3>
                 <h5 class="alt-font text-dark-gray fw-600 mb-2 mt-4 text-start">Mission</h5>
                 <p class="fs-18 text-start mb-4">To bridge the gap between governance and the grassroots, ensuring every citizen of Karnataka—and specifically Chamarajpet—has access to justice, skill development, and a dignified quality of life.</p>
@@ -34,9 +34,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Core Objectives</h5>
                     <p>Detailed exploration of the primary goals and objectives associated with Mission & Vision Statement. We aim for excellence in every endeavor.</p>
@@ -44,9 +44,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-green"></i>
+                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Community Engagement</h5>
                     <p>Focusing on how Mission & Vision Statement interacts with and empowers the local communities and stakeholders.</p>
@@ -54,9 +54,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Sustainable Impact</h5>
                     <p>Ensuring that the outcomes of our work in Mission & Vision Statement are long-lasting and continue to benefit society for years to come.</p>
@@ -78,11 +78,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
                 <p class="fs-17">Public service requires a deep understanding of the challenges faced by citizens. Through Mission & Vision Statement, we address these challenges head-on with innovative solutions and a human-centric approach.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Strategic Planning and Execution</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Transparent Governance and Integrity</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Measurable Outcomes and Results</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Strategic Planning and Execution</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Transparent Governance and Integrity</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Measurable Outcomes and Results</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -95,35 +95,35 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">OUR ETHOS</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">OUR ETHOS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Core <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Values.</span></h3>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center text-center">
              <div class="col mb-4">
                 <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-shield-check fs-50 text-gradient-green mb-3 d-block"></i>
+                    <i class="bi bi-shield-check fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
                     <h5 class="alt-font text-dark-gray fw-600">Integrity</h5>
                     <p class="mb-0">Upholding the highest standards of honesty and ethical conduct in all actions.</p>
                 </div>
              </div>
              <div class="col mb-4">
                 <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-eye fs-50 text-gradient-saffron mb-3 d-block"></i>
+                    <i class="bi bi-eye fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
                     <h5 class="alt-font text-dark-gray fw-600">Transparency</h5>
                     <p class="mb-0">Maintaining clear, open communication and accountability in public service.</p>
                 </div>
              </div>
              <div class="col mb-4">
                 <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-people fs-50 text-gradient-green mb-3 d-block"></i>
+                    <i class="bi bi-people fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
                     <h5 class="alt-font text-dark-gray fw-600">Empathy</h5>
                     <p class="mb-0">Understanding and actively addressing the needs and challenges of every citizen.</p>
                 </div>
              </div>
              <div class="col mb-4">
                 <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-rocket-takeoff fs-50 text-gradient-saffron mb-3 d-block"></i>
+                    <i class="bi bi-rocket-takeoff fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
                     <h5 class="alt-font text-dark-gray fw-600">Innovation</h5>
                     <p class="mb-0">Leveraging modern solutions and technology to solve systemic problems.</p>
                 </div>

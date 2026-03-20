@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">GET IN TOUCH</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">GET IN TOUCH</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Building a Safer <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Future Together.</span></h3>
                 <p class="fs-18">Our office is open to all citizens who wish to discuss community issues or learn more about our charitable initiatives. You can visit us in person, call our help desk, or send us a message through the form below. We promise a timely response to every genuine inquiry.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-geo-alt-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-geo-alt-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Main Office</h5>
                     <p>Chamarajpet Constituency Office, Bengaluru, Karnataka. (Preserving Heritage, Building Future)</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-telephone-outbound-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-telephone-outbound-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Help Desk</h5>
                     <p>Call us at +91 98453 52310 during office hours (10 AM to 6 PM) for any urgent assistance.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-envelope-open-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-envelope-open-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Official Email</h5>
                     <p>Send your proposals or event invites to contact@bhaskarrao.in for official consideration.</p>
@@ -70,16 +70,16 @@
             <div class="col-lg-5 md-mb-50px">
                 <h4 class="alt-font text-dark-gray fw-600 mb-20px">Direct Communication</h4>
                 <p class="fs-17 w-90">Every message sent through this form is encrypted and treated with the highest confidentiality. Our team responds within 24-48 hours.</p>
-                <div class="bg-very-light-gray p-4 border-radius-8px border-start border-4 border-color-brand-green mt-30px">
+                <div class="bg-very-light-gray p-4 border-radius-8px border-start border-4 border-color-brand-blue mt-30px">
                     <h6 class="fs-18 text-dark-gray fw-700 mb-5px">Constituency Office</h6>
                     <p class="fs-16 mb-0 text-dark-gray">Indian Red Cross Society,<br>Karnataka State Branch, Bengaluru.</p>
                 </div>
                 <div class="mt-40px">
                     <h6 class="fs-18 text-dark-gray fw-700 mb-20px">Follow our journey</h6>
                     <div class="d-flex align-items-center">
-                        <a href="https://www.facebook.com/IPSBhaskarRao/" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-saffron hover-text-white me-15px"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://x.com/Nimmabhaskar22" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-saffron hover-text-white me-15px"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.instagram.com/bhaskarrao/?hl=en" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-saffron hover-text-white"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/IPSBhaskarRao/" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-blue hover-text-white me-15px"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://x.com/Nimmabhaskar22" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-blue hover-text-white me-15px"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/bhaskarrao/?hl=en" target="_blank" class="w-45px h-45px bg-white box-shadow-medium d-flex align-items-center justify-content-center rounded-circle text-dark-gray fs-18 transition-all hover-bg-brand-blue hover-text-white"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                         <textarea class="border-radius-4px border-color-extra-medium-gray bg-white form-control" name="message" rows="5" placeholder="Your Message*"></textarea>
                     </div>
                     <div class="col-md-12">
-                        <button class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow w-100" type="submit">Send Message<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></button>
+                        <button class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow w-100" type="submit">Send Message<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></button>
                     </div>
                 </form>
             </div>

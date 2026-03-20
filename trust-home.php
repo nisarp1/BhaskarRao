@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">GIVING BACK</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">GIVING BACK</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Impact Through <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Compassion.</span></h3>
                 <p class="fs-18">The Bhaskar Rao Charitable Trust was founded with a singular vision: to create a safer and more prosperous environment for the marginalized sections of society. Our work spans across rural development, providing scholarships to bright students, and organizing health camps for those in need.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-book-half fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-book-half fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Education Support</h5>
                     <p>Providing financial aid and educational resources to students from low-income families to help them achieve their dreams.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-hospital fs-40 text-gradient-green"></i>
+                        <i class="bi bi-hospital fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Healthcare Access</h5>
                     <p>Organizing free medical check-ups and providing essential healthcare supplies to underserved rural communities.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-house-heart-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-house-heart-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Rural Welfare</h5>
                     <p>Investing in infrastructure and sustainability projects to improve the quality of life in Karnataka's villages.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Why Transparency Matters</h4>
                 <p class="fs-17">At Bhaskar Rao Charitable Trust, we believe that every rupee donated should reach the right person. We maintain strict audits and share our impact reports openly with our supporters.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>100% Transparency in Fund Allocation</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Volunteer-Driven Operations</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Focus on Measurable Results</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>100% Transparency in Fund Allocation</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Volunteer-Driven Operations</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Focus on Measurable Results</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
             <!-- Stat 4 -->
             <div class="col text-center">
                 <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">5.0</h2>
-                <span class="fs-14 text-uppercase fw-700 text-gradient-saffron ls-1px">Impact Rating</span>
+                <span class="fs-14 text-uppercase fw-700 text-gradient-san-blue-new-york-red ls-1px">Impact Rating</span>
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Led by <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Visionaries.</span></h3>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     <img src="https://placehold.co/600x400/png?text=Trust+Leader+3" alt="Trust Leader 3" class="w-100">
                     <div class="p-4 text-center">
                         <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Regional Coordinator</span>
+                        <span class="fs-14 text-uppercase text-gradient-san-blue-new-york-red fw-700 lg-ls-0px">Regional Coordinator</span>
                     </div>
                 </div>
             </div>

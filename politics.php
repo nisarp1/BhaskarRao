@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">NEW LEADERSHIP</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">NEW LEADERSHIP</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Bringing Discipline to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Governance</span></h3>
                 <p class="fs-18">After 32 years in the IPS, Shri Bhaskar Rao chose to enter the political arena to "expand the horizon of service" beyond the limits of the police department. His entry into public life is driven by the belief that systemic change requires efficient, corruption-free leadership at the decision-making level.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-bank fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-bank fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">National Integrity</h5>
                     <p>A firm believer that only strong, principled leadership can protect the country's sovereignty.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-lightning-charge-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-lightning-charge-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Grassroots Development</h5>
                     <p>Focused on de-polarizing local issues and addressing the "rampant poverty" that often leads to social challenges.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-chat-heart-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-chat-heart-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Youth Empowerment</h5>
                     <p>Advocating for skill-based training and government job transparency to provide the next generation with real opportunities.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Journey with the BJP</h4>
                 <p class="fs-17">In March 2023, Shri Bhaskar Rao joined the Bharatiya Janata Party (BJP), drawn by its commitment to National Spirit and Sanaatana Dharma.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i><strong>The Vision:</strong> Advocates for "Ek Bharat, Samruddh Bharat"</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i><strong>Key Focus:</strong> Empowering youth and women</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i><strong>Efficiency:</strong> Bringing "police-like efficiency" to urban development</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>The Vision:</strong> Advocates for "Ek Bharat, Samruddh Bharat"</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>Key Focus:</strong> Empowering youth and women</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>Efficiency:</strong> Bringing "police-like efficiency" to urban development</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -92,11 +92,11 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fs-16 text-uppercase text-dark-gray fw-700 ls-1px mb-5px d-inline-block">2023 ASSEMBLY ELECTIONS</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">2023 ASSEMBLY ELECTIONS</span>
                 <div class="journey-header-underline mb-20px">
-                    <span class="bg-gradient-saffron"></span>
+                    <span class="bg-gradient-blue-ironstone-brown"></span>
                     <span class="bg-dark-gray opacity-2"></span>
-                    <span class="bg-gradient-green"></span>
+                    <span class="bg-gradient-blue-ironstone-brown"></span>
                 </div>
                 <h2 class="alt-font fw-700 text-dark-gray ls-minus-1px">The Chamarajpet <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Mission</span></h2>
                 <p class="fs-18">Shri Bhaskar Rao contested the 2023 Karnataka Assembly elections from the Chamarajpet constituency.</p>
@@ -107,29 +107,29 @@
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center">
                     <!-- Item 1 -->
                     <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="journey-year text-gradient-light-saffron">01</h2>
-                        <div class="journey-dot green"></div>
+                        <h2 class="journey-year text-gradient-san-blue-new-york-red">01</h2>
+                        <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">The Balanced Candidate</h6>
                         <p class="journey-description">Positioned as a moderate leader capable of connecting with all communities, including Muslims and marginalized groups, through his ability to speak multiple languages.</p>
                     </div>
                     <!-- Item 2 -->
                     <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="journey-year text-gradient-light-saffron">02</h2>
-                        <div class="journey-dot saffron"></div>
+                        <h2 class="journey-year text-gradient-san-blue-new-york-red">02</h2>
+                        <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">Infrastructure Advocacy</h6>
                         <p class="journey-description">Campaigned heavily on the lack of development in the constituency, highlighting the need for better government schools and hospitals.</p>
                     </div>
                     <!-- Item 3 -->
                     <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="journey-year text-gradient-light-saffron">03</h2>
+                        <h2 class="journey-year text-gradient-san-blue-new-york-red">03</h2>
                         <div class="journey-dot navy"></div>
                         <h6 class="journey-subtitle">Smart City Projects</h6>
                         <p class="journey-description">Pushed for the implementation of Smart City projects in Chamarajpet's 48 slums to significantly improve the quality of life.</p>
                     </div>
                     <!-- Item 4 -->
                     <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="journey-year text-gradient-light-saffron">04</h2>
-                        <div class="journey-dot saffron"></div>
+                        <h2 class="journey-year text-gradient-san-blue-new-york-red">04</h2>
+                        <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">Forward Vision</h6>
                         <p class="journey-description">Continuing to engage with the grassroots and ensuring the people of Chamarajpet find a voice and representation.</p>
                     </div>

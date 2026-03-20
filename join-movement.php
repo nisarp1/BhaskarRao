@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Why Join?</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Why Join?</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Be the Change Chamarajpet <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Deserves.</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao believes that real transformation is not a one-man show—it is a collective movement of the people, for the people. After decades of serving in the uniform, he is now leading a grassroots movement to rid Chamarajpet of "legacy problems" like poor hygiene, lack of infrastructure, and social neglect. By joining this movement, you are choosing progress over stagnation and accountability over silence.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-tree fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-tree fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Clean & Green</h5>
                     <p>Participate in "Swachh Chamarajpet" drives to eliminate garbage black spots and desilt local drains for a healthier living environment.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-shaded fs-40 text-gradient-green"></i>
+                        <i class="bi bi-shield-shaded fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Safety First</h5>
                     <p>A movement to reclaim our streets. We work together with local authorities to ensure better lighting, safe parks, and a "Drug-Free" neighborhood.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-cash-stack fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-cash-stack fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Economic Empowerment</h5>
                     <p>Join our efforts to strengthen local self-help groups (SHGs) and promote micro-enterprises that keep Chamarajpet’s commercial heart beating.</p>
@@ -61,9 +61,9 @@
             </div>
             <!-- Feature 4 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-laptop fs-40 text-gradient-green"></i>
+                        <i class="bi bi-laptop fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Youth for Progress</h5>
                     <p>A platform for the youth to volunteer their skills—be it in education, digital literacy, or community organizing—to build a modern constituency.</p>
@@ -85,11 +85,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Volunteer with Us</h4>
                 <p class="fs-17">Whether you are a student, a professional, or a homemaker, there is a place for you in this movement.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i><strong>Neighborhood Ambassadors:</strong> Represent your ward and act as a bridge.</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i><strong>Digital Warriors:</strong> Spread the message across social media.</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i><strong>On-Ground Support:</strong> Join awareness campaigns and drives.</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>Neighborhood Ambassadors:</strong> Represent your ward and act as a bridge.</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>Digital Warriors:</strong> Spread the message across social media.</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i><strong>On-Ground Support:</strong> Join awareness campaigns and drives.</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Frequently Asked <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Questions.</span></h3>
             </div>
         </div>

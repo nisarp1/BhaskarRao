@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Service Beyond Duty</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Service Beyond Duty</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Protecting Lives and <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Dignity</span></h3>
                 <h5 class="alt-font text-dark-gray fw-600 mb-10px mt-4">Leadership at IRCS Karnataka</h5>
                 <p class="fs-18">As Vice President, Shri Bhaskar Rao works alongside the Governor of Karnataka (the President of the State Branch) to oversee humanitarian aid, relief operations, and community support across the state. He is a vocal advocate for utilizing the organization’s substantial resources to support citizens during natural calamities, such as floods and landslides.</p>
@@ -32,9 +32,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-droplet-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-droplet-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">TB/HIV Awareness</h5>
                     <p>Programs to reduce stigma and promote healthy living.</p>
@@ -42,9 +42,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-truck fs-40 text-gradient-green"></i>
+                        <i class="bi bi-truck fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Urban Family Welfare</h5>
                     <p>Providing healthcare access to marginalized communities.</p>
@@ -52,9 +52,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-activity fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-activity fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Organ Donation Advocacy</h5>
                     <p>Encouraging citizens to pledge organs and eyes to "spread light" to those in need.</p>
@@ -75,7 +75,7 @@
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Promoting Global Peace</h4>
                 <p class="fs-17">Drawing from his experience as a UN Peacekeeper in Kosovo, Rao views the Red Cross as a neutral, global force for stability. He frequently speaks on how the organization’s humanitarian values can help maintain order and peace during times of international and local unrest.</p>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">IMPACT</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">IMPACT</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Key Focus Areas & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Initiatives</span></h3>
                 <p>Empowering communities and strengthening state readiness.</p>
             </div>

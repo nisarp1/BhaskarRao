@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">A Legacy of Integrity & Innovation</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">A Legacy of Integrity & Innovation</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">32 Years of Public Service: <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">From Ground Zero to Global Peacekeeping</span></h3>
                 <p class="fs-18">A distinguished 1990 batch IPS officer, Bhaskar Rao has navigated some of the most challenging administrative and security landscapes in India. His career is marked by a unique blend of firm enforcement and compassionate community engagement, earning him the respect of both colleagues and the common man.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-lock-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-shield-lock-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Police Modernization</h5>
                     <p>Pioneering the use of technology and digital surveillance to make urban centers safer and more responsive to emergencies.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-heart-pulse-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-heart-pulse-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Community Policing</h5>
                     <p>Bridging the gap between the police and public through empathy-led initiatives like 'Suraksha' and citizen outreach.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-globe-americas fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-globe-americas fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Global Service</h5>
                     <p>Representing India on the world stage, notably leading United Nations Peacekeeping operations in Kosovo.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Honors & Awards</h4>
                 <p class="fs-17">Recognized for distinguished service and international peacekeeping efforts.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>President’s Police Medal for Distinguished Service (2015).</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Police Medal for Meritorious Service (2008).</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>United Nations Medal for International Peacekeeping (2000).</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>President’s Police Medal for Distinguished Service (2015).</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Police Medal for Meritorious Service (2008).</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>United Nations Medal for International Peacekeeping (2000).</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">DIVERSE ASSIGNMENTS</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">DIVERSE ASSIGNMENTS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Key Postings & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Impact</span></h3>
             </div>
         </div>

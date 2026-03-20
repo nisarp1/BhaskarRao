@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Transforming Chamarajpet</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Transforming Chamarajpet</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">A Vision for <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Sustainable Urban Excellence</span></h3>
                 <p class="fs-18">Chamarajpet is more than just a constituency; it is the historical soul of Bengaluru. Established in 1892, it represents a rich tapestry of culture and commerce. Shri Bhaskar Rao’s vision is to honor this 130-year legacy while implementing a modern blueprint for urban renewal that addresses the long-standing challenges of its residents.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-shaded fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-shield-shaded fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Slum Redevelopment</h5>
                     <p>Moving beyond temporary fixes by implementing Smart City standards for permanent housing, clean water, and drainage in high-density areas.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-droplet-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-droplet-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Civic Amenities</h5>
                     <p>Revitalizing local government schools and upgrading primary health centers with modern diagnostic equipment for the elderly and low-income families.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-mortarboard-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-mortarboard-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">K.R. Market Modernization</h5>
                     <p>Overhauling waste management systems and streamlining traffic logistics at this vital economic hub.</p>
@@ -77,21 +77,21 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="p-0 list-style-02">
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Chamarajpet</li>
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Padarayanapura</li>
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Jagajeevanram Nagar</li>
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Rayapuram</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Chamarajpet</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Padarayanapura</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Jagajeevanram Nagar</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Rayapuram</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="p-0 list-style-02">
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Chalavadipalya</li>
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>KR Market</li>
-                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Azadnagar</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Chalavadipalya</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>KR Market</li>
+                            <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Azadnagar</li>
                         </ul>
                     </div>
                 </div>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -104,7 +104,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">LOCAL FOCUS</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">LOCAL FOCUS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Heritage, Economic & Social <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Upliftment</span></h3>
                 <p>A structured approach to transforming the constituency into a model of urban growth and cultural pride.</p>
             </div>
@@ -116,7 +116,7 @@
             <div class="col-lg-6 px-lg-5 md-mt-40px order-lg-1">
                 <div class="d-flex mb-4">
                     <div class="feature-box-icon me-20px">
-                        <i class="bi bi-house-door fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-house-door fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <div>
                         <h5 class="alt-font text-dark-gray fw-600 mb-5px">The Heritage Commission</h5>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="d-flex mb-4">
                     <div class="feature-box-icon me-20px">
-                        <i class="bi bi-heart-pulse fs-40 text-gradient-green"></i>
+                        <i class="bi bi-heart-pulse fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <div>
                         <h5 class="alt-font text-dark-gray fw-600 mb-5px">Cultural Harmony</h5>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="d-flex">
                     <div class="feature-box-icon me-20px">
-                        <i class="bi bi-book fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-book fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <div>
                         <h5 class="alt-font text-dark-gray fw-600 mb-5px">Decentralized Governance</h5>
@@ -153,7 +153,7 @@
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Impact in <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Action.</span></h3>
             </div>
         </div>

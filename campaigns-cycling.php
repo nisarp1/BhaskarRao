@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Pedalling for Change</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Pedalling for Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Building a Stronger, Greener, and <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Healthier Society</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao is a well-known cycling enthusiast who uses the sport as a medium for mass social awareness. The "Karnataka Darshan" expedition was primarily focused on the Swachh Bharat mission, ending open defecation, and sharing the harmful effects of plastic waste.</p>
             </div>
@@ -31,9 +31,9 @@
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-bicycle fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-bicycle fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">The Bidar to Bengaluru Jatha</h5>
                     <p>Led a 52-member team of the KSRP on a 1,756 km cycle jatha focusing on the "Swachh Bharat" mission.</p>
@@ -41,9 +41,9 @@
             </div>
             <!-- Feature 2 -->
             <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-green">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-tree-fill fs-40 text-gradient-green"></i>
+                        <i class="bi bi-tree-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Environmental Stewardship</h5>
                     <p>During the tour, the team planted approximately 7,500 saplings across 25 districts.</p>
@@ -51,9 +51,9 @@
             </div>
             <!-- Feature 3 -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-saffron">
+                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
                     <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-sun-fill fs-40 text-gradient-saffron"></i>
+                        <i class="bi bi-sun-fill fs-40 text-gradient-san-blue-new-york-red"></i>
                     </div>
                     <h5 class="alt-font text-dark-gray fw-600">Promoting Kannada</h5>
                     <p>Used the "Kannada Ulisi, Kannada Belesi" theme to promote local language and culture.</p>
@@ -75,11 +75,11 @@
                 <h4 class="alt-font text-dark-gray fw-600">Tour of Nilgiris (TfN)</h4>
                 <p class="fs-17">Participated in the Tour of Nilgiris, a grueling 900 km, eight-day cycling tour, to showcase cycling as a viable and eco-friendly alternative to motorized transport.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Alternative Transportation Advocacy</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-green"></i>Global Flag-off Dignitary</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-saffron"></i>Promoting Cycling for Mass Awareness</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Alternative Transportation Advocacy</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Global Flag-off Dignitary</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Promoting Cycling for Mass Awareness</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Events & Clubs</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Events & Clubs</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Community <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Engagement</span></h3>
             </div>
         </div>
@@ -132,7 +132,7 @@
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Visual Evidence</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Impact in <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Action.</span></h3>
             </div>
         </div>
