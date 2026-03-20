@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="https://placehold.co/800x600/png?text=Trust Privacy Policy+Visual" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Trust Privacy Policy">
+                <img src="images/new/services/6.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Trust Privacy Policy">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>

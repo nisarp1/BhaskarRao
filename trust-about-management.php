@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="https://placehold.co/800x600/png?text=Management & Trustee+Visual" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Management & Trustee">
+                <img src="images/new/services/2.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Management & Trustee">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
@@ -130,8 +130,7 @@
             <!-- Member 1 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="https://placehold.co/600x400/png?text=Trust+Leader+1" alt="Trust Leader 1" class="w-100">
-                    <div class="p-4 text-center">
+                    <img src="images/new/services/6.jpg"p-4 text-center">
                         <h6 class="alt-font fw-700 text-dark-gray mb-0">Leadership Profile</h6>
                         <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Executive Director</span>
                     </div>
@@ -140,8 +139,7 @@
              <!-- Member 2 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="https://placehold.co/600x400/png?text=Trust+Leader+2" alt="Trust Leader 2" class="w-100">
-                    <div class="p-4 text-center">
+                    <img src="images/new/news/1.jpg" alt="Trust Leimages/new/services/4.jpgs="p-4 text-center">
                         <h6 class="alt-font fw-700 text-dark-gray mb-0">Administrative Head</h6>
                         <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Strategic Operations</span>
                     </div>
@@ -150,9 +148,8 @@
              <!-- Member 3 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="https://placehold.co/600x400/png?text=Trust+Leader+3" alt="Trust Leader 3" class="w-100">
-                    <div class="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
+                    <img src="images/new/news/2.jpg" alt="Trust Leader 3" class="w-100">
+    images/new/services/5.jpg                  <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
                         <span class="fs-14 text-uppercase text-gradient-san-blue-new-york-red fw-700 lg-ls-0px">Regional Coordinator</span>
                     </div>
                 </div>

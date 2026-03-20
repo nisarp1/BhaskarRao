@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/demo-lawyer-about-01.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Bhaskar Rao">
+                <img src="images/new/duty.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Bhaskar Rao">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why experience matters?</h4>

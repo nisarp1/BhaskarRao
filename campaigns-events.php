@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="https://placehold.co/800x600/png?text=Events & Clubs+Visual" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Events & Clubs">
+                <img src="images/new/news/3.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Events & Clubs">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
@@ -99,9 +99,9 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+1" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+2" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+3" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/1.jpg" alt=""></div>
+            <div class="col"><img src="images/new/news/2.jpg" class="borderimages/new/duty.jpgransition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/3.jpg" class="border-radius-10px box-shadow-quadruple-images/new/services/1.jpgject-fit-cover" alt=""></div>
         </div>
     </div>
 </section>
@@ -111,18 +111,12 @@
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+1" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+2" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+3" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+4" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+5" alt="" class="h-40px"></div>
-        </div>
-    </div>
-</section>
+            <div class="col text-center"><img src="images/new/approach.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="htimages/new/services/2.jpgalt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/duty.jpg"col text-center"><img src="images/new/services/1.jpg"col text-center"><img src="images/new/services/2.jpg" alt="" class="h-4images/new/services/5.jpgn>
 <!-- end partners section -->
 <!-- start quote section -->
-<section class="py-5 bg-quote-brand position-relative overflow-hidden">
-    <div class="bg-hero-gradient-overlay opacity-8"></div>
+<section class="py-5 bg-quote-brand positimages/new/services/6.jpg"bg-hero-gradient-overlay opacity-8"></div>
     <div class="container position-relative z-index-2">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>

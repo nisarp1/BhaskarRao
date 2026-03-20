@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/demo-lawyer-about-01.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Political Vision">
+                <img src="images/new/services/3.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Political Vision">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Journey with the BJP</h4>

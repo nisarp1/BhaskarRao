@@ -111,15 +111,10 @@
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+1" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+2" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+3" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+4" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placehold.co/200x80/png?text=Partner+5" alt="" class="h-40px"></div>
-        </div>
-    </div>
-</section>
-<!-- end partners section -->
+            <div class="col text-center"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/news/1.jpg"></div>
+            <div class="col text-center"><img src="images/new/news/2.jpg"col text-center"><img src="images/new/news/3.jpg" alt="" class="himages/new/services/5.jpg-center"><img src="images/new/approach.jpg" alt="" class="h-40px"></div>
+       images/new/services/6.jpgs section -->
 <!-- start quote section -->
 <section class="py-5 bg-quote-brand position-relative overflow-hidden">
     <div class="bg-hero-gradient-overlay opacity-8"></div>

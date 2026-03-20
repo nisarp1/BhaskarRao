@@ -80,7 +80,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/demo-lawyer-about-01.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Volunteer Development">
+                <img src="images/new/services/4.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Volunteer Development">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Empowering the Youth</h4>

@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/demo-lawyer-about-01.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Bhaskar Rao IPS">
+                <img src="images/new/services/2.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Bhaskar Rao IPS">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Honors & Awards</h4>
@@ -99,7 +99,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <img src="https://placehold.co/800x600/png?text=IPS+Key+Roles" class="border-radius-10px box-shadow-quadruple-large w-100" alt="Key Roles">
+                <img src="images/new/approach.jpg" class="border-radius-10px box-shadow-quadruple-large w-100" alt="Key Roles">
             </div>
             <div class="col-lg-6 px-lg-5 md-mt-40px">
                 <div class="mb-4">

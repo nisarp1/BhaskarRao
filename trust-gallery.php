@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="https://placehold.co/800x600/png?text=Trust Gallery+Visual" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Trust Gallery">
+                <img src="images/new/services/4.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Trust Gallery">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
@@ -99,9 +99,9 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+1" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+2" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="https://placehold.co/800x600/png?text=Gallery+Image+3" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/2.jpg" alt=""></div>
+            <div class="col"><img src="images/new/services/6.jpg" class="w-100 h-100 object-fit-cover border-radius-10px box-shadow-quadruple-large" alt=""></div>
+            <div class="col"><img src="images/new/news/1.jpg" class="w-100 h-100 object-fit-cover border-radius-10px box-shadow-quadruple-large" alt=""></div>
         </div>
     </div>
 </section>
