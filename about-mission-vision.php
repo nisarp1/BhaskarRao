@@ -101,34 +101,38 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center text-center">
-             <div class="col mb-4">
-                <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-shield-check fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
-                    <h5 class="alt-font text-dark-gray fw-600">Integrity</h5>
-                    <p class="mb-0">Upholding the highest standards of honesty and ethical conduct in all actions.</p>
+            <!-- Integrity -->
+            <div class="col mb-4" data-anime='{"el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad"}'>
+                <div class="premium-value-card">
+                    <i class="bi bi-shield-check value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700">Integrity</h5>
+                    <p>Upholding the highest standards of honesty and ethical conduct in all actions.</p>
                 </div>
-             </div>
-             <div class="col mb-4">
-                <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-eye fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
-                    <h5 class="alt-font text-dark-gray fw-600">Transparency</h5>
-                    <p class="mb-0">Maintaining clear, open communication and accountability in public service.</p>
+            </div>
+            <!-- Transparency -->
+            <div class="col mb-4" data-anime='{"el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 150, "easing": "easeOutQuad"}'>
+                <div class="premium-value-card">
+                    <i class="bi bi-eye value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700">Transparency</h5>
+                    <p>Maintaining clear, open communication and accountability in public service.</p>
                 </div>
-             </div>
-             <div class="col mb-4">
-                <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-people fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
-                    <h5 class="alt-font text-dark-gray fw-600">Empathy</h5>
-                    <p class="mb-0">Understanding and actively addressing the needs and challenges of every citizen.</p>
+            </div>
+            <!-- Empathy -->
+            <div class="col mb-4" data-anime='{"el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 150, "easing": "easeOutQuad"}'>
+                <div class="premium-value-card">
+                    <i class="bi bi-people value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700">Empathy</h5>
+                    <p>Understanding and actively addressing the needs and challenges of every citizen.</p>
                 </div>
-             </div>
-             <div class="col mb-4">
-                <div class="p-4 bg-gradient-solitude-blue-fair-pink border-radius-10px box-shadow-quadruple-large-hover h-100">
-                    <i class="bi bi-rocket-takeoff fs-50 text-gradient-san-blue-new-york-red mb-3 d-block"></i>
-                    <h5 class="alt-font text-dark-gray fw-600">Innovation</h5>
-                    <p class="mb-0">Leveraging modern solutions and technology to solve systemic problems.</p>
+            </div>
+            <!-- Innovation -->
+            <div class="col mb-4" data-anime='{"el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 150, "easing": "easeOutQuad"}'>
+                <div class="premium-value-card">
+                    <i class="bi bi-rocket-takeoff value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700">Innovation</h5>
+                    <p>Leveraging modern solutions and technology to solve systemic problems.</p>
                 </div>
-             </div>
+            </div>
         </div>
     </div>
 </section>
