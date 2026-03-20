@@ -73,6 +73,11 @@
                                     data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>View
                                     Initiatives<span class="bg-dark-gray text-white"><i
                                             class="feather icon-feather-arrow-right"></i></span></a>
+                                <a href="about-introduction.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded btn-transparent-white-light btn-box-shadow fw-600 ms-20px"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Leadership
+                                    Journey<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -105,6 +110,11 @@
                                     class="btn btn-extra-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow fw-600"
                                     data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Join
                                     the Mission<span class="bg-dark-gray text-white"><i
+                                            class="feather icon-feather-arrow-right"></i></span></a>
+                                <a href="contact.php"
+                                    class="btn btn-extra-large btn-rounded with-rounded btn-transparent-white-light btn-box-shadow fw-600 ms-20px"
+                                    data-anime='{ "opacity": [0, 1], "delay": 2000, "easing": "easeOutQuad" }'>Get In
+                                    Touch<span class="bg-dark-gray text-white"><i
                                             class="feather icon-feather-arrow-right"></i></span></a>
                             </div>
                         </div>
