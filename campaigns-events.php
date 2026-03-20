@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Core Objectives</h5>
-                    <p>Detailed exploration of the primary goals and objectives associated with Events & Clubs. We aim for excellence in every endeavor.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-check value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Core Objectives</h5>
+                    <p class="mb-0">Detailed exploration of the primary goals and objectives associated with Events & Clubs. We aim for excellence in every endeavor.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Community Engagement</h5>
-                    <p>Focusing on how Events & Clubs interacts with and empowers the local communities and stakeholders.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-people value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Community Engagement</h5>
+                    <p class="mb-0">Focusing on how Events & Clubs interacts with and empowers the local communities and stakeholders.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Sustainable Impact</h5>
-                    <p>Ensuring that the outcomes of our work in Events & Clubs are long-lasting and continue to benefit society for years to come.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-graph-up-arrow value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Sustainable Impact</h5>
+                    <p class="mb-0">Ensuring that the outcomes of our work in Events & Clubs are long-lasting and continue to benefit society for years to come.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +60,7 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
@@ -99,9 +93,9 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col"><img src="images/new/news/1.jpg" alt=""></div>
-            <div class="col"><img src="images/new/news/2.jpg" class="borderimages/new/duty.jpgransition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="images/new/news/3.jpg" class="border-radius-10px box-shadow-quadruple-images/new/services/1.jpgject-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/1.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/2.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/news/3.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
         </div>
     </div>
 </section>
@@ -111,12 +105,17 @@
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
-            <div class="col text-center"><img src="images/new/approach.jpg" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="htimages/new/services/2.jpgalt="" class="h-40px"></div>
-            <div class="col text-center"><img src="images/new/duty.jpg"col text-center"><img src="images/new/services/1.jpg"col text-center"><img src="images/new/services/2.jpg" alt="" class="h-4images/new/services/5.jpgn>
-<!-- end partners section -->
+            <div class="col text-center"><img src="images/new/services/1.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/3.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/4.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/5.jpg" alt="" class="h-40px"></div>
+        </div>
+    </div>
+</section>
 <!-- start quote section -->
-<section class="py-5 bg-quote-brand positimages/new/services/6.jpg"bg-hero-gradient-overlay opacity-8"></div>
+<section class="py-5 bg-quote-brand position-relative overflow-hidden">
+    <div class="bg-hero-gradient-overlay opacity-8"></div>
     <div class="container position-relative z-index-2">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>

@@ -66,7 +66,7 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
@@ -98,29 +98,37 @@
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Community <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Engagement</span></h3>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-4">
-            <div class="col">
-                <div class="bg-white p-4 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">Cycle to Work Fridays</h5>
-                    <p>As Police Commissioner, he pledged 100% commitment to the "Cycle Day" initiative, encouraging Bengaluru’s tech corridors to adopt cycling for their Friday commutes.</p>
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-4 mt-5">
+            <!-- Feature 1 -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-bicycle value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Cycle to Work Fridays</h5>
+                    <p class="mb-0">As Police Commissioner, he pledged 100% commitment to the "Cycle Day" initiative, encouraging Bengaluru’s tech corridors to adopt cycling for their Friday commutes.</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="bg-white p-4 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">Pedal Police</h5>
-                    <p>Launched India’s first bicycle-borne police patrol unit in Bengaluru to navigate tight spaces while maintaining an eco-friendly presence.</p>
+            <!-- Feature 2 -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-check value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Pedal Police</h5>
+                    <p class="mb-0">Launched India’s first bicycle-borne police patrol unit in Bengaluru to navigate tight spaces while maintaining an eco-friendly presence.</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="bg-white p-4 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">Women’s Empowerment Marathon</h5>
-                    <p>Headed a 545 km cycling marathon from Belgaum to Bengaluru for over 60 women police personnel and IAS officers.</p>
+            <!-- Feature 3 -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-gender-female value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Women’s Empowerment Marathon</h5>
+                    <p class="mb-0">Headed a 545 km cycling marathon from Belgaum to Bengaluru for over 60 women police personnel and IAS officers.</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="bg-white p-4 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <h5 class="alt-font text-dark-gray fw-600 mb-10px">Fitness for the Force</h5>
-                    <p>Institutionalized fitness by introducing mandatory BMI monitoring and exercise regimes to help police personnel manage stress and lifestyle diseases.</p>
+            <!-- Feature 4 -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-heart-pulse value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Fitness for the Force</h5>
+                    <p class="mb-0">Institutionalized fitness by introducing mandatory BMI monitoring and exercise regimes to help police personnel manage stress and lifestyle diseases.</p>
                 </div>
             </div>
         </div>
@@ -138,23 +146,25 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col"><img src="images/new/services/6.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
-            <div class="col"><img src="images/new/services/4.jpg" alt=""></div>
-            <div class="col"><img src="images/new/services/5.jpg" classimages/new/news/2.jpg h-100 transition-inner-all w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/services/6.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/services/4.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
+            <div class="col"><img src="images/new/services/5.jpg" class="border-radius-10px box-shadow-quadruple-large w-100 h-100 object-fit-cover" alt=""></div>
         </div>
     </div>
 </section>
 <!-- end gallery section -->
 
-<!-- start partners section -->
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
-            <div class="col text-center"><img src="images/new/services/6.jpg" alt="" class="h-40px"></div>
-            <diimages/new/news/3.jpgacehold.co/200x80/png?text=Partner+2" alt="" class="h-40px"></div>
-            <div class="col text-center"images/new/approach.jpgt=Partner+3" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="https://placimages/new/duty.jpgss="h-40px"></div>
-            <div class="col text-center"><img src="images/new/news/1.jpg">
+            <div class="col text-center"><img src="images/new/services/1.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/3.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/4.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/5.jpg" alt="" class="h-40px"></div>
+        </div>
+    </div>
+</section>
     <div class="bg-hero-gradient-overlay opacity-8"></div>
     <div class="container position-relative z-index-2">
         <div class="row align-items-center justify-content-center">

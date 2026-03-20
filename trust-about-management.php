@@ -130,26 +130,29 @@
             <!-- Member 1 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="images/new/services/6.jpg"p-4 text-center">
+                    <img src="images/new/services/1.jpg" alt="Leadership Profile" class="w-100">
+                    <div class="p-4 text-center">
                         <h6 class="alt-font fw-700 text-dark-gray mb-0">Leadership Profile</h6>
                         <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Executive Director</span>
                     </div>
                 </div>
             </div>
-             <!-- Member 2 -->
+            <!-- Member 2 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="images/new/news/1.jpg" alt="Trust Leimages/new/services/4.jpgs="p-4 text-center">
+                    <img src="images/new/news/1.jpg" alt="Trust Leader 2" class="w-100">
+                    <div class="p-4 text-center">
                         <h6 class="alt-font fw-700 text-dark-gray mb-0">Administrative Head</h6>
                         <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Strategic Operations</span>
                     </div>
                 </div>
             </div>
-             <!-- Member 3 -->
+            <!-- Member 3 -->
             <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
                     <img src="images/new/news/2.jpg" alt="Trust Leader 3" class="w-100">
-    images/new/services/5.jpg                  <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
+                    <div class="p-4 text-center">
+                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
                         <span class="fs-14 text-uppercase text-gradient-san-blue-new-york-red fw-700 lg-ls-0px">Regional Coordinator</span>
                     </div>
                 </div>

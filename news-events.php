@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-newspaper fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Media Coverage</h5>
-                    <p>Read what the press is saying about our developmental projects and policy vision for a better future.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-newspaper value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Media Coverage</h5>
+                    <p class="mb-0">Read what the press is saying about our developmental projects and policy vision for a better future.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-calendar-event-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Ground Events</h5>
-                    <p>Join us at our upcoming rallies, town hall meetings, and community service drives in Chamarajpet.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-calendar-event-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Ground Events</h5>
+                    <p class="mb-0">Join us at our upcoming rallies, town hall meetings, and community service drives in Chamarajpet.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-broadcast fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Press Releases</h5>
-                    <p>Access official statements and detailed documents regarding our stance on key societal and political issues.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-broadcast value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Press Releases</h5>
+                    <p class="mb-0">Access official statements and detailed documents regarding our stance on key societal and political issues.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +60,7 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
@@ -111,10 +105,14 @@
 <section class="py-4 bg-white border-top border-color-extra-medium-gray">
     <div class="container">
         <div class="row row-cols-2 row-cols-md-5 align-items-center justify-content-center opacity-6">
+            <div class="col text-center"><img src="images/new/services/1.jpg" alt="" class="h-40px"></div>
             <div class="col text-center"><img src="images/new/services/2.jpg" alt="" class="h-40px"></div>
-            <div class="col text-center"><img src="images/new/news/1.jpg"></div>
-            <div class="col text-center"><img src="images/new/news/2.jpg"col text-center"><img src="images/new/news/3.jpg" alt="" class="himages/new/services/5.jpg-center"><img src="images/new/approach.jpg" alt="" class="h-40px"></div>
-       images/new/services/6.jpgs section -->
+            <div class="col text-center"><img src="images/new/services/3.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/4.jpg" alt="" class="h-40px"></div>
+            <div class="col text-center"><img src="images/new/services/5.jpg" alt="" class="h-40px"></div>
+        </div>
+    </div>
+</section>
 <!-- start quote section -->
 <section class="py-5 bg-quote-brand position-relative overflow-hidden">
     <div class="bg-hero-gradient-overlay opacity-8"></div>
