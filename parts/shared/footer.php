@@ -91,7 +91,9 @@
                 <div class="col-lg-6 text-center text-lg-end last-paragraph-no-margin">
                     <ul class="footer-navbar md-lh-normal">
                         <li class="nav-item d-inline-block me-20px"><a href="privacy-policy.php" class="nav-link text-white opacity-5 fs-14 p-0">Privacy Policy</a></li>
-                        <li class="nav-item d-inline-block"><a href="disclaimers.php" class="nav-link text-white opacity-5 fs-14 p-0">Terms & Conditions</a></li>
+                        <li class="nav-item d-inline-block me-20px"><a href="disclaimers.php" class="nav-link text-white opacity-5 fs-14 p-0">Terms & Conditions</a></li>
+                        <li class="nav-item d-inline-block me-20px"><a href="sitemap.php" class="nav-link text-white opacity-5 fs-14 p-0">Sitemap</a></li>
+                        <li class="nav-item d-inline-block"><a href="trust-privacy.php" class="nav-link text-white opacity-5 fs-14 p-0">Trust Policy</a></li>
                     </ul>
                 </div>
             </div>

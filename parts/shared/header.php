@@ -44,35 +44,63 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                            <!-- Leadership Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="about-introduction.php" class="nav-link">About</a>
+                                <a href="about-introduction.php" class="nav-link">Leadership</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                                    <li><a href="about-introduction.php">Early Life</a></li>
+                                    <li><a href="about-introduction.php">About Me</a></li>
+                                    <li><a href="about-mission-vision.php">Mission & Vision</a></li>
                                     <li><a href="ips-career.php">IPS Career</a></li>
-                                    <li><a href="politics.php">Politics</a></li>
-                                    <li><a href="red-cross.php">Redcross</a></li>
-                                    <li><a href="trust-home.php">Trust</a></li>
+                                    <li><a href="politics.php">Political Journey</a></li>
                                 </ul>
                             </li>
+                            <!-- Governance Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="constituency.php" class="nav-link">Constituency</a>
+                                <a href="constituency.php" class="nav-link">Governance</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                                    <li><a href="constituency.php">About Constituency</a></li>
-                                    <li><a href="campaigns-events.php">Campaigns</a></li>
-                                    <li><a href="voice-people-form.php">Raise your Voice</a></li>
+                                    <li><a href="constituency.php">Chamarajpet Constituency</a></li>
+                                    <li><a href="red-cross.php">Red Cross Society</a></li>
+                                    <li><a href="news-events.php">News & Media</a></li>
+                                    <li><a href="campaigns-cycling.php">Cycling Campaigns</a></li>
+                                    <li><a href="campaigns-events.php">Event Highlights</a></li>
                                 </ul>
                             </li>
+                            <!-- Charitable Trust Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="contact.php" class="nav-link">Contact</a>
+                                <a href="trust-home.php" class="nav-link">Charitable Trust</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                    <li><a href="voice-people-polls.php">Voice</a></li>
-                                    <li><a href="volunteer-development.php">Become A volunteer</a></li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="trust-home.php">Trust Overview</a></li>
+                                    <li><a href="trust-about-founder.php">The Founder</a></li>
+                                    <li><a href="trust-about-story.php">Our Story</a></li>
+                                    <li><a href="trust-about-management.php">Executive Management</a></li>
+                                    <li><a href="trust-programs.php">Core Programs</a></li>
+                                    <li><a href="trust-impact.php">Impact & Reach</a></li>
+                                    <li><a href="trust-gallery.php">Media Gallery</a></li>
+                                    <li><a href="trust-media.php">Media Coverage</a></li>
+                                    <li><a href="trust-news.php">Trust News</a></li>
+                                    <li><a href="trust-social.php">Social Engagement</a></li>
+                                    <li><a href="trust-volunteers.php">Join as Volunteer</a></li>
+                                    <li><a href="trust-partners.php">Strategic Partners</a></li>
+                                    <li><a href="trust-career.php">Careers</a></li>
+                                    <li><a href="trust-contact.php">Trust Contact</a></li>
                                 </ul>
                             </li>
+                            <!-- People's Voice Dropdown -->
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="voice-people-form.php" class="nav-link">People's Voice</a>
+                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink4" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                                    <li><a href="voice-people-form.php">Connect with Leader</a></li>
+                                    <li><a href="voice-people-polls.php">Participatory Polls</a></li>
+                                    <li><a href="join-movement.php">Join the Movement</a></li>
+                                    <li><a href="volunteer-development.php">Skill Development</a></li>
+                                    <li><a href="volunteer-training.php">Volunteer Training</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                         </ul>
 
                         <div class="d-lg-none mt-15px text-center pb-20px">
