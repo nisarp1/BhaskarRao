@@ -69,7 +69,7 @@
                             </li>
                             <!-- Charitable Trust Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="trust-home.php" class="nav-link">Charitable Trust</a>
+                                <a href="trust-home.php" class="nav-link">Trust</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
                                     <li><a href="trust-home.php">Trust Overview</a></li>
@@ -90,7 +90,7 @@
                             </li>
                             <!-- People's Voice Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="voice-people-form.php" class="nav-link">People's Voice</a>
+                                <a href="voice-people-form.php" class="nav-link">Voice</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink4" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
                                     <li><a href="voice-people-form.php">Connect with Leader</a></li>
