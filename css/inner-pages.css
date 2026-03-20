@@ -138,36 +138,33 @@
 }
 
 .journey-dot {
+    background: linear-gradient(135deg, #FF9933 0%, #388E3C 100%) !important;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 0 auto 30px;
     position: relative;
-    border: 4px solid #FFFFFF;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(255, 153, 51, 0.3);
     transition: all 0.3s ease;
     z-index: 2;
 }
 
-.journey-dot.blue { background-color: #1a237e; }
-.journey-dot.saffron { background-color: #FF9933; }
-.journey-dot.green { background-color: #388E3C; }
-.journey-dot.navy { background-color: #1a237e; }
-
-/* Timeline Connecting Line */
-.journey-timeline-row {
-    position: relative;
+.journey-column:hover .journey-dot {
+    transform: scale(1.3);
+    box-shadow: 0px 8px 25px rgba(56, 142, 60, 0.4);
 }
 
 .journey-timeline-row::before {
     content: '';
     position: absolute;
-    top: 106px; /* Optimized value for alignment */
+    top: 106px;
     left: 10%;
     right: 10%;
-    height: 2px;
-    background-color: #E4E4E4;
+    height: 3px;
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #388E3C);
     z-index: 0;
+    opacity: 0.6;
 }
 
 @media (max-width: 991px) {
