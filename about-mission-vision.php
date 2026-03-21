@@ -21,18 +21,33 @@
 <!-- start section -->
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Mission & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Vision</span></h3>
-                <h5 class="alt-font text-dark-gray fw-600 mb-2 mt-4 text-start">Mission</h5>
-                <p class="fs-18 text-start mb-4">To bridge the gap between governance and the grassroots, ensuring every citizen of Karnataka—and specifically Chamarajpet—has access to justice, skill development, and a dignified quality of life.</p>
-                <h5 class="alt-font text-dark-gray fw-600 mb-2 text-start">Vision</h5>
-                <p class="fs-18 text-start">To foster a "Sanaatana" inspired modern society where progress is rooted in cultural values, environmental sustainability, and the empowerment of the youth and marginalized sections.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5 g-4" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <!-- Mission Card -->
+            <div class="col-lg-6 col-md-6">
+                <div class="premium-value-card text-center h-100 p-5">
+                    <i class="bi bi-compass value-icon fs-50 mb-30px d-block mx-auto text-gradient-green"></i>
+                    <h4 class="alt-font text-dark-gray fw-700 mb-20px">Our Mission</h4>
+                    <p class="fs-18 lh-32">To bridge the gap between governance and the grassroots, ensuring every citizen of Karnataka—and specifically Chamarajpet—has access to justice, skill development, and a dignified quality of life.</p>
+                </div>
+            </div>
+            <!-- Vision Card -->
+            <div class="col-lg-6 col-md-6">
+                <div class="premium-value-card text-center h-100 p-5">
+                    <i class="bi bi-eye value-icon fs-50 mb-30px d-block mx-auto text-gradient-saffron"></i>
+                    <h4 class="alt-font text-dark-gray fw-700 mb-20px">Our Vision</h4>
+                    <p class="fs-18 lh-32">To foster a "Sanaatana" inspired modern society where progress is rooted in cultural values, environmental sustainability, and the empowerment of the youth and marginalized sections.</p>
+                </div>
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
             <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
@@ -132,27 +147,5 @@
 </section>
 <!-- end core values section -->
 
-<!-- start quote section -->
-<section class="py-5 bg-quote-brand position-relative overflow-hidden">
-    <div class="bg-hero-gradient-overlay opacity-8"></div>
-    <div class="container position-relative z-index-2">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <i class="bi bi-quote text-white fs-80 opacity-2 mb-20px d-block d-lg-inline-block"></i>
-                <h4 class="alt-font text-white fw-500 mb-30px ls-minus-1px lh-40">"True leadership is not about power, but the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">empowerment of the smallest voice</span> in the community. Our mission is to build a safer, smarter, and more inclusive future for all."</h4>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                    <span class="w-50px h-1px bg-white opacity-5 me-20px"></span>
-                    <span class="fs-20 text-white fw-600 text-uppercase ls-2px alt-font">Bhaskar Rao IPS (Retd.)</span>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-8 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="position-relative">
-                    <img src="images/new/rao.jpg" class="border-radius-10px box-shadow-quadruple-large" alt="Bhaskar Rao">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end quote section -->
 <?php include 'parts/shared/footer.php'; ?>
 <?php include 'parts/shared/html-footer.php'; ?>

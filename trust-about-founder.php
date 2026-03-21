@@ -29,35 +29,29 @@
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-person-heart fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Empathy-Led Design</h5>
-                    <p>Every program we launch starts with a simple question: How does this make a real difference in a person's life?</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-person-heart value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Empathy-Led Design</h5>
+                    <p class="mb-0">Every program we launch starts with a simple question: How does this make a real difference in a person's life?</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-clock-history fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Lifetime Legacy</h5>
-                    <p>Building institutions that will continue to serve the community for generations, long after the initial spark.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-clock-history value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Lifetime Legacy</h5>
+                    <p class="mb-0">Building institutions that will continue to serve the community for generations, long after the initial spark.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-hand-index-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Direct Intervention</h5>
-                    <p>Eliminating middlemen to ensure that every resource reaches the intended beneficiary directly and efficiently.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-hand-index-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Direct Intervention</h5>
+                    <p class="mb-0">Eliminating middlemen to ensure that every resource reaches the intended beneficiary directly and efficiently.</p>
                 </div>
             </div>
         </div>

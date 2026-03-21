@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-geo-alt-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Main Office</h5>
-                    <p>Chamarajpet Constituency Office, Bengaluru, Karnataka. (Preserving Heritage, Building Future)</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-geo-alt-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Main Office</h5>
+                    <p class="mb-0">Chamarajpet Constituency Office, Bengaluru, Karnataka. (Preserving Heritage, Building Future)</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-telephone-outbound-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Help Desk</h5>
-                    <p>Call us at +91 98453 52310 during office hours (10 AM to 6 PM) for any urgent assistance.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-telephone-outbound-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Help Desk</h5>
+                    <p class="mb-0">Call us at +91 98453 52310 during office hours (10 AM to 6 PM) for any urgent assistance.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-envelope-open-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Official Email</h5>
-                    <p>Send your proposals or event invites to contact@bhaskarrao.in for official consideration.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-envelope-open-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Official Email</h5>
+                    <p class="mb-0">Send your proposals or event invites to contact@bhaskarrao.in for official consideration.</p>
                 </div>
             </div>
         </div>

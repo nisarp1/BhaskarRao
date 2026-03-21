@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-chat-left-dots-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Submit a Grievance</h5>
-                    <p>Use our simple online form to report issues directly to our team regarding sanitation, roads, safety, water, or corrupt practices.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-chat-left-dots-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Submit a Grievance</h5>
+                    <p class="mb-0">Use our simple online form to report issues directly to our team regarding sanitation, roads, safety, water, or corrupt practices.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-lightbulb-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Attach Photos & Geography</h5>
-                    <p>Easily upload pictures and pin your location to help our team verify and act on the grievance quickly.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-lightbulb-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Attach Photos & Geography</h5>
+                    <p class="mb-0">Easily upload pictures and pin your location to help our team verify and act on the grievance quickly.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-check-all fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Track Your Complaint</h5>
-                    <p>Every submission generates a unique ID, allowing you to track its status—from "Acknowledged" to "Resolved."</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-check-all value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Track Your Complaint</h5>
+                    <p class="mb-0">Every submission generates a unique ID, allowing you to track its status—from "Acknowledged" to "Resolved."</p>
                 </div>
             </div>
         </div>

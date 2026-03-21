@@ -111,47 +111,7 @@
 </section>
 <!-- end stats section -->
 
-<!-- start team section -->
-<section class="py-5 bg-gradient-solitude-blue-fair-pink">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
-                <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Led by <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Visionaries.</span></h3>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
-            <!-- Member 1 -->
-            <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="images/new/services/1.jpg" class="w-100"><div class="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Leadership Profile</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Executive Director</span>
-                    </div>
-                </div>
-            </div>
-             <!-- Member 2 -->
-            <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="images/new/services/5.jpg" alt="Trust Leimages/new/services/2.jpgs="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Administrative Head</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Strategic Operations</span>
-                    </div>
-                </div>
-            </div>
-             <!-- Member 3 -->
-            <div class="col mb-4" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="bg-white overflow-hidden border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all">
-                    <img src="images/new/services/6.jpg" alt="Trust Leader 3" class="w-100">
-    <div class="p-4 text-center"><h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Regional Coordinator</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end team section -->
+
 
 <!-- start quote section -->
 <section class="py-5 bg-quote-brand position-relative overflow-hidden">

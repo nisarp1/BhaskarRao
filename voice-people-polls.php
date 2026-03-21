@@ -31,43 +31,35 @@
         
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-trash fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Waste Management</h5>
-                    <p>Vote for this if you believe improving cleanliness should be the top priority.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-trash value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Waste Management</h5>
+                    <p class="mb-0">Vote for this if you believe improving cleanliness should be the top priority.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-car-front-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Traffic Congestion</h5>
-                    <p>Vote for this if you want to prioritize traffic flow and logistics.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-car-front-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Traffic Congestion</h5>
+                    <p class="mb-0">Vote for this if you want to prioritize traffic flow and logistics.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shop fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Vendor Zoning</h5>
-                    <p>Vote for this if you feel organizing the vendor spaces is most urgent.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shop value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Vendor Zoning</h5>
+                    <p class="mb-0">Vote for this if you feel organizing the vendor spaces is most urgent.</p>
                 </div>
             </div>
             <!-- Feature 4 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-camera-video fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Safety & Surveillance</h5>
-                    <p>Vote for this if enhancing security is your primary concern today.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-camera-video value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Safety & Surveillance</h5>
+                    <p class="mb-0">Vote for this if enhancing security is your primary concern today.</p>
                 </div>
             </div>
         </div>

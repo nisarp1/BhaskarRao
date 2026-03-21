@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Integrity First</h5>
-                    <p>Upholding the highest standards of transparency and discipline in every public initiative and administrative role.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-check value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Integrity First</h5>
+                    <p class="mb-0">Upholding the highest standards of transparency and discipline in every public initiative and administrative role.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Community Safety</h5>
-                    <p>Creating sustainable safety frameworks and empowering local citizens to participate actively in governance.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-people value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Community Safety</h5>
+                    <p class="mb-0">Creating sustainable safety frameworks and empowering local citizens to participate actively in governance.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Progressive Vision</h5>
-                    <p>Leveraging technology and innovative strategies to build a smarter, more inclusive future for Karnataka.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-graph-up-arrow value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Progressive Vision</h5>
+                    <p class="mb-0">Leveraging technology and innovative strategies to build a smarter, more inclusive future for Karnataka.</p>
                 </div>
             </div>
         </div>

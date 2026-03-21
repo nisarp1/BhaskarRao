@@ -9,7 +9,7 @@
     <header>
         <!-- start navigation -->
         <nav
-            class="navbar navbar-expand-lg header-transparent bg-transparent disable-fixed border-bottom border-color-transparent-white-light">
+            class="navbar navbar-expand-lg header-transparent bg-transparent sticky-top border-bottom border-color-transparent-white-light">
             <div class="container-fluid">
                 <div class="col-auto">
                     <a class="navbar-brand d-flex align-items-center" href="index.php">
@@ -110,7 +110,7 @@
                     <div class="header-icon d-flex align-items-center">
                         <div class="d-flex align-items-center me-3">
                             <a href="volunteer-development.php" class="btn btn-small btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 me-3 ls-0px fw-600 flex-shrink-0 btn-box-shadow" style="white-space: nowrap;">Become a Volunteer<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right align-middle"></i></span></a>
-                            <a href="tel:1234567890"
+                            <a href="tel:+919845352310"
                                 class="w-40px h-40px bg-gradient-blue-ironstone-brown d-flex align-items-center justify-content-center flex-shrink-0 rounded-circle fs-15 text-white"><i
                                     class="bi bi-telephone-outbound"></i></a>
                         </div>

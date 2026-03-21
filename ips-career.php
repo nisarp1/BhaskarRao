@@ -29,7 +29,7 @@
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
             <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
@@ -137,27 +137,5 @@
     </div>
 </section>
 
-<!-- start quote section -->
-<section class="py-5 bg-quote-brand position-relative overflow-hidden">
-    <div class="bg-hero-gradient-overlay opacity-8"></div>
-    <div class="container position-relative z-index-2">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <i class="bi bi-quote text-white fs-80 opacity-2 mb-20px d-block d-lg-inline-block"></i>
-                <h4 class="alt-font text-white fw-500 mb-30px ls-minus-1px lh-40">"True leadership is not about power, but the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">empowerment of the smallest voice</span> in the community. Our mission is to build a safer, smarter, and more inclusive future for all."</h4>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                    <span class="w-50px h-1px bg-white opacity-5 me-20px"></span>
-                    <span class="fs-20 text-white fw-600 text-uppercase ls-2px alt-font">Bhaskar Rao IPS (Retd.)</span>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-8 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="position-relative">
-                    <img src="images/new/rao.jpg" class="border-radius-10px box-shadow-quadruple-large" alt="Bhaskar Rao">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end quote section -->
 <?php include 'parts/shared/footer.php'; ?>
 <?php include 'parts/shared/html-footer.php'; ?>

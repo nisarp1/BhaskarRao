@@ -31,43 +31,35 @@
         
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-book fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">The "Sanaatana" Mentorship Program</h5>
-                    <p>Blending modern education with traditional ethical frameworks by pairing young individuals with experienced mentors.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-book value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">The "Sanaatana" Mentorship Program</h5>
+                    <p class="mb-0">Blending modern education with traditional ethical frameworks by pairing young individuals with experienced mentors.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-laptop fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Tech & Digital Literacy</h5>
-                    <p>Sponsoring coding boot camps and digital literacy drives in local government schools to bridge the digital divide.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-laptop value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Tech & Digital Literacy</h5>
+                    <p class="mb-0">Sponsoring coding boot camps and digital literacy drives in local government schools to bridge the digital divide.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-person-arms-up fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Fitness & Discipline</h5>
-                    <p>Organizing NCC-style boot camps, sports tournaments, and yoga sessions to instill physical fitness and mental resilience.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-person-arms-up value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Fitness & Discipline</h5>
+                    <p class="mb-0">Organizing NCC-style boot camps, sports tournaments, and yoga sessions to instill physical fitness and mental resilience.</p>
                 </div>
             </div>
             <!-- Feature 4 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-briefcase fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Job Fairs & Counseling</h5>
-                    <p>Connecting local talent with corporate recruiters and providing free resume-building workshops and interview prep.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-briefcase value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Job Fairs & Counseling</h5>
+                    <p class="mb-0">Connecting local talent with corporate recruiters and providing free resume-building workshops and interview prep.</p>
                 </div>
             </div>
         </div>

@@ -618,15 +618,15 @@
         data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
         <div class="container-fluid p-0">
             <div class="row justify-content-center justify-content-md-end g-0">
-                <div class="col-lg-6 ps-8 pe-8 pt-6 pb-6 xxl-p-5 sm-p-30px bg-blue-whale">
+                <div class="col-lg-6 ps-8 pe-8 pt-6 pb-6 xxl-p-5 sm-p-30px bg-premium-light">
                     <span
-                        class="fs-16 fw-700 ls-1px text-uppercase text-gradient-white-orange mb-5px d-inline-block">Our
+                        class="fs-16 fw-700 ls-1px text-uppercase text-gradient-saffron mb-5px d-inline-block">Our
                         Approach</span>
-                    <h3 class="alt-font fw-500 text-white ls-minus-1px w-80 lg-w-100">Dedicated to transparency and
-                        <span class="fw-600 font-style-italic text-decoration-line-bottom-medium">effective
+                    <h3 class="alt-font fw-700 text-dark-gray ls-minus-1px w-80 lg-w-100">Dedicated to transparency and
+                        <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">effective
                             governance.</span>
                     </h3>
-                    <p class="w-80 md-w-100 text-white opacity-7">By leveraging technology and community participation, we aim to build a
+                    <p class="w-80 md-w-100 text-medium-gray fs-18 opacity-8">By leveraging technology and community participation, we aim to build a
                         safer, smarter Bengaluru.</p>
                     <div
                         class="row row-cols-1 row-cols-xxl-2 row-cols-lg-1 row-cols-md-2 mt-40px me-60px xxl-me-30px md-me-0">
@@ -634,11 +634,11 @@
                         <div class="col xl-mb-30px">
                             <div class="chart-percent d-flex align-items-center">
                                 <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
-                                    data-track-color="#152833" data-start-color="#b98e44" data-end-color="#b98e44">
+                                    data-track-color="#eeeeee" data-start-color="#388E3C" data-end-color="#2E7D32">
                                     <span
-                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-blue-ironstone-brown w-80px h-80px rounded-circle"></span>
+                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-green w-80px h-80px rounded-circle"></span>
                                 </span>
-                                <div class="chart-text fs-18 lh-28 text-white d-inline-block ms-20px w-70 xxl-w-100">
+                                <div class="chart-text fs-18 lh-28 text-dark-gray d-inline-block ms-20px w-70 xxl-w-100">
                                     Commitment to Service</div>
                             </div>
                         </div>
@@ -647,14 +647,15 @@
                         <div class="col">
                             <div class="chart-percent d-flex align-items-center">
                                 <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
-                                    data-track-color="#152833" data-start-color="#b98e44" data-end-color="#b98e44">
+                                    data-track-color="#eeeeee" data-start-color="#FF9933" data-end-color="#E68A00">
                                     <span
-                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-blue-ironstone-brown w-80px h-80px rounded-circle"></span>
+                                        class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-saffron w-80px h-80px rounded-circle"></span>
                                 </span>
-                                <div class="chart-text fs-18 lh-28 text-white d-inline-block ms-20px w-70 xxl-w-100">
+                                <div class="chart-text fs-18 lh-28 text-dark-gray d-inline-block ms-20px w-70 xxl-w-100">
                                     Public Accessibility</div>
                             </div>
                         </div>
+
                         <!-- end pie chart item -->
                     </div>
                 </div>
@@ -804,7 +805,7 @@
     <!-- start section -->
     <section id="contact-office" class="p-0 h-550px sm-h-auto position-relative">
         <iframe class="w-100 h-100 position-absolute left-0px top-0px dark-hover"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8814839218!2d77.49870966530182!3d12.953997415178653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6416801905!2d77.5763803!3d12.9841986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1616a5b28f6d%3A0xbfa21ee6eecd669f!2sIndian%20Red%20Cross%20Society%2C%20Karnataka%20State%20Branch!5e0!3m2!1sen!2sin!4v1711000000000!5m2!1sen!2sin"
             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="container h-100 position-relative sm-pt-30px sm-pb-30px pointer-events-none"
             data-anime='{"translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -827,7 +828,7 @@
                             </div>
                         </div>
                         <div class="text-center pt-15px pb-15px border-top border-color-extra-medium-gray">
-                            <a href="https://www.google.com/maps/search/Indian+Red+Cross+Society,+Karnataka+State+Branch/@12.9716,77.5946,15z"
+                            <a href="https://www.google.com/maps/place/Indian+Red+Cross+Society,+Karnataka+State+Branch/@12.9842038,77.5763803,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1616a5b28f6d:0xbfa21ee6eecd669f!8m2!3d12.9841986!4d77.5789552!16s%2Fg%2F1v4k4z6d"
                                 target="_blank"
                                 class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray text-uppercase btn-icon-left fw-700 p-0">
                                 <span>

@@ -31,43 +31,35 @@
         
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-tree fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Clean & Green</h5>
-                    <p>Participate in "Swachh Chamarajpet" drives to eliminate garbage black spots and desilt local drains for a healthier living environment.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-tree value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Clean & Green</h5>
+                    <p class="mb-0">Participate in "Swachh Chamarajpet" drives to eliminate garbage black spots and desilt local drains for a healthier living environment.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-shaded fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Safety First</h5>
-                    <p>A movement to reclaim our streets. We work together with local authorities to ensure better lighting, safe parks, and a "Drug-Free" neighborhood.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-shaded value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Safety First</h5>
+                    <p class="mb-0">A movement to reclaim our streets. We work together with local authorities to ensure better lighting, safe parks, and a "Drug-Free" neighborhood.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-cash-stack fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Economic Empowerment</h5>
-                    <p>Join our efforts to strengthen local self-help groups (SHGs) and promote micro-enterprises that keep Chamarajpet’s commercial heart beating.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-cash-stack value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Economic Empowerment</h5>
+                    <p class="mb-0">Join our efforts to strengthen local self-help groups (SHGs) and promote micro-enterprises that keep Chamarajpet’s commercial heart beating.</p>
                 </div>
             </div>
             <!-- Feature 4 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-laptop fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Youth for Progress</h5>
-                    <p>A platform for the youth to volunteer their skills—be it in education, digital literacy, or community organizing—to build a modern constituency.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-laptop value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Youth for Progress</h5>
+                    <p class="mb-0">A platform for the youth to volunteer their skills—be it in education, digital literacy, or community organizing—to build a modern constituency.</p>
                 </div>
             </div>
         </div>

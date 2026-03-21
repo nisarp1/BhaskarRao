@@ -31,33 +31,27 @@
         
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Core Objectives</h5>
-                    <p>Detailed exploration of the primary goals and objectives associated with Trust Contact. We aim for excellence in every endeavor.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-shield-check value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Core Objectives</h5>
+                    <p class="mb-0">Detailed exploration of the primary goals and objectives associated with Trust Contact. We aim for excellence in every endeavor.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Community Engagement</h5>
-                    <p>Focusing on how Trust Contact interacts with and empowers the local communities and stakeholders.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-people value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Community Engagement</h5>
+                    <p class="mb-0">Focusing on how Trust Contact interacts with and empowers the local communities and stakeholders.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Sustainable Impact</h5>
-                    <p>Ensuring that the outcomes of our work in Trust Contact are long-lasting and continue to benefit society for years to come.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-graph-up-arrow value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Sustainable Impact</h5>
+                    <p class="mb-0">Ensuring that the outcomes of our work in Trust Contact are long-lasting and continue to benefit society for years to come.</p>
                 </div>
             </div>
         </div>

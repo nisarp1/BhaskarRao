@@ -29,35 +29,29 @@
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-book-half fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Education Support</h5>
-                    <p>Providing financial aid and educational resources to students from low-income families to help them achieve their dreams.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-book-half value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Education Support</h5>
+                    <p class="mb-0">Providing financial aid and educational resources to students from low-income families to help them achieve their dreams.</p>
                 </div>
             </div>
             <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-hospital fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Healthcare Access</h5>
-                    <p>Organizing free medical check-ups and providing essential healthcare supplies to underserved rural communities.</p>
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-hospital value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Healthcare Access</h5>
+                    <p class="mb-0">Organizing free medical check-ups and providing essential healthcare supplies to underserved rural communities.</p>
                 </div>
             </div>
             <!-- Feature 3 -->
-            <div class="col">
-                <div class="bg-white p-5 border-radius-8px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-house-heart-fill fs-40 text-gradient-san-blue-new-york-red"></i>
-                    </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Rural Welfare</h5>
-                    <p>Investing in infrastructure and sustainability projects to improve the quality of life in Karnataka's villages.</p>
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-house-heart-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Rural Welfare</h5>
+                    <p class="mb-0">Investing in infrastructure and sustainability projects to improve the quality of life in Karnataka's villages.</p>
                 </div>
             </div>
         </div>
@@ -94,22 +88,22 @@
         <div class="row row-cols-1 row-cols-md-4 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
             <!-- Stat 1 -->
             <div class="col text-center sm-mb-30px">
-                <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">150+</h2>
+                <h2 class="alt-font text-gradient-san-blue-new-york-red d-inline-block fw-800 ls-minus-2px mb-0">150+</h2>
                 <span class="fs-14 text-uppercase fw-700 text-gradient-saffron ls-1px">Programs Run</span>
             </div>
             <!-- Stat 2 -->
             <div class="col text-center sm-mb-30px">
-                <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">50K+</h2>
+                <h2 class="alt-font text-gradient-san-blue-new-york-red d-inline-block fw-800 ls-minus-2px mb-0">50K+</h2>
                 <span class="fs-14 text-uppercase fw-700 text-gradient-saffron ls-1px">Lives Impacted</span>
             </div>
             <!-- Stat 3 -->
             <div class="col text-center sm-mb-30px">
-                <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">20+</h2>
+                <h2 class="alt-font text-gradient-san-blue-new-york-red d-inline-block fw-800 ls-minus-2px mb-0">20+</h2>
                 <span class="fs-14 text-uppercase fw-700 text-gradient-saffron ls-1px">Partnerships</span>
             </div>
             <!-- Stat 4 -->
             <div class="col text-center">
-                <h2 class="alt-font text-dark-gray fw-800 ls-minus-2px mb-0">5.0</h2>
+                <h2 class="alt-font text-gradient-san-blue-new-york-red d-inline-block fw-800 ls-minus-2px mb-0">5.0</h2>
                 <span class="fs-14 text-uppercase fw-700 text-gradient-san-blue-new-york-red ls-1px">Impact Rating</span>
             </div>
         </div>
