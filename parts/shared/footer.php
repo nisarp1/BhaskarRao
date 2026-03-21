@@ -57,7 +57,7 @@
                 <div class="col-lg-3 col-sm-6 text-center text-lg-start last-paragraph-no-margin xs-mb-30px">
                     <span class="alt-font d-inline-block text-white mb-20px fs-18 fw-600">Initiatives</span>
                     <ul class="p-0 m-0 list-style-01 text-white opacity-7">
-                        <li class="mb-5px"><a href="trust-home.php" class="text-white hover-text-base-color">Charitable Trust</a></li>
+                        <li class="mb-5px"><a href="trust-about.php" class="text-white hover-text-base-color">Charitable Trust</a></li>
                         <li class="mb-5px"><a href="campaigns-cycling.php" class="text-white hover-text-base-color">Cycling Campaigns</a></li>
                         <li class="mb-5px"><a href="constituency.php" class="text-white hover-text-base-color">Constituency</a></li>
                         <li class="mb-5px"><a href="volunteer-development.php" class="text-white hover-text-base-color">Volunteer</a></li>

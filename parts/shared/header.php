@@ -69,23 +69,13 @@
                             </li>
                             <!-- Charitable Trust Dropdown -->
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="trust-home.php" class="nav-link">Trust</a>
+                                <a href="trust-about.php" class="nav-link">Trust</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                    <li><a href="trust-home.php">Trust Overview</a></li>
-                                    <li><a href="trust-about-founder.php">The Founder</a></li>
-                                    <li><a href="trust-about-story.php">Our Story</a></li>
-                                    <li><a href="trust-about-management.php">Executive Management</a></li>
-                                    <li><a href="trust-programs.php">Core Programs</a></li>
-                                    <li><a href="trust-impact.php">Impact & Reach</a></li>
-                                    <li><a href="trust-gallery.php">Media Gallery</a></li>
-                                    <li><a href="trust-media.php">Media Coverage</a></li>
-                                    <li><a href="trust-news.php">Trust News</a></li>
-                                    <li><a href="trust-social.php">Social Engagement</a></li>
-                                    <li><a href="trust-volunteers.php">Join as Volunteer</a></li>
-                                    <li><a href="trust-partners.php">Strategic Partners</a></li>
-                                    <li><a href="trust-career.php">Careers</a></li>
-                                    <li><a href="trust-contact.php">Trust Contact</a></li>
+                                    <li><a href="trust-about.php">About the Trust</a></li>
+                                    <li><a href="trust-work.php">Our Work & Impact</a></li>
+                                    <li><a href="trust-media.php">Media Center</a></li>
+                                    <li><a href="trust-get-involved.php">Get Involved</a></li>
                                 </ul>
                             </li>
                             <!-- People's Voice Dropdown -->
