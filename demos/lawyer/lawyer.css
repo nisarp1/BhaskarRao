@@ -133,12 +133,8 @@ header.sticky .left-nav .navbar-nav:before {
 }
 
 /* bg color */
-.bg-blue-whale {
-    background-color: #212121;
-}
-
 .bg-blue-licorice {
-    background-color: #388E3C;
+    background-color: #1A202C;
 }
 
 /* bg gradient transparent */
@@ -149,7 +145,7 @@ header.sticky .left-nav .navbar-nav:before {
 
 /* Additional Gradients from Annasaheb Theme */
 .text-gradient-san-blue-new-york-red {
-    background-image: linear-gradient(to right, #212121, #388E3C, #FF9933, #FF9933);
+    background-image: linear-gradient(to right, #212121, #1A202C, #FF9933, #FF9933);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -163,11 +159,11 @@ header.sticky .left-nav .navbar-nav:before {
 }
 
 .bg-gradient-blue-ironstone-brown {
-    background-image: linear-gradient(to right, #212121, #1B5E20, #FF9933);
+    background-image: linear-gradient(to right, #212121, #1A202C, #FF9933);
 }
 
 .bg-gradient-solitude-blue-fair-pink {
-    background-image: linear-gradient(to bottom, #FFF3E0, #F1F8E9, #FAFAFA);
+    background-image: linear-gradient(to bottom, #FFF3E0, #F5F5F5, #FAFAFA);
 }
 
 /* btn */
@@ -384,7 +380,7 @@ footer .footer-logo img {
 /* Shared Gradient Overlay */
 .bg-hero-gradient-overlay,
 .bg-mild-footer-gradient {
-    background-image: linear-gradient(135deg, rgba(33, 33, 33, 0.9), rgba(27, 94, 32, 0.75), rgba(255, 153, 51, 0.7));
+    background-image: linear-gradient(135deg, rgba(26, 32, 44, 0.9), rgba(26, 32, 44, 0.75), rgba(255, 153, 51, 0.7));
     background-size: 200% 200%;
     animation: hero-gradient-animation 10s ease infinite;
     position: absolute;

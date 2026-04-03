@@ -1,13 +1,13 @@
 /* Inner Pages Header Styles - Re-styled with Brand Colors */
-.border-bottom-tricolor {
+.border-bottom-bicolor {
     border-bottom: 3px solid;
-    /* Brand Tricolor: Saffron (#FF9933), White (#FFFFFF), Green (#388E3C) */
-    border-image: linear-gradient(to right, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #388E3C 66%) 1;
+    /* Brand Bicolor: Saffron (#FF9933), Navy (#1A202C) */
+    border-image: linear-gradient(to right, #FF9933 50%, #1A202C 50%) 1;
 }
 
-.border-bottom-tricolor-thick {
+.border-bottom-bicolor-thick {
     border-bottom: 5px solid;
-    border-image: linear-gradient(to right, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #388E3C 66%) 1;
+    border-image: linear-gradient(to right, #FF9933 50%, #1A202C 50%) 1;
 }
 
 .hero-horizontal-gradient {
@@ -48,8 +48,8 @@
     display: inline-block;
 }
 
-.text-gradient-green {
-    background-image: linear-gradient(to right, #388E3C, #2E7D32);
+.text-gradient-navy {
+    background-image: linear-gradient(to right, #1A202C, #2D3748);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -61,13 +61,13 @@
     background: linear-gradient(to right, #FF9933, #FFB366);
 }
 
-.bg-gradient-green {
-    background: linear-gradient(135deg, #388E3C 0%, #2E7D32 100%) !important;
+.bg-gradient-navy {
+    background: linear-gradient(135deg, #1A202C 0%, #2D3748 100%) !important;
 }
 
 
 .bg-brand-gradient {
-    background: linear-gradient(to right, #388E3C 0%, #FF9933 100%) !important;
+    background: linear-gradient(to right, #1A202C 0%, #FF9933 100%) !important;
 }
 
 .bg-gradient-brand-light {
@@ -76,15 +76,15 @@
 
 /* Quote Section Special Gradient */
 .bg-quote-brand {
-    background: linear-gradient(to right, #1f3c24 0%, #7b5c2a 100%) !important;
+    background: linear-gradient(to right, #1A202C 0%, #FF9933 100%) !important;
 }
 
 .border-color-brand-saffron {
     border-color: #FF9933 !important;
 }
 
-.border-color-brand-green {
-    border-color: #388E3C !important;
+.border-color-brand-navy {
+    border-color: #1A202C !important;
 }
 
 @media (max-width: 991px) {
@@ -143,14 +143,14 @@
 }
 
 .journey-dot {
-    background: linear-gradient(135deg, #FF9933 0%, #388E3C 100%) !important;
+    background: linear-gradient(135deg, #FF9933 0%, #1A202C 100%) !important;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 0 auto 30px;
     position: relative;
     border: 3px solid #FFFFFF;
-    box-shadow: 0px 5px 15px rgba(56, 142, 60, 0.3);
+    box-shadow: 0px 5px 15px rgba(26, 32, 44, 0.3);
     transition: all 0.3s ease;
     z-index: 2;
 }
@@ -160,6 +160,10 @@
     box-shadow: 0px 8px 25px rgba(255, 153, 51, 0.4);
 }
 
+.journey-timeline-row {
+    position: relative;
+}
+
 .journey-timeline-row::before {
     content: '';
     position: absolute;
@@ -167,7 +171,7 @@
     left: 10%;
     right: 10%;
     height: 3px;
-    background: linear-gradient(to right, #FF9933, #FFFFFF, #388E3C);
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #1A202C);
     z-index: 0;
     opacity: 0.6;
 }
@@ -188,7 +192,7 @@
 }
 
 .journey-column:hover .journey-subtitle {
-    color: #388E3C;
+    color: #1A202C;
 }
 
 /* Premium Value Cards */
@@ -213,18 +217,24 @@
     font-size: 45px;
     margin-bottom: 25px;
     display: inline-block;
-    background: linear-gradient(135deg, #388E3C 0%, #FF9933 100%);
-    -webkit-background-clip: text;
+    background: var(--saffron-gradient) !important;
+    background-size: 100% 100% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #e25822 !important; /* robust fallback */
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.4s ease;
 }
 
 .text-gradient-san-blue-new-york-red {
-    background-image: linear-gradient(to right, #388E3C, #FF9933) !important;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-image: var(--saffron-gradient) !important;
+    background-size: 100% 100%;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #e25822 !important; /* Saffron Solid Fallback */
 }
 
 .premium-value-card:hover .value-icon {
@@ -253,7 +263,7 @@
     left: 0;
     width: 0%;
     height: 4px;
-    background: linear-gradient(to right, #388E3C, #FF9933);
+    background: linear-gradient(to right, #1A202C, #FF9933);
     transition: width 0.4s ease;
 }
 
@@ -274,7 +284,7 @@
     top: 10px;
     bottom: 10px;
     width: 2px;
-    background: linear-gradient(to bottom, #388E3C, #FF9933);
+    background: linear-gradient(to bottom, #1A202C, #FF9933);
     opacity: 0.3;
 }
 
@@ -285,7 +295,7 @@
     background: #fdfcfb;
     border-radius: 12px;
     transition: all 0.3s ease;
-    border-left: 5px solid #388E3C;
+    border-left: 5px solid #1A202C;
 }
 
 .v-timeline-item:hover {
@@ -301,7 +311,7 @@
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background-color: #388E3C;
+    background-color: #1A202C;
     border: 4px solid #FFF;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -342,9 +352,9 @@
 /* Liquid Glass Dropdown Styles */
 .navbar .navbar-nav .simple-dropdown .dropdown-menu {
     display: block !important;
-    background: rgba(40, 50, 45, 0.4) !important; /* Slightly darker glass tint */
-    backdrop-filter: blur(25px) saturate(180%) !important;
-    -webkit-backdrop-filter: blur(25px) saturate(180%) !important;
+    background: rgba(26, 32, 44, 0.85) !important; /* Premium Ink Navy glass tint */
+    backdrop-filter: blur(12px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(12px) saturate(180%) !important;
     border: 1px solid rgba(255, 255, 255, 0.12) !important;
     border-radius: 15px !important;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5), 
@@ -450,7 +460,7 @@
     position: relative;
     background-color: #fdfdfd !important;
     background-image: 
-        radial-gradient(circle at 0px 0px, rgba(56, 142, 60, 0.03) 0%, transparent 40%),
+        radial-gradient(circle at 0px 0px, rgba(26, 32, 44, 0.03) 0%, transparent 40%),
         radial-gradient(circle at 100% 100%, rgba(255, 153, 51, 0.05) 0%, transparent 40%) !important;
     overflow: hidden;
 }
@@ -462,6 +472,99 @@
     left: 0;
     width: 6px;
     height: 100%;
-    background: linear-gradient(to bottom, #388E3C, #FF9933);
+    background: linear-gradient(to bottom, #1A202C, #FF9933);
     opacity: 0.8;
+}
+
+/* Secondary Sub-menu Styles */
+.secondary-menu-container {
+    padding-bottom: 5px;
+}
+
+.secondary-menu-item {
+    color: #212121;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-right: 40px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-decoration: none !important;
+    position: relative;
+    display: inline-block;
+}
+
+.secondary-menu-item:last-child {
+    margin-right: 0;
+}
+
+.secondary-menu-item:hover {
+    color: var(--ink-navy) !important;
+    border-bottom-color: rgba(26, 32, 44, 0.3);
+}
+
+.secondary-menu-item.active {
+    background-image: var(--saffron-gradient) !important;
+    background-size: 100% 100% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #e25822 !important; /* robust fallback */
+    border-bottom-color: #FF9933 !important; 
+}
+
+@media (max-width: 991px) {
+    .secondary-menu-item {
+        margin-right: 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 767px) {
+    .secondary-menu-item {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+    .secondary-menu-container {
+        justify-content: center !important;
+    }
+}
+
+/* Forum & Poll Component Utilities */
+.bg-brand-green-transparent {
+    background-color: rgba(26, 32, 44, 0.15) !important;
+}
+.text-brand-navy {
+    color: #1A202C !important;
+}
+.bg-brand-orange-transparent {
+    background-color: rgba(255, 153, 51, 0.15) !important;
+}
+.text-brand-orange {
+    color: #FF9933 !important;
+}
+.bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.text-brand-blue {
+    color: #1A202C !important; /* Re-using brand navy for consistency */
+}
+.border-color-brand-navy {
+    border-color: #1A202C !important;
+}
+.border-color-brand-orange {
+    border-color: #FF9933 !important;
+}
+.border-color-blue-licorice {
+    border-color: #212121 !important;
+}
+
+/* Fix for transparent buttons losing text on hover over light backgrounds */
+.btn.btn-transparent-white-light.text-saffron:hover {
+    color: var(--dark-gray) !important;
 }

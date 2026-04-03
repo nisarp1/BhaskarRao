@@ -34,26 +34,27 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 :root {
-  --alt-font: "Plus Jakarta Sans", sans-serif;
-  --primary-font: "Inter", sans-serif;
+  --alt-font: "Alegreya", serif;
+  --primary-font: "IBM Plex Sans", sans-serif;
+  --heading-font: "Alegreya", serif;
 }
 /* ===================================
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #2946f3;
-  --white: #ffffff;
+  --base-color: #FF9933;
+  --base-color-rgb: 255, 153, 51;
   --black: #000000;
   --red: #dc3131;
   --light-red: #feedec;
-  --green: #2ebb79;
-  --crusoe-green: #d39121;
+  --green: #212121; /* Anti-Green: Soft Black */
+  --crusoe-green: #4A5568; /* Anti-Green: Slate Grey */
   --yellow: #ffea23;
-  --dark-gray: #232323;
-  --medium-gray: #717580;
+  --dark-gray: #212121; /* Soft Black */
+  --medium-gray: #4A5568; /* Slate Grey */
   --extra-medium-gray: #e4e4e4;
   --light-gray: #a8a8a8;
   --very-light-gray: #f7f7f7;
@@ -65,22 +66,38 @@ Table of contents
   --dark-slate-blue: #1f232c;
   --extra-dark-slate-blue: #121418;
   --extra-very-slate-blue: #161620;
-  --tussock-yellow: #BC8947;
+  --tussock-yellow: #FF9933;
   --aluminium-gray:#80858F;
-  --solitude-blue:#f0f4fd;
+  --solitude-blue:#fdfcfb;
   --golden-yellow:#fd961e;
   --selago:#eaedff;
   --white-ice:#d8f5ef;
-  --cornflower-blue:#445fed;
-  --jade:#00AF6B;
-  --orange: #ef991f;
-  --majorelle-blue: #724ade;
+  --cornflower-blue:#1A202C;
+  --jade:#FF9933;
+  --orange: #FF9933;
+  --majorelle-blue: #1A202C;
   --light-majorelle-blue: #f2edfe;
   --spring-wood: #f9f6f3;
   --tropical-blue: #1ea3b1;
-  --camarone: #20642b;
+  --camarone: #1A202C;
   --seal-brown: #0e0708;
-  --Wasabi: #8ea63a;
+  --Wasabi: #4A5568;
+  
+  /* Brand Specifics */
+  --saffron: #FF9933;
+  --ink-navy: #212121;
+  --slate-grey: #4A5568;
+  --mild-gradient: linear-gradient(135deg, #FDFCFB 0%, #E2D1C3 100%);
+  --soft-gradient: linear-gradient(to bottom, #FFFFFF, #FFF5E6);
+  --glass-surface: rgba(255, 255, 255, 0.7);
+  --glass-blur: blur(10px);
+  --card-radius: 24px;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.5);
+  --saffron-border: 1px solid #FF9933;
+  --saffron-glow: 0 0 20px rgba(255, 153, 51, 0.4);
+  --antigravity-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  --antigravity-hover: 0 40px 100px -20px rgba(255, 153, 51, 0.15), 0 30px 60px -30px rgba(0, 0, 0, 0.2);
+  --deep-charcoal: #212121;
 }
 /* ===================================
     03. Reset
@@ -99,10 +116,11 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: var(--medium-gray);
+  color: var(--deep-charcoal);
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
+  background-color: #FDFCFB; /* Statesman Pearl Foundation */
 }
 section {
   padding-top: 110px;
@@ -164,9 +182,15 @@ video {
 .g-recaptcha.is-invalid iframe {
   border: 1px solid #dc3545 !important;
 }
+.container, .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1300px !important;
+}
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 1300px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
   margin-right: -15px;
@@ -718,7 +742,7 @@ b, strong {
 .text-outline {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--white);
+  -webkit-text-stroke-color: #e25822;
 }
 /* Text stroke width */
 .text-outline-width-1px {
@@ -10242,8 +10266,10 @@ blockquote footer {
 }
 .btn.btn-hover-animation-switch:hover .btn-icon {
   transition-delay: 0s;
-  transform: translateX(10px);
-  opacity: 0;
+.ward-trigger:hover {
+    transform: translateX(10px);
+    color: #1A202C !important;
+}opacity: 0;
 }
 .btn.btn-hover-animation-switch:hover .btn-icon + .btn-icon {
   opacity: 1;
@@ -19602,4 +19628,666 @@ footer .footer-navbar .nav-item:last-child a {
 }
 .footer-demo img {
   max-height: 55px !important;
+}
+/* ===================================
+    18. Brand Redesign: Modern Executive Minimalism
+====================================== */
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6, .alt-font {
+  font-family: var(--heading-font) !important;
+  letter-spacing: -0.02em;
+}
+
+.executive-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.executive-logo img {
+  height: 45px;
+  width: auto;
+}
+.logo-text-block {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.name-first {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink-navy);
+}
+.name-last {
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--saffron);
+}
+.name-title {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--deep-charcoal);
+}
+
+.text-uppercase, .ls-1px, .ls-2px {
+  letter-spacing: 0.1em !important;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  color: var(--slate-grey);
+}
+
+/* Backgrounds & Sections */
+section {
+  padding-top: calc(140px + 5vh) !important;
+  padding-bottom: calc(140px + 5vh) !important;
+  background: var(--soft-gradient);
+  position: relative;
+}
+
+.bg-gradient-solitude-blue-fair-pink, 
+.bg-premium-light,
+#about {
+  background: var(--mild-gradient) !important;
+}
+
+/* Glassmorphism & Cards */
+.box-shadow-quadruple-large, 
+.card, 
+.interactive-banner-style-08 figure,
+.accordion-item {
+  background: var(--glass-surface) !important;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--card-radius) !important;
+  border: var(--glass-border) !important;
+  box-shadow: var(--antigravity-shadow) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.box-shadow-quadruple-large:hover,
+.card:hover,
+.interactive-banner-style-08:hover figure {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1) !important;
+  border-color: var(--saffron) !important;
+}
+
+/* Antigravity Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0px); }
+}
+
+.interactive-banner-style-08, 
+.feature-box,
+.milestone-box,
+.antigravity-card {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Hover: Scale & Stop Animation */
+.interactive-banner-style-08:hover, 
+.feature-box:hover {
+  animation-play-state: paused;
+  transform: translateY(-10px) scale(1.02) !important;
+}
+
+/* Buttons: Saffron Glow */
+.btn-rounded, .btn {
+  border-radius: 100px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.btn-gradient-blue-ironstone-brown, 
+.bg-gradient-blue-ironstone-brown,
+.btn-dark-gray {
+  background: linear-gradient(to right, #FF9933, #FFB366) !important;
+  border: none !important;
+  color: var(--white) !important;
+}
+
+.btn:hover {
+  background: var(--saffron) !important;
+  box-shadow: var(--saffron-glow) !important;
+  transform: translateY(-2px);
+}
+
+/* Antigravity Float: Premium Shadows */
+.box-shadow-quadruple-large, 
+.card, 
+.interactive-banner-style-08 figure,
+.portfolio-box,
+.feature-box-15 {
+  box-shadow: 0 40px 100px -20px rgba(255, 153, 51, 0.08), 0 30px 60px -30px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+
+.box-shadow-quadruple-large:hover, 
+.card:hover {
+  transform: translateY(-12px) !important;
+  box-shadow: 0 60px 120px -20px rgba(255, 153, 51, 0.12), 0 40px 80px -30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Lotus Watermark (Ghost Motif) - Statesman Refinement */
+#about::before, 
+#approach::before,
+.bg-blue-whale::before,
+footer::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  background: url('../images/new/bjp-logo-saffron.svg') no-repeat center;
+  background-size: contain;
+  opacity: 0.015 !important; /* Extremely subtle Ghost Motif */
+  transform: translate(-50%, -50%) rotate(-15deg) !important;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Custom Bullets */
+.list-style-02 li {
+  position: relative;
+  padding-left: 40px !important;
+  margin-bottom: 15px !important;
+}
+
+.list-style-02 li i {
+  display: none !important;
+}
+
+.list-style-02 li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url('../images/new/lotus-petal.svg') no-repeat center;
+  background-size: contain;
+}
+
+/* Premium Header Blur */
+.premium-header-blur {
+  position: fixed !important; /* Force sticky/fixed behavior */
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(12px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(180%) !important;
+  border-bottom: 1px solid #F3F4F6 !important;
+  transition: all 0.4s ease !important;
+}
+
+/* Premium Contrast & Legibility */
+.text-saffron-contrast {
+  color: #D35400 !important; /* Darker saffron for white backgrounds */
+}
+
+.premium-text-shadow {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4) !important;
+}
+
+/* Image Treatment: Premium Executive */
+.featured-image, 
+section img,
+.border-radius-6px,
+.border-radius-8px,
+img[class*="border-radius-"] {
+  border-radius: 32px !important;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.15) !important;
+}
+
+/* Removal of Visual Noise */
+.border-color-transparent-white-light {
+  border-color: rgba(255,255,255,0.05) !important;
+}
+
+hr {
+  opacity: 0.05 !important;
+}
+
+/* Remove All Greens */
+.bg-green, .bg-gradient-green, [style*="color: #2ebb79"], [style*="color: #388E3C"] {
+  background: var(--ink-navy) !important;
+  color: var(--white) !important;
+}
+
+.text-green, .text-gradient-green {
+  color: var(--saffron) !important;
+  background: none !important;
+  -webkit-text-fill-color: var(--saffron) !important;
+}
+
+/* Accordion Milestone Level-Up */
+.accordion-item.active,
+.accordion-item:has(.show) {
+  border-left: 3px solid var(--saffron) !important;
+  background: rgba(255, 153, 51, 0.02) !important;
+}
+
+/* Global Mobile Overflow Fix */
+html, body {
+  overflow-x: hidden !important;
+  position: relative !important;
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Fix for overlapping elements causing overflow */
+.row, .container, .container-fluid {
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Luminous Pearl Hero Foundation */
+.bg-hero-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF9F2 50%, #FFF0E0 100%) !important;
+  z-index: 1;
+}
+
+/* Statesman Typography Hierarchy */
+body, p, .text-medium-gray {
+  color: #718096 !important; /* Professional Slate Grey for body text */
+}
+
+/* Inner Page Hero Adaptations: Aligning with Statesman Palette */
+.inner-hero-header .inner-hero-label {
+    background-image: var(--saffron-gradient) !important;
+    background-size: 100% 100% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #e25822 !important;
+    border-bottom: none !important;
+}
+
+.inner-hero-header h1.text-white {
+    color: var(--ink-navy) !important;
+}
+
+.inner-hero-header p.text-white {
+    color: #718096 !important;
+    opacity: 1 !important;
+}
+h1, h2, h3, h4, h5, h6, .alt-font {
+  color: var(--ink-navy);
+}
+
+.font-style-italic {
+  font-weight: 700 !important; /* Deep gravitas for serif keywords */
+}
+
+/* Button Contrast Fix: White Text on Saffron */
+.btn {
+  color: #fafafa !important;
+}
+
+/* Navigation Hover Trail */
+.navbar-nav .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--saffron);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover:after,
+.navbar-nav .nav-link.active:after {
+  width: 20px;
+}
+
+/* Cinematic Ken Burns Effect */
+@keyframes kenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.08) translate(-2%, -1%); }
+}
+
+.hero-foreground-img {
+  animation: kenBurns 20s ease-in-out infinite alternate;
+  z-index: 2;
+  position: relative;
+}
+
+/* Branded Iconography: Star to Petal Transformation */
+.review-star-icon {
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+  color: var(--saffron) !important;
+}
+
+.review-star-icon i:before {
+  content: "" !important;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('../images/new/lotus-petal.svg') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+/* Initiative Card Readability (Glassmorphism) */
+.interactive-banner-style-08 figcaption {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.interactive-banner-style-08 figcaption:hover {
+  backdrop-filter: blur(25px);
+}
+
+/* Global Branding Utilities: Statesman Palette */
+.bg-ink-navy-footer {
+  background: #10141D !important; /* Deep Ink Navy Grounding */
+}
+
+.bg-ink-navy {
+  background-color: var(--ink-navy) !important;
+}
+
+.text-ink-navy {
+  color: var(--ink-navy) !important;
+}
+
+.text-saffron {
+  color: var(--saffron) !important;
+}
+
+/* Antigravity Aesthetic: Utilities */
+.glass-nav {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background: transparent !important;
+  border: none !important;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  position: relative;
+}
+
+/* Whitish Liquid Glass transition when sticky */
+header.sticky-active .glass-nav {
+  background: rgba(255, 255, 255, 0.85) !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+header.sticky-active .glass-nav::before,
+header.sticky-active .glass-nav::after {
+    height: 2px; /* Slimmer gradient borders when sticky for elegance */
+    opacity: 0.8;
+}
+
+.glass-nav::before,
+.glass-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #FF9933 0%, #D35400 50%, #FF9933 100%);
+  z-index: 5;
+}
+
+.glass-nav::before {
+  top: 0;
+}
+
+.glass-nav::after {
+  bottom: 0;
+}
+
+.glass-card {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: var(--antigravity-shadow);
+  transition: all 0.5s ease;
+}
+
+.glass-card:hover {
+  box-shadow: var(--antigravity-hover);
+  transform: translateY(-10px);
+}
+
+@keyframes levitate {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+.levitate {
+  animation: levitate 6s ease-in-out infinite;
+}
+
+.text-deep-charcoal {
+  color: var(--deep-charcoal) !important;
+}
+
+.mesh-gradient-peach-blue {
+  background: radial-gradient(at 0% 0%, rgba(255, 153, 51, 0.1) 0%, transparent 50%),
+              radial-gradient(at 100% 100%, rgba(30, 163, 177, 0.1) 0%, transparent 50%),
+              #FDFCFB;
+}
+
+/* Minimalist Accordion: Antigravity Standard */
+.accordion-antigravity .accordion-item {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+  margin-bottom: 0 !important;
+}
+
+.accordion-antigravity .accordion-header {
+  padding: 20px 10px !important;
+}
+
+.accordion-antigravity .accordion-title {
+  font-family: var(--alt-font);
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: var(--deep-charcoal) !important;
+}
+
+.accordion-antigravity .accordion-body {
+  padding: 10px !important;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.5s ease;
+}
+
+.accordion-antigravity .accordion-item.active-accordion .accordion-body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Executive Logo Lockup: Antigravity Global Standard */
+.executive-logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+  text-decoration: none !important;
+}
+
+.executive-logo img {
+  height: 60px !important;
+  width: auto !important;
+}
+
+.executive-logo .logo-text-block {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1 !important;
+}
+
+.executive-logo .name-first {
+  color: var(--saffron) !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 0px !important;
+}
+
+.executive-logo .name-last {
+  color: var(--deep-charcoal) !important;
+  font-size: 26px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.5px !important;
+  white-space: nowrap !important;
+}
+
+.executive-logo .name-title {
+  color: var(--deep-charcoal) !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin-left: 8px !important;
+  opacity: 0.7 !important;
+  display: inline-block !important;
+}
+
+/* Specific adjustments for dark header/footer states */
+header.sticky-active .executive-logo .name-last,
+header.header-sticky .executive-logo .name-last,
+header.sticky-active .executive-logo .name-title,
+header.header-sticky .executive-logo .name-title,
+footer .executive-logo .name-last,
+footer .executive-logo .name-title {
+  color: var(--deep-charcoal) !important;
+}
+
+footer .executive-logo .name-last,
+footer .executive-logo .name-title {
+    color: #ffffff !important;
+}
+
+footer .executive-logo .name-title {
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+/* Light header fallback (Default state) */
+.header-transparent .executive-logo .name-last,
+.header-transparent .executive-logo .name-title {
+    color: var(--deep-charcoal) !important;
+}
+
+/* If header is on a dark base (Default Logo) */
+.default-logo .executive-logo .name-last,
+.default-logo .executive-logo .name-title {
+    color: #ffffff !important;
+}
+
+/* Navigation Alignment Fix: Antigravity Logic */
+.navbar-nav .nav-item {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.navbar-nav .dropdown-toggle {
+  margin-top: 0 !important;
+  opacity: 0.6 !important;
+  font-size: 9px !important;
+  margin-left: -5px !important;
+}
+
+/* Saffron Solid Caption: Clean & Contrasting */
+.saffron-caption {
+  color: var(--saffron) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+  background: transparent !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: var(--saffron) !important;
+}
+
+/* Hero Heading: Solid Black Contrast */
+.saffron-gradient-text {
+  background: linear-gradient(to right, #FF9933, #FFB366) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.glass-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  overflow: hidden;
+}
+
+.glass-card:hover {
+  border: 2px solid #FF9933 !important;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(255, 153, 51, 0.15);
+}
+
+.hero-heading {
+  color: var(--deep-charcoal) !important;
+  text-shadow: none !important;
+}
+
+/* Neutralize Swiper Side Blur */
+.swiper-slide {
+  filter: blur(0) !important;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none !important;
+}
+
+/* Saffron Gradient Utilities - Global Brand Standard */
+:root {
+    --saffron-gradient: linear-gradient(135deg, #e25822 0%, #ff9933 100%);
+}
+
+.bg-gradient-saffron {
+    background: var(--saffron-gradient) !important;
+}
+
+.text-gradient-saffron {
+    background-image: var(--saffron-gradient) !important;
+    background-size: 100% 100%;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #e25822 !important;
+}
+
+.border-gradient-saffron {
+    border-image: var(--saffron-gradient) 1 !important;
 }

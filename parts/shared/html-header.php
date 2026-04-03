@@ -10,13 +10,20 @@
     <meta name="description"
         content="Bhaskar Rao, IPS (Retd.) - Former Commissioner of Police, Bengaluru City. Dedicated to Law & Order, Crisis Management, and Urban Safety.">
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="images/new/logo-icon.png">
+    <link rel="apple-touch-icon" href="images/new/logo-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/new/logo-icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/new/logo-icon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/new/logo-icon.png">
+
+    <!-- Open Graph (OG) sharing images -->
+    <meta property="og:image" content="images/new/og/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <!-- google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <!-- style sheets and font icons  -->
     <link rel="stylesheet" href="css/vendors.min.css" />
     <link rel="stylesheet" href="css/icon.min.css" />

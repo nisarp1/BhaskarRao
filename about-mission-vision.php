@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/2.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
-                <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Mission & Vision Statement</h1>
-                <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">A legacy of discipline, innovation, and empathy in public service and governance.</p>
+                <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px text-ink-navy">Bhaskar Rao IPS (Retd.)</span>
+                <h1 class="text-ink-navy alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Mission & Vision Statement</h1>
+                <p class="fs-20 text-medium-gray mb-0 w-80 lg-w-100 fw-300">A legacy of discipline, innovation, and empathy in public service and governance.</p>
+                <?php include 'parts/shared/leadership-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/about-mission-vision.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -23,7 +29,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-7 text-center">
-                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
+                <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Mission & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Vision</span></h3>
             </div>
         </div>
@@ -32,7 +38,7 @@
             <!-- Mission Card -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-value-card text-center h-100 p-5">
-                    <i class="bi bi-compass value-icon fs-50 mb-30px d-block mx-auto text-gradient-green"></i>
+                    <i class="bi bi-compass value-icon fs-50 mb-30px d-block mx-auto text-saffron"></i>
                     <h4 class="alt-font text-dark-gray fw-700 mb-20px">Our Mission</h4>
                     <p class="fs-18 lh-32">To bridge the gap between governance and the grassroots, ensuring every citizen of Karnataka—and specifically Chamarajpet—has access to justice, skill development, and a dignified quality of life.</p>
                 </div>
@@ -82,17 +88,18 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/1.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Mission & Vision Statement">
+                <img src="images/new/vision-mission.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Mission & Vision Statement">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
                 <p class="fs-17">Public service requires a deep understanding of the challenges faced by citizens. Through Mission & Vision Statement, we address these challenges head-on with innovative solutions and a human-centric approach.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Strategic Planning and Execution</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Transparent Governance and Integrity</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Measurable Outcomes and Results</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600">Strategic Planning and Execution</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600">Transparent Governance and Integrity</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600">Measurable Outcomes and Results</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-saffron text-ink-navy border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-ink-navy text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="javascript:void(0);" class="btn btn-large btn-rounded with-rounded bg-saffron text-ink-navy border-0 btn-box-shadow mt-30px ms-4" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="T912dduUqxw">Watch Video<span class="bg-ink-navy text-white"><i class="bi bi-play-fill fs-18 mt-minus-2px"></i></span></a>
             </div>
         </div>
     </div>

@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/2.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Cycling Campaign</h1>
                 <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">Promoting a healthier, greener Karnataka through the 'Pedaling for Progress' initiative.</p>
+                <?php include 'parts/shared/governance-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/join-movement.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -64,7 +70,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/3.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Cycling Campaign">
+                <img src="images/new/cycling-inner.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Cycling Campaign">
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <h4 class="alt-font text-dark-gray fw-600">Tour of Nilgiris (TfN)</h4>
@@ -75,6 +81,7 @@
                     <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Promoting Cycling for Mass Awareness</li>
                 </ul>
                 <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="javascript:void(0);" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px ms-4" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="T912dduUqxw">Watch Video<span class="bg-blue-licorice text-white"><i class="bi bi-play-fill fs-18 mt-minus-2px"></i></span></a>
             </div>
         </div>
     </div>

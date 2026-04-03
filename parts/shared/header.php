@@ -1,3 +1,134 @@
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
+$about_pages = ['about-introduction.php', 'about-mission-vision.php', 'ips-career.php', 'politics.php'];
+$trust_pages = ['trust-about.php', 'trust-work.php', 'trust-media.php', 'trust-get-involved.php'];
+$chamrajpet_pages = ['constituency.php'];
+$media_pages = ['news-events.php', 'campaigns-events.php'];
+$grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-development.php'];
+?>
+<style>
+    /* Active Link Styling - Subtle Saffron Color Change */
+    .navbar-nav .nav-link {
+        position: relative !important;
+        transition: all 0.3s ease;
+        font-weight: 600 !important;
+        color: var(--deep-charcoal) !important;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.parent-active {
+        background: var(--saffron-gradient) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        color: transparent !important;
+        padding-bottom: 5px !important;
+    }
+    
+    .statesman-signature {
+        background: var(--saffron-gradient);
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        display: inline-block !important;
+        font-family: 'Great Vibes', cursive !important;
+        font-size: 34px !important;
+        font-weight: 400 !important;
+        line-height: 1 !important;
+        letter-spacing: 0px !important;
+        margin: 0 !important;
+    }
+    /* Perfect Alignment for Logo Components */
+    .navbar-brand .default-logo,
+    .navbar-brand .alt-logo,
+    .navbar-brand .mobile-logo {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px;
+    }
+    /* Dropdown Item Active Styling - Left Solid Border */
+    .dropdown-menu li a.active {
+        padding-left: 30px !important;
+        background-image: none !important;
+        background-color: transparent !important;
+        -webkit-background-clip: border-box !important;
+        background-clip: border-box !important;
+        -webkit-text-fill-color: #e25822 !important;
+        color: #e25822 !important;
+        border-left: 3px solid #e25822 !important;
+        border-image: none !important;
+        font-weight: 700 !important;
+    }
+    /* Vertical Centering for the Entire Header Row */
+    nav.navbar .container-fluid {
+        display: flex !important;
+        align-items: center !important;
+        min-height: 100px;
+    }
+    /* Whitish Liquid Glass transition when sticky */
+    header.sticky-active .glass-nav,
+    header.header-sticky .glass-nav,
+    header.sticky-appear .glass-nav {
+      background: rgba(255, 255, 255, 0.9) !important;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+      border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+    }
+
+    header.sticky-active .glass-nav::before,
+    header.header-sticky .glass-nav::before,
+    header.sticky-active .glass-nav::after,
+    header.header-sticky .glass-nav::after {
+        height: 1px; /* Subtle gradient touch when sticky */
+        opacity: 0.5;
+    }
+    .navbar-brand {
+        display: flex !important;
+        align-items: center !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .navbar-collapse {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .navbar-nav {
+        display: flex !important;
+        align-items: center !important;
+    }
+    .header-push-button {
+        display: flex !important;
+        align-items: center !important;
+        margin-left: auto !important;
+    }
+    /* Navigator Menu Separator: BJP Lotus */
+    .navbar-nav > li:not(:last-child)::after {
+        content: "";
+        width: 14px;
+        height: 14px;
+        background: url('images/new/bjp-logo-saffron.svg') no-repeat center;
+        background-size: contain;
+        display: inline-block;
+        margin-left: 15px;
+        opacity: 0.3;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+    }
+    
+    @media (max-width: 991px) {
+        .navbar-nav > li::after {
+            display: none !important;
+        }
+    }
+    
+    /* Remove vertical offsets */
+    .navbar-brand span {
+        line-height: 1 !important;
+        display: inline-block;
+    }
+</style>
 <body data-mobile-nav-style="classic" class="custom-cursor">
     <!-- start cursor -->
     <div class="cursor-page-inner">
@@ -6,106 +137,73 @@
     </div>
     <!-- end cursor -->
     <!-- start header -->
-    <header>
+    <header class="header-with-sticky transition-all sticky-top">
         <!-- start navigation -->
         <nav
-            class="navbar navbar-expand-lg header-transparent bg-transparent sticky-top border-bottom border-color-transparent-white-light">
+            class="navbar navbar-expand-lg header-transparent bg-transparent glass-nav">
             <div class="container-fluid">
-                <div class="col-auto">
-                    <a class="navbar-brand d-flex align-items-center" href="index.php">
-                        <!-- Default Logo (for dark backgrounds) -->
-                        <div class="default-logo">
-                            <span class="fs-24 fw-700 alt-font text-base-color">Bhaskar Rao <span
-                                    class="text-white">IPS</span> <span
-                                    class="fs-14 text-white text-uppercase ls-0px fw-500 ms-5px">(Retd.)</span></span>
+                <a class="navbar-brand p-0 m-0" href="index.php">
+                    <div class="executive-logo">
+                        <img src="images/new/logo-icon.png" alt="Bhaskar Rao Icon">
+                        <div class="logo-text-block">
+                            <span class="name-first">Bhaskar</span>
+                            <span class="name-last">Rao <span class="name-title">IPS (Retd.)</span></span>
                         </div>
-                        <!-- Alt Logo (for light backgrounds/sticky) -->
-                        <div class="alt-logo">
-                            <span class="fs-24 fw-700 alt-font text-base-color">Bhaskar Rao <span
-                                    class="text-dark-gray">IPS</span> <span
-                                    class="fs-14 text-dark-gray text-uppercase ls-0px fw-500 ms-5px">(Retd.)</span></span>
-                        </div>
-                        <!-- Mobile Logo -->
-                        <div class="mobile-logo">
-                            <span class="fs-24 fw-700 alt-font text-base-color">Bhaskar Rao <span
-                                    class="text-dark-gray">IPS</span> <span
-                                    class="fs-14 text-dark-gray text-uppercase ls-0px fw-500 ms-5px">(Retd.)</span></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col menu-order px-3">
-                    <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                            <!-- Leadership Dropdown -->
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="about-introduction.php" class="nav-link">Leadership</a>
-                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                                    <li><a href="about-introduction.php">About Me</a></li>
-                                    <li><a href="about-mission-vision.php">Mission & Vision</a></li>
-                                    <li><a href="ips-career.php">IPS Career</a></li>
-                                    <li><a href="politics.php">Political Journey</a></li>
-                                </ul>
-                            </li>
-                            <!-- Governance Dropdown -->
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="constituency.php" class="nav-link">Governance</a>
-                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                                    <li><a href="constituency.php">Chamarajpet Constituency</a></li>
-                                    <li><a href="red-cross.php">Red Cross Society</a></li>
-                                    <li><a href="news-events.php">News & Media</a></li>
-                                    <li><a href="campaigns-cycling.php">Cycling Campaigns</a></li>
-                                    <li><a href="campaigns-events.php">Event Highlights</a></li>
-                                </ul>
-                            </li>
-                            <!-- Charitable Trust Dropdown -->
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="trust-about.php" class="nav-link">Trust</a>
-                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                                    <li><a href="trust-about.php">About the Trust</a></li>
-                                    <li><a href="trust-work.php">Our Work & Impact</a></li>
-                                    <li><a href="trust-media.php">Media Center</a></li>
-                                    <li><a href="trust-get-involved.php">Get Involved</a></li>
-                                </ul>
-                            </li>
-                            <!-- People's Voice Dropdown -->
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="voice-people-form.php" class="nav-link">Voice</a>
-                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink4" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
-                                    <li><a href="voice-people-form.php">Connect with Leader</a></li>
-                                    <li><a href="voice-people-polls.php">Participatory Polls</a></li>
-                                    <li><a href="join-movement.php">Join the Movement</a></li>
-                                    <li><a href="volunteer-development.php">Skill Development</a></li>
-                                    <li><a href="volunteer-training.php">Volunteer Training</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-                        </ul>
-
-
                     </div>
-                </div>
-                <div class="col-auto ms-auto d-none d-lg-flex">
-                    <div class="header-icon d-flex align-items-center">
-                        <div class="d-flex align-items-center me-3">
-                            <a href="volunteer-development.php" class="btn btn-small btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 me-3 ls-0px fw-600 flex-shrink-0 btn-box-shadow" style="white-space: nowrap;">Become a Volunteer<span class="bg-dark-gray text-white"><i class="feather icon-feather-arrow-right align-middle"></i></span></a>
-                            <a href="tel:+919845352310"
-                                class="w-40px h-40px bg-gradient-blue-ironstone-brown d-flex align-items-center justify-content-center flex-shrink-0 rounded-circle fs-15 text-white"><i
-                                    class="bi bi-telephone-outbound"></i></a>
-                        </div>
+                </a>
+                <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.php" class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Home</a></li>
+                        
+                        <!-- About Dropdown -->
+                        <li class="nav-item dropdown simple-dropdown">
+                            <a href="about-introduction.php" class="nav-link <?php echo (in_array($current_page, $about_pages)) ? 'parent-active active' : ''; ?>">About</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                                <li><a href="about-introduction.php" class="<?php echo ($current_page == 'about-introduction.php') ? 'active' : ''; ?>">About Me</a></li>
+                                <li><a href="about-mission-vision.php" class="<?php echo ($current_page == 'about-mission-vision.php') ? 'active' : ''; ?>">Mission & Vision</a></li>
+                                <li><a href="ips-career.php" class="<?php echo ($current_page == 'ips-career.php') ? 'active' : ''; ?>">IPS Career</a></li>
+                                <li><a href="politics.php" class="<?php echo ($current_page == 'politics.php') ? 'active' : ''; ?>">Political Career</a></li>
+                            </ul>
+                        </li>
 
-                    </div>
+                        <!-- BRCT -->
+                        <li class="nav-item"><a href="https://trust.bhaskarrao.com/" target="_blank" class="nav-link">BRCT</a></li>
+
+                        <li class="nav-item"><a href="constituency.php" class="nav-link <?php echo ($current_page == 'constituency.php') ? 'active' : ''; ?>">Chamrajpet</a></li>
+
+                        <!-- Media Dropdown -->
+                        <li class="nav-item dropdown simple-dropdown">
+                            <a href="news-events.php" class="nav-link <?php echo (in_array($current_page, $media_pages)) ? 'parent-active active' : ''; ?>">Media</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                                <li><a href="news-events.php" class="<?php echo ($current_page == 'news-events.php') ? 'active' : ''; ?>">News & Media</a></li>
+                                <li><a href="campaigns-events.php" class="<?php echo ($current_page == 'campaigns-events.php') ? 'active' : ''; ?>">Event Highlights</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Your Voice Dropdown -->
+                        <li class="nav-item dropdown simple-dropdown">
+                            <a href="voice-people-form.php" class="nav-link <?php echo (in_array($current_page, $grievance_pages)) ? 'parent-active active' : ''; ?>">Your Voice</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink4" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                                <li><a href="voice-people-form.php" class="<?php echo ($current_page == 'voice-people-form.php') ? 'active' : ''; ?>">Connect with Leader</a></li>
+                                <li><a href="join-movement.php" class="<?php echo ($current_page == 'join-movement.php') ? 'active' : ''; ?>">Join the Movement</a></li>
+                                <li><a href="volunteer-development.php" class="<?php echo ($current_page == 'volunteer-development.php') ? 'active' : ''; ?>">Skill Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="contact.php" class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-push-button d-none d-sm-block">
+                    <a href="#vision-modal" data-bs-toggle="modal" class="btn btn-small btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow fw-700 ls-0px">Join the Vision<span class="bg-white text-saffron"><i class="feather icon-feather-arrow-right"></i></span></a>
                 </div>
             </div>
         </nav>

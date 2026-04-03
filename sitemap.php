@@ -4,14 +4,19 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/4.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
+                <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Navigation Guide</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Sitemap</h1>
-                <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">A legacy of discipline, innovation, and empathy in public service and governance.</p>
+                <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">A comprehensive overview of our digital presence and public service modules.</p>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/innerpage-banner.webp" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -19,96 +24,98 @@
 <!-- end page title -->
 
 <!-- start section -->
-<section class="bg-gradient-solitude-blue-fair-pink">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
-                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
-                <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Commitment to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public Service.</span></h3>
-                <p class="fs-18">This is a sample content for the <strong>Sitemap</strong> page. We are in the process of gathering all the relevant information and media to showcase the full scope of our work in this area. Our goal is to provide a transparent and comprehensive view of our initiatives and their impact on the community.</p>
-            </div>
-        </div>
-        
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
-            <!-- Feature 1 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-shield-check fs-40 text-gradient-san-blue-new-york-red"></i>
+<section class="bg-gradient-solitude-blue-fair-pink py-5">
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+            
+            <!-- Column 1: Core Identity -->
+            <div class="col md-mb-40px">
+                <div class="ps-30px pe-30px pt-40px pb-40px bg-white border-radius-10px box-shadow-extra-large h-100 border-top border-4 border-color-brand-blue">
+                    <div class="d-flex align-items-center mb-25px">
+                        <i class="bi bi-person-badge fs-26 text-gradient-san-blue-new-york-red me-15px"></i>
+                        <h6 class="alt-font text-dark-gray fw-700 mb-0 fs-18">Core Identity</h6>
                     </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Core Objectives</h5>
-                    <p>Detailed exploration of the primary goals and objectives associated with Sitemap. We aim for excellence in every endeavor.</p>
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="mb-10px"><a href="index.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Home</a></li>
+                        <li class="mb-10px"><a href="about-introduction.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>About Me</a></li>
+                        <li class="mb-10px"><a href="about-mission-vision.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Mission & Vision</a></li>
+                        <li class="mb-10px"><a href="ips-career.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>IPS Career</a></li>
+                        <li class="mb-10px"><a href="politics.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Political Journey</a></li>
+                        <li><a href="contact.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- Feature 2 -->
-            <div class="col md-mb-30px">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-people fs-40 text-gradient-san-blue-new-york-red"></i>
+
+            <!-- Column 2: Governance & Service -->
+            <div class="col md-mb-40px">
+                <div class="ps-30px pe-30px pt-40px pb-40px bg-white border-radius-10px box-shadow-extra-large h-100 border-top border-4 border-color-brand-blue">
+                    <div class="d-flex align-items-center mb-25px">
+                        <i class="bi bi-building-gear fs-26 text-gradient-san-blue-new-york-red me-15px"></i>
+                        <h6 class="alt-font text-dark-gray fw-700 mb-0 fs-18">Governance</h6>
                     </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Community Engagement</h5>
-                    <p>Focusing on how Sitemap interacts with and empowers the local communities and stakeholders.</p>
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="mb-10px"><a href="constituency.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Constituency</a></li>
+                        <li class="mb-10px"><a href="red-cross.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Red Cross Society</a></li>
+                        <li class="mb-10px"><a href="news-events.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>News & Media</a></li>
+                        <li class="mb-10px"><a href="campaigns-events.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Event Highlights</a></li>
+                        <li><a href="campaigns-cycling.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Cycling Campaigns</a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- Feature 3 -->
+
+            <!-- Column 3: Philanthropy & Action -->
+            <div class="col sm-mb-40px">
+                <div class="ps-30px pe-30px pt-40px pb-40px bg-white border-radius-10px box-shadow-extra-large h-100 border-top border-4 border-color-brand-blue">
+                    <div class="d-flex align-items-center mb-25px">
+                        <i class="bi bi-heart-pulse fs-26 text-gradient-san-blue-new-york-red me-15px"></i>
+                        <h6 class="alt-font text-dark-gray fw-700 mb-0 fs-18">Action</h6>
+                    </div>
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="mb-10px"><a href="trust-about.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Trust Overview</a></li>
+                        <li class="mb-10px"><a href="trust-work.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Work & Impact</a></li>
+                        <li class="mb-10px"><a href="trust-media.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Trust Media</a></li>
+                        <li class="mb-10px"><a href="voice-people-form.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Citizen Grievance</a></li>
+                        <li class="mb-10px"><a href="join-movement.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Join Movement</a></li>
+                        <li><a href="volunteer-development.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Skill Development</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Column 4: Legal & Info -->
             <div class="col">
-                <div class="bg-white p-5 border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all border-bottom border-4 border-color-brand-blue">
-                    <div class="feature-box-icon mb-20px">
-                        <i class="bi bi-graph-up-arrow fs-40 text-gradient-san-blue-new-york-red"></i>
+                <div class="ps-30px pe-30px pt-40px pb-40px bg-white border-radius-10px box-shadow-extra-large h-100 border-top border-4 border-color-brand-blue">
+                    <div class="d-flex align-items-center mb-25px">
+                        <i class="bi bi-shield-lock fs-26 text-gradient-san-blue-new-york-red me-15px"></i>
+                        <h6 class="alt-font text-dark-gray fw-700 mb-0 fs-18">Information</h6>
                     </div>
-                    <h5 class="alt-font text-dark-gray fw-600">Sustainable Impact</h5>
-                    <p>Ensuring that the outcomes of our work in Sitemap are long-lasting and continue to benefit society for years to come.</p>
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="mb-10px"><a href="privacy-policy.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Privacy Policy</a></li>
+                        <li class="mb-10px"><a href="disclaimers.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Disclaimers</a></li>
+                        <li class="mb-10px"><a href="trust-privacy.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Trust Policy</a></li>
+                        <li><a href="sitemap.php" class="text-dark-gray hover-text-brand-blue fs-16 fw-600"><i class="feather icon-feather-arrow-right icon-small me-10px text-brand-blue"></i>Sitemap</a></li>
+                    </ul>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 <!-- end section -->
 
-<!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-white">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/4.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Sitemap">
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-                <h4 class="alt-font text-dark-gray fw-600">Why it matters?</h4>
-                <p class="fs-17">Public service requires a deep understanding of the challenges faced by citizens. Through Sitemap, we address these challenges head-on with innovative solutions and a human-centric approach.</p>
-                <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Strategic Planning and Execution</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Transparent Governance and Integrity</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Measurable Outcomes and Results</li>
-                </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end section -->
-
-
-<!-- start quote section -->
-<section class="py-5 bg-quote-brand position-relative overflow-hidden">
-    <div class="bg-hero-gradient-overlay opacity-8"></div>
-    <div class="container position-relative z-index-2">
         <div class="row align-items-center justify-content-center">
-            <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <i class="bi bi-quote text-white fs-80 opacity-2 mb-20px d-block d-lg-inline-block"></i>
-                <h4 class="alt-font text-white fw-500 mb-30px ls-minus-1px lh-40">"True leadership is not about power, but the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">empowerment of the smallest voice</span> in the community. Our mission is to build a safer, smarter, and more inclusive future for all."</h4>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                    <span class="w-50px h-1px bg-white opacity-5 me-20px"></span>
-                    <span class="fs-20 text-white fw-600 text-uppercase ls-2px alt-font">Bhaskar Rao IPS (Retd.)</span>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-8 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="position-relative">
-                    <img src="images/new/rao.jpg" class="border-radius-10px box-shadow-quadruple-large" alt="Bhaskar Rao">
+            <div class="col-lg-10 text-center">
+                <i class="bi bi-map fs-60 text-gradient-san-blue-new-york-red mb-30px d-block"></i>
+                <h4 class="alt-font text-dark-gray fw-600 mb-20px">Navigating for a Better Future</h4>
+                <p class="fs-18 w-70 lg-w-100 mx-auto">This sitemap serves as a digital roadmap to our commitments, initiatives, and the impact of Shri Bhaskar Rao's ongoing journey in public service.</p>
+                <div class="mt-40px">
+                    <span class="fs-13 fw-700 text-uppercase ls-1px text-dark-gray border-top border-1 border-color-extra-medium-gray pt-20px d-inline-block">Full Site Map &copy; 2026 Office of Bhaskar Rao</span>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end quote section -->
+
 <?php include 'parts/shared/footer.php'; ?>
 <?php include 'parts/shared/html-footer.php'; ?>

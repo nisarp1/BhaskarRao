@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/2.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Red Cross Society</h1>
                 <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">Leading humanitarian efforts and emergency response systems to protect the most vulnerable in our society.</p>
+                <?php include 'parts/shared/governance-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/redcross.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -61,21 +67,63 @@
 <!-- end section -->
 
 <!-- start section (Additional capacity) -->
-<section class="py-5">
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/5.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Red Cross Leadership">
+                <img src="images/new/redcross.jpg" class="border-radius-6px box-shadow-quadruple-large" alt="Red Cross Leadership">
             </div>
             <div class="col-lg-5 offset-lg-1">
-                <h4 class="alt-font text-dark-gray fw-600">Promoting Global Peace</h4>
-                <p class="fs-17">Drawing from his experience as a UN Peacekeeper in Kosovo, Rao views the Red Cross as a neutral, global force for stability. He frequently speaks on how the organization’s humanitarian values can help maintain order and peace during times of international and local unrest.</p>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <h4 class="alt-font text-dark-gray fw-600 mb-5px">Sri. Bhaskar Rao I.P.S (Retd)</h4>
+                <span class="fs-18 fw-700 text-gradient-san-blue-new-york-red mb-20px d-inline-block">Vice President, Indian Red Cross Society Karnataka State Branch</span>
+                <p class="fs-17 lh-28px">It is a privilege to serve as Vice President of the Indian Red Cross Society, Karnataka State Branch. The Red Cross movement has always stood as a symbol of hope, compassion, and service to humanity. In Karnataka, we remain dedicated to carrying forward this legacy by addressing the needs of the most vulnerable through health services, blood donation, disaster response, youth empowerment, and community welfare.</p>
+                <p class="fs-17 lh-28px">The strength of our Society lies in the commitment of our volunteers and the unwavering support of our district branches. Their selfless service is the foundation upon which we continue to build a stronger, safer, and more caring society.</p>
+                <p class="fs-17 lh-28px">As we look to the future, our vision is to expand humanitarian action, engage more youth in meaningful service, and create lasting partnerships that enhance the well-being of communities across Karnataka. Together, let us reaffirm our resolve to uphold the fundamental principles of the Red Cross and to serve humanity with dignity and dedication.</p>
+                <a href="https://redcrosskarnataka.org/" target="_blank" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-20px">Visit Official Website<span class="bg-blue-licorice text-white"><i class="feather icon-feather-external-link"></i></span></a>
             </div>
         </div>
     </div>
 </section>
 <!-- end section -->
+
+<!-- start contact details section -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">OFFICIAL CONTACT</span>
+                <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">IRCS Karnataka <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Headquarters</span></h3>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
+            <!-- Address -->
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-geo-alt-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Address</h5>
+                    <p class="mb-0 fs-15 lh-22px">26, Red Cross Bhavan, Race Course Road, Bengaluru, Karnataka, India, 560001</p>
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-envelope-open-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Email</h5>
+                    <p class="mb-0 fs-15 lh-22px">ircskar@gmail.com<br>ircskarnataka@yahoo.in</p>
+                </div>
+            </div>
+            <!-- Phone -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100">
+                    <i class="bi bi-telephone-outbound-fill value-icon"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Phone</h5>
+                    <p class="mb-0 fs-15 lh-22px">080-22268435<br>080-22264205</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact details section -->
 
 
 <!-- start humanitarian section -->

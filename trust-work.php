@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/3.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Our Work & Impact</h1>
                 <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">Driving sustainable change through strategic programs and collaborative partnerships across Karnataka.</p>
+                <?php include 'parts/shared/trust-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/innerpage-banner.webp" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -109,6 +115,54 @@
                     <li class="pb-10px fs-17 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-link icon-small me-10px text-brand-blue"></i>Institutional Knowledge Sharing</li>
                     <li class="pb-10px fs-17 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-link icon-small me-10px text-brand-blue"></i>Global Resource Alignment</li>
                 </ul>
+                <a href="javascript:void(0);" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="T912dduUqxw">Watch Video<span class="bg-blue-licorice text-white"><i class="bi bi-play-fill fs-18 mt-minus-2px"></i></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section -->
+
+<!-- start section (Case Studies) -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-7 text-center">
+                <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">SUCCESS STORIES</span>
+                <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Impact <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Case Studies.</span></h3>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center g-4" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+            <!-- Case Study 1 -->
+            <div class="col">
+                <div class="bg-gradient-solitude-blue-fair-pink p-5 border-radius-10px h-100 box-shadow-extra-large transition-all hover-translate-y-10">
+                    <div class="fs-12 fw-700 text-gradient-saffron mb-15px text-uppercase ls-1px italic"># Education & Empowerment</div>
+                    <h6 class="alt-font fw-700 text-dark-gray mb-15px">Breaking the Cycle of Poverty in Chamarajpet</h6>
+                    <p class="mb-25px fs-15 lh-26">How the Vidyadaan scholarship helped 50 students from marginal backgrounds gain admission into premier engineering colleges in 2024.</p>
+                    <a href="#" class="btn btn-link btn-extra-large text-dark-gray text-brand-blue-hover fw-700 p-0 fs-15">Explore Case Study<i class="feather icon-feather-arrow-right icon-small ms-5px"></i></a>
+                </div>
+            </div>
+            <!-- Case Study 2 -->
+             <div class="col">
+                <div class="bg-gradient-solitude-blue-fair-pink p-5 border-radius-10px h-100 box-shadow-extra-large transition-all hover-translate-y-10">
+                    <div class="fs-12 fw-700 text-gradient-saffron mb-15px text-uppercase ls-1px italic"># Healthcare Outreach</div>
+                    <h6 class="alt-font fw-700 text-dark-gray mb-15px">Aarogya: Remote Medical Access in Rural Mandya</h6>
+                    <p class="mb-25px fs-15 lh-26">A specialized three-month drive that provided free vision-corrective surgeries to over 200 elderly citizens in underserved villages.</p>
+                    <a href="#" class="btn btn-link btn-extra-large text-dark-gray text-brand-blue-hover fw-700 p-0 fs-15">Explore Case Study<i class="feather icon-feather-arrow-right icon-small ms-5px"></i></a>
+                </div>
+            </div>
+            <!-- Case Study 3 -->
+             <div class="col">
+                <div class="bg-gradient-solitude-blue-fair-pink p-5 border-radius-10px h-100 box-shadow-extra-large transition-all hover-translate-y-10">
+                    <div class="fs-12 fw-700 text-gradient-saffron mb-15px text-uppercase ls-1px italic"># Rural Development</div>
+                    <h6 class="alt-font fw-700 text-dark-gray mb-15px">Sustainable Water Solutions for Bidar Villages</h6>
+                    <p class="mb-25px fs-15 lh-26">Implementation of solar-powered water filtration plants that now provide clean drinking water to 5,000 households daily.</p>
+                    <a href="#" class="btn btn-link btn-extra-large text-dark-gray text-brand-blue-hover fw-700 p-0 fs-15">Explore Case Study<i class="feather icon-feather-arrow-right icon-small ms-5px"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "easing": "easeOutQuad" }'>
+                <a href="#" class="btn btn-link btn-extra-large text-dark-gray text-brand-blue-hover fw-700 p-0 fs-17 decoration-none">View All Case Studies<i class="feather icon-feather-plus-circle icon-small ms-5px text-brand-blue align-middle"></i></a>
             </div>
         </div>
     </div>

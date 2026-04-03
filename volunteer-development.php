@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/4.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">Volunteer Development</h1>
                 <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">Empowering our volunteers with the skills and resources to become future leaders of Karnataka.</p>
+                <?php include 'parts/shared/grievance-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/volunteer-developmen.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -29,37 +35,64 @@
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-5">
-            <!-- Feature 1 -->
-            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <div class="row justify-content-center">
+            <!-- Feature 1 (Featured) -->
+            <div class="col-lg-4 col-md-6 mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100 p-5 shadow-lg">
+                    <i class="bi bi-shield-check value-icon fs-50 mb-15px"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Civic Rights & Governance</h5>
+                    <p class="mb-0 fs-17">Teaching volunteers how local government works, how to file RTI applications, and how to navigate BBMP or police bureaucracy.</p>
+                </div>
+            </div>
+            <!-- Feature 2 (Featured) -->
+            <div class="col-lg-4 col-md-6 mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100 p-5 shadow-lg">
+                    <i class="bi bi-people value-icon fs-50 mb-15px"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Disaster Management</h5>
+                    <p class="mb-0 fs-17">Leveraging Shri Bhaskar Rao’s Red Cross experience to certify volunteers in basic trauma response, CPR, and disaster management.</p>
+                </div>
+            </div>
+            <!-- Feature 3 (Featured) -->
+            <div class="col-lg-4 col-md-6 mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="premium-value-card text-center h-100 p-5 shadow-lg">
+                    <i class="bi bi-graph-up-arrow value-icon fs-50 mb-15px"></i>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">Campaign Organization</h5>
+                    <p class="mb-0 fs-17">Building skills in grassroots campaigning, digital outreach, and organizing effective, peaceful town halls.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mt-3 scale-90px">
+            <!-- Feature 4 -->
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
                     <i class="bi bi-book value-icon"></i>
-                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">The "Sanaatana" Mentorship Program</h5>
+                    <h5 class="alt-font text-dark-gray fw-700 mb-15px">The "Sanaatana" Mentorship</h5>
                     <p class="mb-0">Blending modern education with traditional ethical frameworks by pairing young individuals with experienced mentors.</p>
                 </div>
             </div>
-            <!-- Feature 2 -->
-            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <!-- Feature 5 -->
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 800, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
                     <i class="bi bi-laptop value-icon"></i>
                     <h5 class="alt-font text-dark-gray fw-700 mb-15px">Tech & Digital Literacy</h5>
-                    <p class="mb-0">Sponsoring coding boot camps and digital literacy drives in local government schools to bridge the digital divide.</p>
+                    <p class="mb-0">Sponsoring coding boot camps and digital literacy drives in local schools to bridge the divide.</p>
                 </div>
             </div>
-            <!-- Feature 3 -->
-            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <!-- Feature 6 -->
+            <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 1000, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
                     <i class="bi bi-person-arms-up value-icon"></i>
                     <h5 class="alt-font text-dark-gray fw-700 mb-15px">Fitness & Discipline</h5>
-                    <p class="mb-0">Organizing NCC-style boot camps, sports tournaments, and yoga sessions to instill physical fitness and mental resilience.</p>
+                    <p class="mb-0">Organizing NCC-style boot camps and sports tournaments to instill physical fitness and mental resilience.</p>
                 </div>
             </div>
-            <!-- Feature 4 -->
-            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <!-- Feature 7 -->
+            <div class="col" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 1200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">
                     <i class="bi bi-briefcase value-icon"></i>
                     <h5 class="alt-font text-dark-gray fw-700 mb-15px">Job Fairs & Counseling</h5>
-                    <p class="mb-0">Connecting local talent with corporate recruiters and providing free resume-building workshops and interview prep.</p>
+                    <p class="mb-0">Connecting local talent with corporate recruiters and providing free resume-building workshops.</p>
                 </div>
             </div>
         </div>
@@ -67,26 +100,28 @@
 </section>
 <!-- end section -->
 
-<!-- start section (Additional capacity) -->
-<section class="py-5">
+<!-- start section (Support Systems) -->
+<section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 md-mb-30px">
-                <img src="images/new/services/4.jpg" class="border-radius-10px box-shadow-quadruple-large-hover h-100 transition-inner-all" alt="Volunteer Development">
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-                <h4 class="alt-font text-dark-gray fw-600">Empowering the Youth</h4>
-                <p class="fs-17">"The future of our state lies in the hands of informed and active citizens. We are committed to giving every volunteer the tools they need to lead."</p>
+            <div class="col-lg-5 md-mb-30px" data-anime='{ "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "easing": "easeOutQuad" }'>
+                <h4 class="alt-font text-dark-gray fw-600">Support Systems</h4>
+                <p class="fs-17">As a volunteer, you are never alone. The movement provides specialized tools and backing for your success on the field.</p>
                 <ul class="p-0 list-style-02">
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Certifications for Training Completion</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Internship Opportunities in Public Policy</li>
-                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-check-circle icon-small me-10px text-brand-blue"></i>Direct Exposure to Administrative Systems</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-shield icon-small me-10px text-brand-blue"></i>Legal & Administrative Guidance</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-book-open icon-small me-10px text-brand-blue"></i>Resource Kits and Directories</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-award icon-small me-10px text-brand-blue"></i>Certifications for Training Completion</li>
+                    <li class="pb-5px fs-16 text-dark-gray ls-minus-05px fw-600"><i class="feather icon-feather-briefcase icon-small me-10px text-brand-blue"></i>Internship Opportunities in Public Policy</li>
                 </ul>
-                <a href="contact.php" class="btn btn-large btn-rounded with-rounded bg-gradient-blue-ironstone-brown text-white border-0 btn-box-shadow mt-30px">Connect with us<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                <a href="#volunteer-modal" data-bs-toggle="modal" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Register as a Volunteer<span class="bg-white text-saffron"><i class="feather icon-feather-arrow-right"></i></span></a>
+            </div>
+            <div class="col-lg-6 offset-lg-1" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "easing": "easeOutQuad" }'>
+                <img src="images/new/support.jpg" class="border-radius-10px box-shadow-quadruple-large" alt="Volunteer Support Systems">
             </div>
         </div>
     </div>
 </section>
+<!-- end section -->
 <!-- end section -->
 
 
@@ -102,7 +137,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="accordion accordion-style-02" id="accordion-inner" data-active-icon="fa-angle-up" data-inactive-icon="fa-angle-down">
+                <div class="accordion accordion-style-01" id="accordion-inner" data-active-icon="fa-angle-up" data-inactive-icon="fa-angle-down">
                     <div class="accordion-item active-accordion">
                         <div class="accordion-header border-bottom border-color-extra-medium-gray">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#acc-1" aria-expanded="true">
@@ -169,27 +204,77 @@
     </div>
 </section>
 <!-- end faq section -->
-<!-- start quote section -->
-<section class="py-5 bg-quote-brand position-relative overflow-hidden">
-    <div class="bg-hero-gradient-overlay opacity-8"></div>
-    <div class="container position-relative z-index-2">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-7 col-md-10 text-center text-lg-start md-mb-50px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <i class="bi bi-quote text-white fs-80 opacity-2 mb-20px d-block d-lg-inline-block"></i>
-                <h4 class="alt-font text-white fw-500 mb-30px ls-minus-1px lh-40">"True leadership is not about power, but the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">empowerment of the smallest voice</span> in the community. Our mission is to build a safer, smarter, and more inclusive future for all."</h4>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                    <span class="w-50px h-1px bg-white opacity-5 me-20px"></span>
-                    <span class="fs-20 text-white fw-600 text-uppercase ls-2px alt-font">Bhaskar Rao IPS (Retd.)</span>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-8 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="position-relative">
-                    <img src="images/new/rao.jpg" class="border-radius-10px box-shadow-quadruple-large" alt="Bhaskar Rao">
+
+<?php include 'parts/shared/footer.php'; ?>
+
+<!-- Volunteer Registration Modal -->
+<div class="modal fade" id="volunteer-modal" tabindex="-1" aria-labelledby="volunteer-modal-label" aria-hidden="true" style="z-index: 10000 !important;">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content border-radius-10px overflow-hidden border-0">
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <!-- Left Column: Branding -->
+                    <div class="col-lg-5 bg-gradient-saffron p-5 d-flex flex-column justify-content-center text-white md-display-none">
+                        <h4 class="alt-font fw-600 mb-20px ls-minus-1px">Join the Movement.</h4>
+                        <p class="fs-16 opacity-8 mb-30px">Your skills can build a stronger, smarter Karnataka. Register today and become a part of our growing volunteer network.</p>
+                        <div class="feature-box feature-box-left-icon-middle mb-20px">
+                            <div class="feature-box-icon me-15px">
+                                <i class="feather icon-feather-award icon-small text-white opacity-4"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="text-white fs-15 ls-minus-05px fw-600">Official Certification</span>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box-left-icon-middle mb-20px">
+                            <div class="feature-box-icon me-15px">
+                                <i class="feather icon-feather-users icon-small text-white opacity-4"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="text-white fs-15 ls-minus-05px fw-600">Professional Networking</span>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box-left-icon-middle">
+                            <div class="feature-box-icon me-15px">
+                                <i class="feather icon-feather-activity icon-small text-white opacity-4"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="text-white fs-15 ls-minus-05px fw-600">On-Ground Field Training</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column: Form -->
+                    <div class="col-lg-7 p-5 bg-white position-relative">
+                        <button type="button" class="btn-close me-10px mt-10px" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; right: 10px; top: 10px;"></button>
+                        <h5 class="alt-font text-dark-gray fw-700 mb-5px">Apply to Volunteer</h5>
+                        <p class="mb-30px fs-15">Fill out the details below to complete your registration.</p>
+                        <form action="#" method="post" class="row contact-form-style-02">
+                            <div class="col-md-12 mb-20px">
+                                <input class="form-control border-radius-4px border-color-extra-medium-gray bg-white required" type="text" name="name" placeholder="Your Full Name*">
+                            </div>
+                            <div class="col-md-12 mb-20px">
+                                <input class="form-control border-radius-4px border-color-extra-medium-gray bg-white required" type="email" name="email" placeholder="Your Email Address*">
+                            </div>
+                            <div class="col-md-12 mb-20px">
+                                <input class="form-control border-radius-4px border-color-extra-medium-gray bg-white required" type="tel" name="phone" placeholder="Contact Number*">
+                            </div>
+                            <div class="col-md-12 mb-20px">
+                                <select class="form-select border-radius-4px border-color-extra-medium-gray bg-white required" name="area">
+                                    <option value="" selected disabled>Preferred Area of Action*</option>
+                                    <option value="Education">Education & Mentorship</option>
+                                    <option value="Health">Red Cross & Healthcare</option>
+                                    <option value="Governance">Civic Governance & Rights</option>
+                                    <option value="Field">On-Field Support</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-medium btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow w-100" type="submit">Complete Registration<span class="bg-white text-saffron"><i class="feather icon-feather-chevron-right fs-18"></i></span></button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- end quote section -->
-<?php include 'parts/shared/footer.php'; ?>
+</div>
+
 <?php include 'parts/shared/html-footer.php'; ?>

@@ -4,14 +4,20 @@
 <!-- start page title -->
 <section class="p-0 cover-background inner-hero-header position-relative overflow-hidden" style="background-image: url('images/new/slider/1.png');">
     <div class="bg-hero-gradient-overlay"></div>
-    <img src="images/new/slider/2.png" class="hero-foreground-img" alt="Bhaskar Rao"
-        data-anime='{ "opacity": [0, 1], "scale": [1.1, 1], "duration": 1000, "delay": 0, "easing": "easeOutQuint" }'>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-xl-7 col-lg-8 position-relative z-index-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="d-inline-block inner-hero-label fw-700 text-uppercase ls-2px fs-15 border-bottom-tricolor-thick pb-5px mb-25px">Bhaskar Rao IPS (Retd.)</span>
                 <h1 class="text-white alt-font fw-700 ls-minus-2px mb-25px" style="font-size: 3.5rem; line-height: 3.7rem;">About the Trust</h1>
                 <p class="fs-20 text-white opacity-8 mb-0 w-80 lg-w-100 fw-300">Empowering the underprivileged through sustainable initiatives in education, health, and community safety.</p>
+                <?php include 'parts/shared/trust-menu.php'; ?>
+
+            </div>
+            <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
+                <div class="d-inline-block position-relative">
+                    <img src="images/new/banners/innerpage-banner.webp" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -52,6 +58,31 @@
                     <i class="bi bi-house-heart-fill value-icon"></i>
                     <h5 class="alt-font text-dark-gray fw-700 mb-15px">Rural Welfare</h5>
                     <p class="mb-0">Investing in infrastructure and sustainability projects to improve the quality of life in Karnataka's villages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section -->
+
+<!-- start section (Vision & Mission) -->
+<section class="py-5 bg-white overflow-hidden">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2 g-4 align-items-stretch">
+            <!-- Vision -->
+            <div class="col" data-anime='{ "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "easing": "easeOutQuad" }'>
+                <div class="p-40px bg-gradient-solitude-blue-fair-pink border-radius-10px h-100 box-shadow-extra-large">
+                    <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-15px d-inline-block">OUR VISION</span>
+                    <h4 class="alt-font fw-700 text-dark-gray ls-minus-1px mb-20px">Empowered <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Communities.</span></h4>
+                    <p class="fs-17 opacity-8 mb-0">To create a self-sustaining and inclusive society where every citizen, regardless of their background, has access to quality education, healthcare, and equal opportunities to thrive and lead a dignified life.</p>
+                </div>
+            </div>
+            <!-- Mission -->
+            <div class="col" data-anime='{ "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "easing": "easeOutQuad" }'>
+                <div class="p-40px bg-gradient-blue-ironstone-brown border-radius-10px h-100 text-white shadow-xl">
+                    <span class="fs-16 text-uppercase text-white opacity-8 fw-700 ls-1px mb-15px d-inline-block">OUR MISSION</span>
+                    <h4 class="alt-font fw-700 text-white ls-minus-1px mb-20px">Bridging the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Gap.</span></h4>
+                    <p class="fs-17 opacity-8 mb-0">To implement grassroots-level interventions that address systemic inequalities, foster youth leadership, and provide immediate relief and long-term support to the marginalized sections of our community through transparent and empathetic action.</p>
                 </div>
             </div>
         </div>
@@ -114,34 +145,183 @@
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Executive <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Management.</span></h3>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center overflow-hidden" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+        <style>
+            .team-card-wrapper {
+                position: relative;
+                overflow: hidden;
+                border-radius: 12px;
+                transition: all 0.4s ease;
+            }
+            .team-card-image {
+                position: relative;
+                overflow: hidden;
+            }
+            .team-card-image img {
+                transition: transform 0.6s ease;
+            }
+            .team-card-wrapper:hover .team-card-image img {
+                transform: scale(1.1);
+            }
+            .team-card-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, rgba(56, 142, 60, 0.95) 0%, rgba(255, 153, 51, 0.95) 100%);
+                opacity: 0;
+                transition: all 0.4s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 30px;
+                color: #fff;
+                z-index: 2;
+                text-align: center;
+            }
+            .team-card-wrapper:hover .team-card-overlay {
+                opacity: 1;
+            }
+            .team-social-links a {
+                color: #fff;
+                font-size: 18px;
+                margin: 0 8px;
+                transition: transform 0.3s ease, color 0.3s ease;
+                display: inline-block;
+            }
+            .team-social-links a:hover {
+                color: #fff;
+                transform: translateY(-3px);
+            }
+            .team-card-info {
+                padding: 25px;
+                background: #f0f4fd;
+                transition: background 0.4s ease;
+            }
+            .team-card-wrapper:hover .team-card-info {
+                background: #fff;
+            }
+        </style>
+
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
             <!-- Member 1 -->
             <div class="col mb-4">
-                <div class="bg-gradient-solitude-blue-fair-pink overflow-hidden border-radius-10px box-shadow-quadruple-large">
-                    <img src="images/new/news/1.jpg" alt="Leadership Profile" class="w-100">
-                    <div class="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Leadership Profile</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Executive Director</span>
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Leadership Profile" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Expert in organizational growth and social transformation with a focus on grassroots impact.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Dr. Ramesh Rao</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Executive Director</span>
                     </div>
                 </div>
             </div>
             <!-- Member 2 -->
             <div class="col mb-4">
-                <div class="bg-gradient-solitude-blue-fair-pink overflow-hidden border-radius-10px box-shadow-quadruple-large">
-                    <img src="images/new/duty.jpg" alt="Administrative Head" class="w-100">
-                    <div class="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Administrative Head</h6>
-                        <span class="fs-14 text-uppercase text-gradient-saffron fw-700 lg-ls-0px">Strategic Operations</span>
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Administrative Head" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Overseeing strategic operations and ensuring legislative compliance across all trust projects.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Smt. Meenakshi S.</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Strategic Operations</span>
                     </div>
                 </div>
             </div>
             <!-- Member 3 -->
             <div class="col mb-4">
-                <div class="bg-gradient-solitude-blue-fair-pink overflow-hidden border-radius-10px box-shadow-quadruple-large">
-                    <img src="images/new/services/1.jpg" alt="Field Operations" class="w-100">
-                    <div class="p-4 text-center">
-                        <h6 class="alt-font fw-700 text-dark-gray mb-0">Field Operations</h6>
-                        <span class="fs-14 text-uppercase text-gradient-san-blue-new-york-red fw-700 lg-ls-0px">Regional Coordinator</span>
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Field Operations" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Coordinating regional initiatives and bridging the gap between policy and public benefit.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Shri Arjun Gowda</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Regional Coordinator</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="col mb-4">
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Finance Head" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Ensuring financial transparency and efficient resource allocation for sustainable outreach.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Ms. Deepa Kanyadi</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Financial Audit</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 5 -->
+            <div class="col mb-4">
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Community Outreach" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Building strong relationships with local stakeholders to drive community-led development.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Shri Vinay Hedge</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Public Engagement</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 6 -->
+            <div class="col mb-4">
+                <div class="team-card-wrapper box-shadow-quadruple-large">
+                    <div class="team-card-image">
+                        <img src="images/new/services/1.jpg" alt="Public Relations" class="w-100">
+                        <div class="team-card-overlay flex-column">
+                            <p class="mb-20px fs-15 opacity-8">Leading communications and press relations to share stories of change with the world.</p>
+                            <div class="team-social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card-info text-center">
+                        <h6 class="alt-font fw-800 text-gradient-san-blue-new-york-red mb-0">Dr. Sneha Murali</h6>
+                        <span class="fs-13 text-uppercase text-dark-gray fw-700 ls-1px">Media & Relations</span>
                     </div>
                 </div>
             </div>
