@@ -19683,8 +19683,8 @@ body {
 
 /* Backgrounds & Sections */
 section {
-  padding-top: 35px !important;
-  padding-bottom: 35px !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
   background: var(--soft-gradient);
   position: relative;
 }
