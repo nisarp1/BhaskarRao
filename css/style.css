@@ -123,20 +123,20 @@ body {
   background-color: #FDFCFB; /* Statesman Pearl Foundation */
 }
 section {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 section.half-section {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 section.big-section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 section.extra-big-section {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 img {
   max-width: 100%;
@@ -19537,12 +19537,12 @@ canvas {
    17. Footer
 ====================================== */
 footer {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 footer.half-footer {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 footer.big-footer {
   padding-top: 140px;
