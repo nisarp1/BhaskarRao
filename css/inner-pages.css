@@ -1,13 +1,13 @@
 /* Inner Pages Header Styles - Re-styled with Brand Colors */
 .border-bottom-bicolor {
     border-bottom: 3px solid;
-    /* Brand Bicolor: Saffron (#FF9933), Navy (#1A202C) */
-    border-image: linear-gradient(to right, #FF9933 50%, #1A202C 50%) 1;
+    /* Brand Bicolor: Saffron (#f4730e), Navy (#1A202C) */
+    border-image: linear-gradient(to right, #f4730e 50%, #1A202C 50%) 1;
 }
 
 .border-bottom-bicolor-thick {
     border-bottom: 5px solid;
-    border-image: linear-gradient(to right, #FF9933 50%, #1A202C 50%) 1;
+    border-image: linear-gradient(to right, #f4730e 50%, #1A202C 50%) 1;
 }
 
 .hero-horizontal-gradient {
@@ -33,7 +33,7 @@
 }
 
 .inner-hero-label {
-    background-image: linear-gradient(to right, #ffffff, #FF9933, #FF9933);
+    background-image: linear-gradient(to right, #ffffff, #f4730e, #f4730e);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,7 +41,7 @@
 
 /* Brand Text Gradients */
 .text-gradient-saffron {
-    background-image: linear-gradient(to right, #FF9933, #E68A00);
+    background-image: linear-gradient(to right, #f4730e, #f4730e);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -58,7 +58,7 @@
 
 /* Brand Background Gradients */
 .bg-gradient-saffron {
-    background: linear-gradient(to right, #FF9933, #FFB366);
+    background: #f4730e !important;
 }
 
 .bg-gradient-navy {
@@ -67,7 +67,7 @@
 
 
 .bg-brand-gradient {
-    background: linear-gradient(to right, #1A202C 0%, #FF9933 100%) !important;
+    background: linear-gradient(to right, #1A202C 0%, #f4730e 100%) !important;
 }
 
 .bg-gradient-brand-light {
@@ -76,11 +76,11 @@
 
 /* Quote Section Special Gradient */
 .bg-quote-brand {
-    background: linear-gradient(to right, #1A202C 0%, #FF9933 100%) !important;
+    background: linear-gradient(to right, #1A202C 0%, #f4730e 100%) !important;
 }
 
 .border-color-brand-saffron {
-    border-color: #FF9933 !important;
+    border-color: #f4730e !important;
 }
 
 .border-color-brand-navy {
@@ -143,7 +143,7 @@
 }
 
 .journey-dot {
-    background: linear-gradient(135deg, #FF9933 0%, #1A202C 100%) !important;
+    background: linear-gradient(135deg, #f4730e 0%, #1A202C 100%) !important;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -157,7 +157,7 @@
 
 .journey-column:hover .journey-dot {
     transform: scale(1.3);
-    box-shadow: 0px 8px 25px rgba(255, 153, 51, 0.4);
+    box-shadow: 0px 8px 25px rgba(244, 115, 14, 0.4);
 }
 
 .journey-timeline-row {
@@ -171,7 +171,7 @@
     left: 10%;
     right: 10%;
     height: 3px;
-    background: linear-gradient(to right, #FF9933, #FFFFFF, #1A202C);
+    background: linear-gradient(to right, #f4730e, #FFFFFF, #1A202C);
     z-index: 0;
     opacity: 0.6;
 }
@@ -184,11 +184,11 @@
 
 .journey-column:hover .journey-dot {
     transform: scale(1.3);
-    box-shadow: rgba(255, 153, 51, 0.3) 0px 0px 20px;
+    box-shadow: rgba(244, 115, 14, 0.3) 0px 0px 20px;
 }
 
 .journey-column:hover .journey-year {
-    color: #FF9933 !important;
+    color: #f4730e !important;
 }
 
 .journey-column:hover .journey-subtitle {
@@ -210,7 +210,7 @@
 .premium-value-card:hover {
     transform: translateY(-15px);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
-    border-color: #FF9933;
+    border-color: #f4730e;
 }
 
 .premium-value-card .value-icon {
@@ -222,7 +222,7 @@
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #e25822 !important; /* robust fallback */
+    color: #f4730e !important; /* robust fallback */
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.4s ease;
@@ -234,7 +234,7 @@
     background-clip: text !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #e25822 !important; /* Saffron Solid Fallback */
+    color: #f4730e !important; /* Saffron Solid Fallback */
 }
 
 .premium-value-card:hover .value-icon {
@@ -263,7 +263,7 @@
     left: 0;
     width: 0%;
     height: 4px;
-    background: linear-gradient(to right, #1A202C, #FF9933);
+    background: linear-gradient(to right, #1A202C, #f4730e);
     transition: width 0.4s ease;
 }
 
@@ -284,7 +284,7 @@
     top: 10px;
     bottom: 10px;
     width: 2px;
-    background: linear-gradient(to bottom, #1A202C, #FF9933);
+    background: linear-gradient(to bottom, #1A202C, #f4730e);
     opacity: 0.3;
 }
 
@@ -318,9 +318,9 @@
 }
 
 .v-timeline-item:hover .v-timeline-dot {
-    background-color: #FF9933;
+    background-color: #f4730e;
     transform: scale(1.4);
-    box-shadow: rgba(255, 153, 51, 0.4) 0px 0px 15px;
+    box-shadow: rgba(244, 115, 14, 0.4) 0px 0px 15px;
 }
 
 .journey-subtitle {
@@ -342,7 +342,7 @@
 
 
 .text-gradient-light-saffron {
-    background-image: linear-gradient(to right, #ffffff, #FF9933, #FF9933) !important;
+    background-image: linear-gradient(to right, #ffffff, #f4730e, #f4730e) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -362,7 +362,7 @@
     padding: 25px 0 !important;
     margin-top: 15px !important;
     min-width: 260px !important;
-    border-top: 3px solid #FF9933 !important; /* Brand Saffron Accent */
+    border-top: 3px solid #f4730e !important; /* Brand Saffron Accent */
     
     /* Animation base */
     opacity: 0;
@@ -416,7 +416,7 @@
 
 .navbar .navbar-nav .simple-dropdown .dropdown-menu li a:hover {
     background: rgba(255, 255, 255, 0.1) !important;
-    color: #FF9933 !important; /* Saffron on hover */
+    color: #f4730e !important; /* Saffron on hover */
     padding-left: 30px !important;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05);
 }
@@ -429,7 +429,7 @@
     transform: translateY(-50%);
     width: 4px;
     height: 0;
-    background: #FF9933;
+    background: #f4730e;
     transition: all 0.3s ease;
     border-radius: 0 4px 4px 0;
 }
@@ -440,7 +440,7 @@
 
 /* Parent menu link and caret states */
 .nav-item.dropdown:hover > .nav-link {
-    color: #FF9933 !important;
+    color: #f4730e !important;
 }
 
 .nav-item.dropdown .dropdown-toggle {
@@ -453,7 +453,7 @@
 
 .nav-item.dropdown:hover .dropdown-toggle {
     transform: rotate(180deg);
-    color: #FF9933;
+    color: #f4730e;
 }
 
 .bg-premium-light {
@@ -461,20 +461,11 @@
     background-color: #fdfdfd !important;
     background-image: 
         radial-gradient(circle at 0px 0px, rgba(26, 32, 44, 0.03) 0%, transparent 40%),
-        radial-gradient(circle at 100% 100%, rgba(255, 153, 51, 0.05) 0%, transparent 40%) !important;
+        radial-gradient(circle at 100% 100%, rgba(244, 115, 14, 0.05) 0%, transparent 40%) !important;
     overflow: hidden;
 }
 
-.bg-premium-light::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 6px;
-    height: 100%;
-    background: linear-gradient(to bottom, #1A202C, #FF9933);
-    opacity: 0.8;
-}
+
 
 /* Secondary Sub-menu Styles */
 .secondary-menu-container {
@@ -511,8 +502,8 @@
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #e25822 !important; /* robust fallback */
-    border-bottom-color: #FF9933 !important; 
+    color: #f4730e !important; /* robust fallback */
+    border-bottom-color: #f4730e !important; 
 }
 
 @media (max-width: 991px) {
@@ -543,10 +534,10 @@
     color: #1A202C !important;
 }
 .bg-brand-orange-transparent {
-    background-color: rgba(255, 153, 51, 0.15) !important;
+    background-color: rgba(244, 115, 14, 0.15) !important;
 }
 .text-brand-orange {
-    color: #FF9933 !important;
+    color: #f4730e !important;
 }
 .bg-white-transparent {
     background-color: rgba(255, 255, 255, 0.2) !important;
@@ -558,7 +549,7 @@
     border-color: #1A202C !important;
 }
 .border-color-brand-orange {
-    border-color: #FF9933 !important;
+    border-color: #f4730e !important;
 }
 .border-color-blue-licorice {
     border-color: #212121 !important;

@@ -16,7 +16,7 @@
             <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
                 <div class="d-inline-block position-relative">
                     <img src="images/new/banners/chamrajpet.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
-                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 border-radius-15px z-index-minus-1" style="background-color: #f4730e;"></div>
                 </div>
             </div>
         </div>
@@ -329,10 +329,10 @@
 }
 .ward-trigger:hover {
     transform: translateX(10px);
-    color: #e25822 !important; /* Statesman Saffron */
+    color: #f4730e !important; /* Statesman Saffron */
 }
 .ward-trigger:hover i {
-    color: #FF9933 !important;
+    color: #f4730e !important;
 }
 #wardActivitiesList li {
     position: relative;

@@ -153,7 +153,7 @@
                         <span class="d-inline-block lh-22 alt-font fs-22 fw-500 font-style-italic text-dark-gray">years
                             of service</span>
                         <div
-                            class="h-150px w-150px border-radius-100 bg-gradient-solitude-blue-fair-pink position-absolute left-minus-35px sm-left-minus-40px top-minus-30px sm-top-minus-50px z-index-minus-1">
+                            class="h-150px w-150px border-radius-100 bg-gradient-saffron position-absolute left-minus-35px sm-left-minus-40px top-minus-30px sm-top-minus-50px z-index-minus-1">
                         </div>
                     </div>
                 </div>
@@ -647,7 +647,7 @@
                         <div class="col">
                             <div class="chart-percent d-flex align-items-center">
                                 <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
-                                    data-track-color="#eeeeee" data-start-color="#FF9933" data-end-color="#E68A00">
+                                    data-track-color="#eeeeee" data-start-color="#f4730e" data-end-color="#f4730e">
                                     <span
                                         class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px text-white fw-600 bg-gradient-saffron w-80px h-80px rounded-circle"></span>
                                 </span>

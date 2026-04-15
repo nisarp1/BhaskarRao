@@ -16,7 +16,7 @@
             <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
                 <div class="d-inline-block position-relative">
                     <img src="images/new/banners/about-introduction.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
-                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 border-radius-15px z-index-minus-1" style="background-color: #f4730e;"></div>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
             <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">

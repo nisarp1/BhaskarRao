@@ -52,9 +52,9 @@ $grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-dev
         background-color: transparent !important;
         -webkit-background-clip: border-box !important;
         background-clip: border-box !important;
-        -webkit-text-fill-color: #e25822 !important;
-        color: #e25822 !important;
-        border-left: 3px solid #e25822 !important;
+        -webkit-text-fill-color: #f4730e !important;
+        color: #f4730e !important;
+        border-left: 3px solid #f4730e !important;
         border-image: none !important;
         font-weight: 700 !important;
     }
@@ -62,9 +62,35 @@ $grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-dev
     nav.navbar .container-fluid {
         display: flex !important;
         align-items: center !important;
-        min-height: 100px;
+        min-height: auto;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
     /* Whitish Liquid Glass transition when sticky */
+    /* Make header sticky/fixed when scrolling */
+    header.sticky {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      z-index: 999 !important;
+    }
+
+    /* Hide navbar when scrolling down */
+    header.sticky .navbar {
+      transform: translateY(-100%) !important;
+      -webkit-transform: translateY(-100%) !important;
+      transition: transform 0.3s ease-in-out !important;
+    }
+
+    /* Show navbar when scrolling up */
+    header.sticky.sticky-appear .navbar {
+      transform: translateY(0) !important;
+      -webkit-transform: translateY(0) !important;
+    }
+
+    /* Sticky states - apply background & styling */
     header.sticky-active .glass-nav,
     header.header-sticky .glass-nav,
     header.sticky-appear .glass-nav {
@@ -110,7 +136,7 @@ $grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-dev
         background: url('images/new/bjp-logo-saffron.svg') no-repeat center;
         background-size: contain;
         display: inline-block;
-        margin-left: 15px;
+        margin-left: 8px;
         opacity: 0.3;
         vertical-align: middle;
         position: relative;
@@ -129,15 +155,9 @@ $grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-dev
         display: inline-block;
     }
 </style>
-<body data-mobile-nav-style="classic" class="custom-cursor">
-    <!-- start cursor -->
-    <div class="cursor-page-inner">
-        <div class="circle-cursor circle-cursor-inner"></div>
-        <div class="circle-cursor circle-cursor-outer"></div>
-    </div>
-    <!-- end cursor -->
+<body data-mobile-nav-style="classic">
     <!-- start header -->
-    <header class="header-with-sticky transition-all sticky-top">
+    <header class="header-with-sticky transition-all">
         <!-- start navigation -->
         <nav
             class="navbar navbar-expand-lg header-transparent bg-transparent glass-nav">

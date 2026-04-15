@@ -2,121 +2,9 @@
 <?php include 'parts/shared/header.php'; ?>
     <!-- start banner slider -->
     <section class="p-0 bg-dark-gray overflow-hidden">
-        <style>
-            @keyframes slideUpFade {
-                from { opacity: 0; transform: translateY(-30%); }
-                to { opacity: 1; transform: translateY(-50%); }
-            }
-            .hero-sidebar {
-                position: fixed;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 45px;
-                height: auto;
-                min-height: 200px;
-                background: rgba(255, 255, 255, 0.75) !important;
-                border: 1px solid rgba(255, 255, 255, 0.5) !important;
-                backdrop-filter: blur(15px) !important;
-                -webkit-backdrop-filter: blur(15px) !important;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                z-index: 1000;
-                transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                border: 1px solid transparent !important;
-                padding: 20px 0;
-                border-radius: 100px;
-                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
-            }
-
-            .hero-sidebar:hover {
-                width: 55px;
-                background: rgba(255, 255, 255, 0.95) !important;
-                border-color: rgba(255, 255, 255, 0.8) !important;
-                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-            }
-
-            .hero-sidebar-left {
-                left: 0;
-                border-radius: 0 20px 20px 0;
-            }
-
-            .hero-sidebar-right {
-                right: 0;
-                border-radius: 20px 0 0 20px;
-            }
-
-            .sidebar-text {
-                writing-mode: vertical-rl;
-                text-orientation: mixed;
-                transform: rotate(180deg);
-                font-size: 11px;
-                font-weight: 700;
-                letter-spacing: 2.5px;
-                margin: 15px 0;
-                color: #FF9933 !important;
-                text-transform: uppercase;
-                transition: transform 0.4s ease;
-                white-space: nowrap;
-                font-family: 'Outfit', sans-serif;
-            }
-
-            .hero-sidebar:hover .sidebar-text {
-                transform: rotate(180deg) scale(1.05);
-            }
-
-            .sidebar-icons {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                align-items: center;
-            }
-
-            .sidebar-icons a {
-                color: #FF9933 !important;
-                font-size: 18px;
-                transition: all 0.3s ease;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: 700;
-            }
-
-            .sidebar-icons a:hover {
-                transform: scale(1.3);
-                opacity: 0.8;
-                filter: drop-shadow(0 0 8px rgba(255, 153, 51, 0.5));
-            }
-            @media (max-width: 991px) {
-                .hero-sidebar { display: none; }
-            }
-        </style>
         <div class="swiper full-screen ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-01"
             data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 5000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'
             data-number-pagination="1">
-            
-            <!-- Sidebars -->
-            <div class="hero-sidebar hero-sidebar-left">
-                <div class="sidebar-text">REACHOUT TO US</div>
-                <div class="sidebar-icons">
-                    <a href="tel:+919632075100" title="Call Us"><i class="bi bi-telephone"></i></a>
-                    <a href="https://wa.me/919632075100" target="_blank" title="WhatsApp Message"><i class="bi bi-whatsapp"></i></a>
-                    <a href="mailto:yourvoice@bhaskarrao.com" title="Email Us"><i class="bi bi-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="hero-sidebar hero-sidebar-right">
-                <div class="sidebar-text">CONNECT WITH US</div>
-                <div class="sidebar-icons">
-                    <a href="https://www.facebook.com/IPSBhaskarRao/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://x.com/Nimmabhaskar22" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.instagram.com/bhaskarrao/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/bhaskar-rao-ips/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://en.wikipedia.org/wiki/Bhaskar_Rao" target="_blank"><i class="fa-brands fa-wikipedia-w"></i></a>
-                </div>
-            </div>
-
             <div class="swiper-wrapper">
                 <!-- start slider item -->
                 <div class="swiper-slide cover-background" style="background-image:url('images/new/slider/1.png');">
@@ -264,7 +152,7 @@
                         <span class="d-inline-block lh-22 alt-font fs-22 fw-500 font-style-italic text-dark-gray">years
                             of service</span>
                         <div
-                            class="h-150px w-150px border-radius-100 bg-gradient-solitude-blue-fair-pink position-absolute left-minus-35px sm-left-minus-40px top-minus-30px sm-top-minus-50px z-index-minus-1">
+                            class="h-150px w-150px border-radius-100 bg-gradient-saffron position-absolute left-minus-35px sm-left-minus-40px top-minus-30px sm-top-minus-50px z-index-minus-1">
                         </div>
                     </div>
                 </div>
@@ -772,10 +660,10 @@
                         <div class="col">
                             <div class="chart-percent d-flex align-items-center">
                                 <span class="pie-chart-style-01" data-size="100" data-line-width="2" data-percent="100"
-                                    data-track-color="#eeeeee" data-start-color="#FF9933" data-end-color="#E68A00">
+                                    data-track-color="#eeeeee" data-start-color="#f4730e" data-end-color="#f4730e">
                                     <span
                                         class="percent d-flex align-items-center justify-content-center fs-18 ls-minus-1px fw-700 w-80px h-80px rounded-circle border border-2 border-white box-shadow-small"
-                                        style="background: linear-gradient(135deg, rgba(255, 153, 51, 0.1) 0%, rgba(255, 153, 51, 0.05) 100%); color: #E68A00 !important;"></span>
+                                        style="background: linear-gradient(135deg, rgba(244, 115, 14, 0.1) 0%, rgba(244, 115, 14, 0.05) 100%); color: #f4730e !important;"></span>
                                 </span>
                                 <div class="chart-text fs-18 lh-28 text-dark-gray d-inline-block ms-20px w-70 xxl-w-100">
                                     Public Accessibility</div>

@@ -15,7 +15,7 @@
             <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
                 <div class="d-inline-block position-relative">
                     <img src="images/new/banners/contact.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
-                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 border-radius-15px z-index-minus-1" style="background-color: #f4730e;"></div>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
             <div class="col-lg-5 md-mb-50px">
                 <h4 class="alt-font text-dark-gray fw-600 mb-20px">Direct Communication</h4>
                 <p class="fs-17 w-90">Every message sent through this form is encrypted and treated with the highest confidentiality. Our team responds within 24-48 hours.</p>
-                <div class="mt-40px ps-4 border-start border-4" style="border-left-color: #e25822 !important;">
+                <div class="mt-40px ps-4 border-start border-4" style="border-left-color: #f4730e !important;">
                     <p class="fs-20 mb-0 text-dark-gray fw-500 font-style-italic lh-32">“A better Bengaluru is not built by systems alone, but by responsible citizens and accountable governance working together”</p>
                 </div>
                 <div class="mt-40px">

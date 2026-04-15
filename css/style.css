@@ -45,8 +45,8 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #FF9933;
-  --base-color-rgb: 255, 153, 51;
+  --base-color: #f4730e;
+  --base-color-rgb: 244, 115, 14;
   --black: #000000;
   --red: #dc3131;
   --light-red: #feedec;
@@ -66,15 +66,15 @@ Table of contents
   --dark-slate-blue: #1f232c;
   --extra-dark-slate-blue: #121418;
   --extra-very-slate-blue: #161620;
-  --tussock-yellow: #FF9933;
+  --tussock-yellow: #f4730e;
   --aluminium-gray:#80858F;
   --solitude-blue:#fdfcfb;
   --golden-yellow:#fd961e;
   --selago:#eaedff;
   --white-ice:#d8f5ef;
   --cornflower-blue:#1A202C;
-  --jade:#FF9933;
-  --orange: #FF9933;
+  --jade:#f4730e;
+  --orange: #f4730e;
   --majorelle-blue: #1A202C;
   --light-majorelle-blue: #f2edfe;
   --spring-wood: #f9f6f3;
@@ -84,7 +84,7 @@ Table of contents
   --Wasabi: #4A5568;
   
   /* Brand Specifics */
-  --saffron: #FF9933;
+  --saffron: #f4730e;
   --ink-navy: #212121;
   --slate-grey: #4A5568;
   --mild-gradient: linear-gradient(135deg, #FDFCFB 0%, #E2D1C3 100%);
@@ -93,10 +93,10 @@ Table of contents
   --glass-blur: blur(10px);
   --card-radius: 24px;
   --glass-border: 1px solid rgba(255, 255, 255, 0.5);
-  --saffron-border: 1px solid #FF9933;
-  --saffron-glow: 0 0 20px rgba(255, 153, 51, 0.4);
+  --saffron-border: 1px solid #f4730e;
+  --saffron-glow: 0 0 20px rgba(244, 115, 14, 0.4);
   --antigravity-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-  --antigravity-hover: 0 40px 100px -20px rgba(255, 153, 51, 0.15), 0 30px 60px -30px rgba(0, 0, 0, 0.2);
+  --antigravity-hover: 0 40px 100px -20px rgba(244, 115, 14, 0.15), 0 30px 60px -30px rgba(0, 0, 0, 0.2);
   --deep-charcoal: #212121;
 }
 /* ===================================
@@ -742,7 +742,7 @@ b, strong {
 .text-outline {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #e25822;
+  -webkit-text-stroke-color: #f4730e;
 }
 /* Text stroke width */
 .text-outline-width-1px {
@@ -6924,11 +6924,7 @@ header .header-top-bar [class*=col-] .header-icon {
   align-self: stretch;
 }
 header .navbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
+  z-index: 1025;
 }
 header .navbar [class*=col-] {
   padding: 0 15px;
@@ -6982,6 +6978,11 @@ header.sticky .navbar-brand {
 header.sticky .navbar {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+header.sticky.sticky-appear .navbar {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
 header.sticky .navbar.sticky-header {
   -webkit-transform: translateY(0);
@@ -14731,7 +14732,7 @@ canvas {
   color: #1769ff;
 }
 .elements-social .blogger:hover {
-  color: #ff8000;
+  color: #f4730e;
 }
 .elements-social .codepen:hover {
   color: #0ebeff;
@@ -14767,10 +14768,10 @@ canvas {
   color: #4078c0;
 }
 .elements-social .google:hover {
-  color: #dc4a38;
+  color: #f4730e;
 }
 .elements-social .google-plus:hover {
-  color: #dd4b39;
+  color: #f4730e;
 }
 .elements-social .instagram:hover {
   color: #FE1F49;
@@ -14788,13 +14789,13 @@ canvas {
   color: #00ab6c;
 }
 .elements-social .meneame:hover {
-  color: #ff6400;
+  color: #f4730e;
 }
 .elements-social .mailru:hover {
   color: #168de2;
 }
 .elements-social .odnoklassniki:hover {
-  color: #d7772d;
+  color: #f4730e;
 }
 .elements-social .paypal:hover {
   color: #003087;
@@ -14809,13 +14810,13 @@ canvas {
   color: #222222;
 }
 .elements-social .reddit:hover {
-  color: #ff4500;
+  color: #f4730e;
 }
 .elements-social .reddit-square:hover {
-  color: #ff4500;
+  color: #f4730e;
 }
 .elements-social .rss:hover {
-  color: #f2890a;
+  color: #f4730e;
 }
 .elements-social .skype:hover {
   color: #00aff0;
@@ -14827,7 +14828,7 @@ canvas {
   color: #fffc00;
 }
 .elements-social .soundcloud:hover {
-  color: #ff8800;
+  color: #f4730e;
 }
 .elements-social .spotify:hover {
   color: #1db954;
@@ -14839,7 +14840,7 @@ canvas {
   color: #95D03A;
 }
 .elements-social .stack-overflow:hover {
-  color: #f48024;
+  color: #f4730e;
 }
 .elements-social .stumbleupon:hover {
   color: #eb4924;
@@ -14875,7 +14876,7 @@ canvas {
   color: #21759b;
 }
 .elements-social .weibo:hover {
-  color: #ff9933;
+  color: #f4730e;
 }
 .elements-social .whatsapp:hover {
   color: #25d366;
@@ -14997,7 +14998,7 @@ canvas {
   background-color: #1769ff;
 }
 .social-icon-style-03 ul li a.blogger {
-  background-color: #ff8000;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.codepen {
   background-color: #0ebeff;
@@ -15033,10 +15034,10 @@ canvas {
   background-color: #4078c0;
 }
 .social-icon-style-03 ul li a.google {
-  background-color: #dc4a38;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.google-plus {
-  background-color: #dd4b39;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.instagram {
   background-color: #FE1F49;
@@ -15054,13 +15055,13 @@ canvas {
   background-color: #00ab6c;
 }
 .social-icon-style-03 ul li a.meneame {
-  background-color: #ff6400;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.mailru {
   background-color: #168de2;
 }
 .social-icon-style-03 ul li a.odnoklassniki {
-  background-color: #d7772d;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.paypal {
   background-color: #003087;
@@ -15075,13 +15076,13 @@ canvas {
   background-color: #222222;
 }
 .social-icon-style-03 ul li a.reddit {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.reddit-square {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.rss {
-  background-color: #f2890a;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.skype {
   background-color: #00aff0;
@@ -15093,7 +15094,7 @@ canvas {
   background-color: #fffc00;
 }
 .social-icon-style-03 ul li a.soundcloud {
-  background-color: #ff8800;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.spotify {
   background-color: #1db954;
@@ -15105,7 +15106,7 @@ canvas {
   background-color: #95D03A;
 }
 .social-icon-style-03 ul li a.stack-overflow {
-  background-color: #f48024;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.stumbleupon {
   background-color: #eb4924;
@@ -15141,7 +15142,7 @@ canvas {
   background-color: #21759b;
 }
 .social-icon-style-03 ul li a.weibo {
-  background-color: #ff9933;
+  background-color: #f4730e;
 }
 .social-icon-style-03 ul li a.whatsapp {
   background-color: #25d366;
@@ -15191,7 +15192,7 @@ canvas {
   background-color: #1769ff;
 }
 .social-icon-style-04 ul li a.blogger span {
-  background-color: #ff8000;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.codepen span {
   background-color: #0ebeff;
@@ -15227,10 +15228,10 @@ canvas {
   background-color: #4078c0;
 }
 .social-icon-style-04 ul li a.google span {
-  background-color: #dc4a38;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.google-plus span {
-  background-color: #dd4b39;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.instagram span {
   background-color: #FE1F49;
@@ -15248,13 +15249,13 @@ canvas {
   background-color: #00ab6c;
 }
 .social-icon-style-04 ul li a.meneame span {
-  background-color: #ff6400;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.mailru span {
   background-color: #168de2;
 }
 .social-icon-style-04 ul li a.odnoklassniki span {
-  background-color: #d7772d;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.paypal span {
   background-color: #003087;
@@ -15269,13 +15270,13 @@ canvas {
   background-color: #222222;
 }
 .social-icon-style-04 ul li a.reddit span {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.reddit-square span {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.rss span {
-  background-color: #f2890a;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.skype span {
   background-color: #00aff0;
@@ -15287,7 +15288,7 @@ canvas {
   background-color: #fffc00;
 }
 .social-icon-style-04 ul li a.soundcloud span {
-  background-color: #ff8800;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.spotify span {
   background-color: #1db954;
@@ -15299,7 +15300,7 @@ canvas {
   background-color: #95D03A;
 }
 .social-icon-style-04 ul li a.stack-overflow span {
-  background-color: #f48024;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.stumbleupon span {
   background-color: #eb4924;
@@ -15335,7 +15336,7 @@ canvas {
   background-color: #21759b;
 }
 .social-icon-style-04 ul li a.weibo span {
-  background-color: #ff9933;
+  background-color: #f4730e;
 }
 .social-icon-style-04 ul li a.whatsapp span {
   background-color: #25d366;
@@ -15360,7 +15361,7 @@ canvas {
   color: #1769ff;
 }
 .social-icon-style-05 ul li a.blogger {
-  color: #ff8000;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.codepen {
   color: #0ebeff;
@@ -15396,10 +15397,10 @@ canvas {
   color: #4078c0;
 }
 .social-icon-style-05 ul li a.google {
-  color: #dc4a38;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.google-plus {
-  color: #dd4b39;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.instagram {
   color: #FE1F49;
@@ -15417,13 +15418,13 @@ canvas {
   color: #00ab6c;
 }
 .social-icon-style-05 ul li a.meneame {
-  color: #ff6400;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.mailru {
   color: #168de2;
 }
 .social-icon-style-05 ul li a.odnoklassniki {
-  color: #d7772d;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.paypal {
   color: #003087;
@@ -15438,13 +15439,13 @@ canvas {
   color: #222222;
 }
 .social-icon-style-05 ul li a.reddit {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.reddit-square {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.rss {
-  color: #f2890a;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.skype {
   color: #00aff0;
@@ -15456,7 +15457,7 @@ canvas {
   color: #fffc00;
 }
 .social-icon-style-05 ul li a.soundcloud {
-  color: #ff8800;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.spotify {
   color: #1db954;
@@ -15468,7 +15469,7 @@ canvas {
   color: #95D03A;
 }
 .social-icon-style-05 ul li a.stack-overflow {
-  color: #f48024;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.stumbleupon {
   color: #eb4924;
@@ -15504,7 +15505,7 @@ canvas {
   color: #21759b;
 }
 .social-icon-style-05 ul li a.weibo {
-  color: #ff9933;
+  color: #f4730e;
 }
 .social-icon-style-05 ul li a.whatsapp {
   color: #25d366;
@@ -15560,7 +15561,7 @@ canvas {
   color: #1769ff;
 }
 .social-icon-style-06 ul li a.blogger {
-  color: #ff8000;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.codepen {
   color: #0ebeff;
@@ -15596,10 +15597,10 @@ canvas {
   color: #4078c0;
 }
 .social-icon-style-06 ul li a.google {
-  color: #dc4a38;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.google-plus {
-  color: #dd4b39;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.instagram {
   color: #FE1F49;
@@ -15617,13 +15618,13 @@ canvas {
   color: #00ab6c;
 }
 .social-icon-style-06 ul li a.meneame {
-  color: #ff6400;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.mailru {
   color: #168de2;
 }
 .social-icon-style-06 ul li a.odnoklassniki {
-  color: #d7772d;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.paypal {
   color: #003087;
@@ -15638,13 +15639,13 @@ canvas {
   color: #222222;
 }
 .social-icon-style-06 ul li a.reddit {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.reddit-square {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.rss {
-  color: #f2890a;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.skype {
   color: #00aff0;
@@ -15656,7 +15657,7 @@ canvas {
   color: #fffc00;
 }
 .social-icon-style-06 ul li a.soundcloud {
-  color: #ff8800;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.spotify {
   color: #1db954;
@@ -15668,7 +15669,7 @@ canvas {
   color: #95D03A;
 }
 .social-icon-style-06 ul li a.stack-overflow {
-  color: #f48024;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.stumbleupon {
   color: #eb4924;
@@ -15704,7 +15705,7 @@ canvas {
   color: #21759b;
 }
 .social-icon-style-06 ul li a.weibo {
-  color: #ff9933;
+  color: #f4730e;
 }
 .social-icon-style-06 ul li a.whatsapp {
   color: #25d366;
@@ -15754,10 +15755,10 @@ canvas {
   background-color: #1769ff;
 }
 .social-icon-style-07 ul li a.blogger {
-  color: #ff8000;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.blogger span {
-  background-color: #ff8000;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.codepen {
   color: #0ebeff;
@@ -15826,16 +15827,16 @@ canvas {
   background-color: #4078c0;
 }
 .social-icon-style-07 ul li a.google {
-  color: #dc4a38;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.google span {
-  background-color: #dc4a38;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.google-plus {
-  color: #dd4b39;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.google-plus span {
-  background-color: #dd4b39;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.instagram {
   color: #FE1F49;
@@ -15868,10 +15869,10 @@ canvas {
   background-color: #00ab6c;
 }
 .social-icon-style-07 ul li a.meneame {
-  color: #ff6400;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.meneame span {
-  background-color: #ff6400;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.mailru {
   color: #168de2;
@@ -15880,10 +15881,10 @@ canvas {
   background-color: #168de2;
 }
 .social-icon-style-07 ul li a.odnoklassniki {
-  color: #d7772d;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.odnoklassniki span {
-  background-color: #d7772d;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.paypal {
   color: #003087;
@@ -15910,22 +15911,22 @@ canvas {
   background-color: #222222;
 }
 .social-icon-style-07 ul li a.reddit {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.reddit span {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.reddit-square {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.reddit-square span {
-  background-color: #ff4500;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.rss {
-  color: #f2890a;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.rss span {
-  background-color: #f2890a;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.skype {
   color: #00aff0;
@@ -15946,10 +15947,10 @@ canvas {
   background-color: #fffc00;
 }
 .social-icon-style-07 ul li a.soundcloud {
-  color: #ff8800;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.soundcloud span {
-  background-color: #ff8800;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.spotify {
   color: #1db954;
@@ -15970,10 +15971,10 @@ canvas {
   background-color: #95D03A;
 }
 .social-icon-style-07 ul li a.stack-overflow {
-  color: #f48024;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.stack-overflow span {
-  background-color: #f48024;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.stumbleupon {
   color: #eb4924;
@@ -16042,10 +16043,10 @@ canvas {
   background-color: #21759b;
 }
 .social-icon-style-07 ul li a.weibo {
-  color: #ff9933;
+  color: #f4730e;
 }
 .social-icon-style-07 ul li a.weibo span {
-  background-color: #ff9933;
+  background-color: #f4730e;
 }
 .social-icon-style-07 ul li a.whatsapp {
   color: #25d366;
@@ -16138,7 +16139,7 @@ canvas {
   color: #1769ff;
 }
 .social-icon-style-10 .default-color a.blogger {
-  color: #ff8000;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.codepen {
   color: #0ebeff;
@@ -16174,10 +16175,10 @@ canvas {
   color: #4078c0;
 }
 .social-icon-style-10 .default-color a.google {
-  color: #dc4a38;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.google-plus {
-  color: #dd4b39;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.instagram {
   color: #FE1F49;
@@ -16195,13 +16196,13 @@ canvas {
   color: #00ab6c;
 }
 .social-icon-style-10 .default-color a.meneame {
-  color: #ff6400;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.mailru {
   color: #168de2;
 }
 .social-icon-style-10 .default-color a.odnoklassniki {
-  color: #d7772d;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.paypal {
   color: #003087;
@@ -16216,13 +16217,13 @@ canvas {
   color: #222222;
 }
 .social-icon-style-10 .default-color a.reddit {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.reddit-square {
-  color: #ff4500;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.rss {
-  color: #f2890a;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.skype {
   color: #00aff0;
@@ -16234,7 +16235,7 @@ canvas {
   color: #fffc00;
 }
 .social-icon-style-10 .default-color a.soundcloud {
-  color: #ff8800;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.spotify {
   color: #1db954;
@@ -16246,7 +16247,7 @@ canvas {
   color: #95D03A;
 }
 .social-icon-style-10 .default-color a.stack-overflow {
-  color: #f48024;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.stumbleupon {
   color: #eb4924;
@@ -16282,7 +16283,7 @@ canvas {
   color: #21759b;
 }
 .social-icon-style-10 .default-color a.weibo {
-  color: #ff9933;
+  color: #f4730e;
 }
 .social-icon-style-10 .default-color a.whatsapp {
   color: #25d366;
@@ -19682,8 +19683,8 @@ body {
 
 /* Backgrounds & Sections */
 section {
-  padding-top: calc(140px + 5vh) !important;
-  padding-bottom: calc(140px + 5vh) !important;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
   background: var(--soft-gradient);
   position: relative;
 }
@@ -19746,7 +19747,7 @@ section {
 .btn-gradient-blue-ironstone-brown, 
 .bg-gradient-blue-ironstone-brown,
 .btn-dark-gray {
-  background: linear-gradient(to right, #FF9933, #FFB366) !important;
+  background: linear-gradient(to right, #f4730e, #f4730e) !important;
   border: none !important;
   color: var(--white) !important;
 }
@@ -19763,14 +19764,14 @@ section {
 .interactive-banner-style-08 figure,
 .portfolio-box,
 .feature-box-15 {
-  box-shadow: 0 40px 100px -20px rgba(255, 153, 51, 0.08), 0 30px 60px -30px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 40px 100px -20px rgba(244, 115, 14, 0.08), 0 30px 60px -30px rgba(0, 0, 0, 0.1) !important;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
 }
 
 .box-shadow-quadruple-large:hover, 
 .card:hover {
   transform: translateY(-12px) !important;
-  box-shadow: 0 60px 120px -20px rgba(255, 153, 51, 0.12), 0 40px 80px -30px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 60px 120px -20px rgba(244, 115, 14, 0.12), 0 40px 80px -30px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Lotus Watermark (Ghost Motif) - Statesman Refinement */
@@ -19830,7 +19831,7 @@ footer::before {
 
 /* Premium Contrast & Legibility */
 .text-saffron-contrast {
-  color: #D35400 !important; /* Darker saffron for white backgrounds */
+  color: #f4730e !important; /* Darker saffron for white backgrounds */
 }
 
 .premium-text-shadow {
@@ -19872,7 +19873,7 @@ hr {
 .accordion-item.active,
 .accordion-item:has(.show) {
   border-left: 3px solid var(--saffron) !important;
-  background: rgba(255, 153, 51, 0.02) !important;
+  background: rgba(244, 115, 14, 0.02) !important;
 }
 
 /* Global Mobile Overflow Fix */
@@ -19885,12 +19886,7 @@ html, body {
   padding: 0 !important;
 }
 
-/* Fix for overlapping elements causing overflow */
-.row, .container, .container-fluid {
-  max-width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+
 
 /* Luminous Pearl Hero Foundation */
 .bg-hero-gradient-overlay {
@@ -19915,7 +19911,7 @@ body, p, .text-medium-gray {
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #e25822 !important;
+    color: #f4730e !important;
     border-bottom: none !important;
 }
 
@@ -20049,7 +20045,7 @@ header.sticky-active .glass-nav::after {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(to right, #FF9933 0%, #D35400 50%, #FF9933 100%);
+  background: linear-gradient(to right, #f4730e 0%, #f4730e 50%, #f4730e 100%);
   z-index: 5;
 }
 
@@ -20090,7 +20086,7 @@ header.sticky-active .glass-nav::after {
 }
 
 .mesh-gradient-peach-blue {
-  background: radial-gradient(at 0% 0%, rgba(255, 153, 51, 0.1) 0%, transparent 50%),
+  background: radial-gradient(at 0% 0%, rgba(244, 115, 14, 0.1) 0%, transparent 50%),
               radial-gradient(at 100% 100%, rgba(30, 163, 177, 0.1) 0%, transparent 50%),
               #FDFCFB;
 }
@@ -20213,8 +20209,8 @@ footer .executive-logo .name-title {
 }
 
 .navbar-nav .nav-link {
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
 }
 
 .navbar-nav .dropdown-toggle {
@@ -20238,7 +20234,7 @@ footer .executive-logo .name-title {
 
 /* Hero Heading: Solid Black Contrast */
 .saffron-gradient-text {
-  background: linear-gradient(to right, #FF9933, #FFB366) !important;
+  background: linear-gradient(to right, #f4730e, #f4730e) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -20250,9 +20246,9 @@ footer .executive-logo .name-title {
 }
 
 .glass-card:hover {
-  border: 2px solid #FF9933 !important;
+  border: 2px solid #f4730e !important;
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(255, 153, 51, 0.15);
+  box-shadow: 0 15px 35px rgba(244, 115, 14, 0.15);
 }
 
 .hero-heading {
@@ -20272,11 +20268,11 @@ footer .executive-logo .name-title {
 
 /* Saffron Gradient Utilities - Global Brand Standard */
 :root {
-    --saffron-gradient: linear-gradient(135deg, #e25822 0%, #ff9933 100%);
+    --saffron-gradient: linear-gradient(135deg, #f4730e 0%, #f4730e 100%);
 }
 
 .bg-gradient-saffron {
-    background: var(--saffron-gradient) !important;
+    background: #f4730e !important;
 }
 
 .text-gradient-saffron {
@@ -20285,7 +20281,7 @@ footer .executive-logo .name-title {
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #e25822 !important;
+    color: #f4730e !important;
 }
 
 .border-gradient-saffron {

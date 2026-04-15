@@ -16,7 +16,7 @@
             <div class="col-xl-5 col-lg-4 d-none d-lg-block position-relative z-index-2 text-end" style="padding-top: 80px;">
                 <div class="d-inline-block position-relative">
                     <img src="images/new/banners/voice-people-form.jpg" class="border-radius-15px box-shadow-quadruple-large border border-4 border-white" style="max-height: 400px; object-fit: cover;" alt="Banner">
-                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 bg-gradient-saffron border-radius-15px z-index-minus-1" style="opacity: 0.5;"></div>
+                    <div class="position-absolute left-minus-10px top-minus-10px w-100 h-100 border-radius-15px z-index-minus-1" style="background-color: #f4730e;"></div>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
             <div class="col-lg-6 md-mb-50px">
                 <h4 class="alt-font text-dark-gray fw-600 mb-20px">Your feedback drives us.</h4>
                 <p class="fs-17 w-90">Please provide as much detail as possible so we can route your message to the correct department within our ward offices.</p>
-                <div class="mt-40px ps-4 border-start border-4" style="border-left-color: #e25822 !important;">
+                <div class="mt-40px ps-4 border-start border-4" style="border-left-color: #f4730e !important;">
                     <p class="fs-20 mb-0 text-dark-gray fw-500 font-style-italic lh-32">"I promise to personally review the most critical issues weekly. Transparency is not just a word for us; it's a daily practice."</p>
                     <div class="mt-15px text-uppercase fs-13 fw-800 ls-2px text-gradient-saffron">Bhaskar Rao IPS (Retd.)</div>
                 </div>
@@ -114,7 +114,7 @@
 <!-- start town halls section -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Open Door Policy</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Weekly Town <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Halls.</span></h3>

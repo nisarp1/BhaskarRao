@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "php-dev-server",
+      "runtimeExecutable": "/Applications/MAMP/bin/php/php8.4.1/bin/php",
+      "runtimeArgs": ["-S", "localhost:8000"],
+      "port": 8000
+    }
+  ]
+}
