@@ -123,20 +123,20 @@ body {
   background-color: #FDFCFB; /* Statesman Pearl Foundation */
 }
 section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 section.half-section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 section.big-section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 section.extra-big-section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 img {
   max-width: 100%;
