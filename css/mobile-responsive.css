@@ -1,0 +1,316 @@
+/* ============================================================================
+   MOBILE & TABLET RESPONSIVE STYLES
+   IMPORTANT: All rules are inside media queries - NO desktop changes
+   ============================================================================ */
+
+/* ============================================================================
+   MOBILE ONLY (max-width: 575px) - Smartphone devices
+   ============================================================================ */
+@media (max-width: 575px) {
+  /* Hero Images - Hide on mobile, show text instead */
+  .hero-foreground-img {
+    display: none !important;
+  }
+
+  /* Adjust hero height when images are hidden */
+  .swiper.full-screen {
+    min-height: 400px !important;
+  }
+
+  /* Make hero text more prominent */
+  .swiper-slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Reduce padding on mobile */
+  section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  /* Ensure text is readable on mobile */
+  body {
+    font-size: 14px !important;
+  }
+
+  /* Reduce button sizes for mobile */
+  .btn-extra-large {
+    padding: 12px 20px !important;
+    font-size: 12px !important;
+  }
+
+  .btn-large {
+    padding: 10px 16px !important;
+    font-size: 11px !important;
+  }
+
+  /* Ensure touch targets are 44px minimum */
+  .btn {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+
+  /* Form inputs must be 16px to prevent iOS zoom */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
+  /* Form controls responsive */
+  .form-control,
+  .form-select {
+    font-size: 16px !important;
+    padding: 12px !important;
+  }
+
+  /* Images don't overflow */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Modal fits on mobile screen */
+  .modal-dialog {
+    max-width: 95vw !important;
+    margin: 10px auto !important;
+  }
+
+  .modal-content {
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+  }
+
+  .modal-body {
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+  }
+
+  /* Prevent horizontal scroll */
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+
+  /* Chat widget adjustments */
+  .chat-window {
+    width: 95vw !important;
+    max-width: 100vw !important;
+  }
+
+  /* Fix overflow issues */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Text wrapping */
+  p, li, span {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  /* Reduce heading sizes slightly for mobile */
+  .fs-50 { font-size: 1.5rem !important; }
+  .fs-45 { font-size: 1.3rem !important; }
+  .fs-40 { font-size: 1.2rem !important; }
+  .fs-35 { font-size: 1.1rem !important; }
+  .fs-30 { font-size: 1rem !important; }
+
+  /* Hero heading size for mobile */
+  .hero-heading {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+  }
+}
+
+/* ============================================================================
+   TABLET (576px - 767px)
+   ============================================================================ */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Adjust swiper height for tablet */
+  .swiper.full-screen {
+    min-height: 500px !important;
+  }
+
+  /* Optimize section padding for tablet */
+  section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  /* Tablet button sizing */
+  .btn-extra-large {
+    padding: 14px 24px !important;
+    font-size: 13px !important;
+  }
+
+  /* Modal adjustments for tablet */
+  .modal-dialog {
+    max-width: 90vw !important;
+  }
+
+  /* Form inputs still need 16px on tablet for safety */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
+  /* Ensure images responsive on tablet */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* ============================================================================
+   SMALL DEVICES (max-width: 767px) - Shared mobile and tablet fixes
+   ============================================================================ */
+@media (max-width: 767px) {
+  /* Remove tap highlight on mobile */
+  * {
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  /* Ensure proper stacking */
+  .row {
+    flex-direction: column !important;
+  }
+
+  /* Gallery and grid on mobile */
+  .row-cols-sm-2 {
+    --bs-columns: 1 !important;
+  }
+
+  .col {
+    width: 100% !important;
+  }
+
+  /* Video/iframe responsiveness */
+  iframe {
+    max-width: 100% !important;
+  }
+
+  .ratio iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* SVG responsiveness */
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Hide large decorative elements */
+  .outside-box-right-25,
+  .outside-box-left-25 {
+    display: none !important;
+  }
+
+  /* Carousel/slider fixes */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  /* Accordion fixes */
+  .accordion-button {
+    padding: 15px !important;
+    font-size: 14px !important;
+  }
+
+  /* List styling */
+  ul, ol {
+    padding-left: 20px !important;
+  }
+
+  /* Table overflow fix */
+  table {
+    font-size: 13px !important;
+  }
+
+  /* Badge sizing */
+  .badge {
+    font-size: 11px !important;
+    padding: 4px 8px !important;
+  }
+
+  /* Dropdown menu fit */
+  .dropdown-menu {
+    max-width: 90vw !important;
+  }
+
+  /* Video section height */
+  .ratio {
+    min-height: 250px !important;
+  }
+
+  /* Card padding */
+  .glass-card {
+    padding: 15px !important;
+  }
+
+  .card-body {
+    padding: 15px !important;
+  }
+}
+
+/* ============================================================================
+   LANDSCAPE MOBILE (max-height: 500px)
+   ============================================================================ */
+@media (max-height: 500px) {
+  /* Reduce padding in landscape mode */
+  section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  /* Smaller buttons for landscape */
+  .btn {
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* ============================================================================
+   ACCESSIBILITY - Respect user preferences (all screen sizes)
+   ============================================================================ */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================================
+   RETINA DISPLAYS - Antialiased text
+   ============================================================================ */
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+}
+
+/* ============================================================================
+   PRINT MEDIA - Print-friendly styles
+   ============================================================================ */
+@media print {
+  .navbar,
+  .footer,
+  .chat-widget,
+  .modal {
+    display: none !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid !important;
+  }
+}

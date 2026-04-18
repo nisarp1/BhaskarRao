@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="css/icon.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/mobile-responsive.css" />
     <link rel="stylesheet" href="demos/lawyer/lawyer.css" />
     <link rel="stylesheet" href="css/hero-sidebars.css" />
     <link rel="stylesheet" href="css/inner-pages.css?v=<?php echo time(); ?>" />
