@@ -27,7 +27,7 @@
 <!-- start section (Core Programs) -->
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-8 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">MISSION IN ACTION</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Core <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Programs.</span></h3>
@@ -97,7 +97,7 @@
 <!-- start section (Partners) -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">COLLABORATION</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Our <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Partners.</span></h3>
@@ -125,7 +125,7 @@
 <!-- start section (Case Studies) -->
 <section class="py-5 bg-white">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">SUCCESS STORIES</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Impact <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Case Studies.</span></h3>

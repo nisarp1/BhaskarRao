@@ -27,7 +27,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">NOTICE & TERMS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Legal <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Disclaimers.</span></h3>
                 <p class="fs-18">To ensure clarity and transparency for all visitors of our digital platform, we have outlined the standard legal disclaimers governing the use of information provided by the Office of Bhaskar Rao and its affiliates.</p>

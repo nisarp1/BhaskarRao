@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Why Join?</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px mb-20px">Chamrajpet is our home, our heritage, and <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">our responsibility.</span></h3>
                 <p class="fs-19 fw-500 text-dark-gray mb-25px">Together, let’s take the lead in transforming our streets, strengthening our communities, and building a better future for every citizen. Join the movement—your voice matters.</p>
@@ -183,7 +183,7 @@
 <!-- start faq section -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Frequently Asked <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Questions.</span></h3>

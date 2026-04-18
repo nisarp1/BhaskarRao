@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Youth as the Engine of Growth</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Nurturing the Leaders of <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Tomorrow.</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao strongly believes that the youth are not just the future; they are the present. The focus of the Volunteer (Youth Development) program is to shift the narrative from "youth as dependents" to "youth as active nation-builders." Through structured mentorship and skill-building exercises, we aim to prepare the youth of Chamarajpet to thrive in a competitive, tech-driven world while remaining rooted in cultural values.</p>
@@ -129,7 +129,7 @@
 <!-- start faq section -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Common Inquiries</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Frequently Asked <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Questions.</span></h3>

@@ -1,5 +1,5 @@
     <footer class="bg-ink-navy-footer p-0">
-        <div class="container footer-top pt-50px pb-50px md-pt-35px md-pb-35px">
+        <div class="container footer-top pt-30px pb-30px md-pt-30px md-pb-30px">
             <div class="row justify-content-center">
                 <!-- start footer column -->
                 <div class="col-12 position-relative justify-content-center align-items-center text-center">
@@ -24,7 +24,7 @@
         </div>
         <!-- end footer border -->
         <div class="container">
-            <div class="row pt-50px pb-50px md-pt-35px md-pb-35px">
+            <div class="row pt-30px pb-30px md-pt-30px md-pb-30px">
                 <!-- start footer column -->
                 <div class="col-lg-3 col-sm-6 text-center text-lg-start last-paragraph-no-margin md-mb-40px sm-mb-30px">
                     <a href="index.php" class="footer-logo d-inline-block mb-15px">
@@ -89,7 +89,7 @@
             </div>
         </div>
         <!-- end footer border -->
-        <div class="container footer-bottom pt-25px pb-25px">
+        <div class="container footer-bottom pt-10px pb-20px">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center text-lg-start sm-pb-10px">
                    <p class="text-white opacity-5 fs-14 mb-0">&copy; 2026 Bhaskar Rao Portfolio. All rights reserved.</p>

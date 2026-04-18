@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">NEW LEADERSHIP</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Bringing Discipline to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Governance</span></h3>
                 <p class="fs-18">After 32 years in the IPS, Shri Bhaskar Rao chose to enter the political arena to "expand the horizon of service" beyond the limits of the police department. His entry into public life is driven by the belief that systemic change requires efficient, corruption-free leadership at the decision-making level.</p>
@@ -92,7 +92,7 @@
 <!-- start timeline section -->
 <section class="bg-gradient-solitude-blue-fair-pink py-5 overflow-hidden">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">2023 ASSEMBLY ELECTIONS</span>
                 <div class="journey-header-underline mb-20px">

@@ -96,8 +96,6 @@ $grievance_pages = ['voice-people-form.php', 'join-movement.php', 'volunteer-dev
     header.sticky-appear .glass-nav {
       background: rgba(255, 255, 255, 0.9) !important;
       box-shadow: 0 10px 40px rgba(0,0,0,0.08);
-      padding-top: 15px !important;
-      padding-bottom: 15px !important;
       border-bottom: 1px solid rgba(0,0,0,0.05) !important;
     }
 

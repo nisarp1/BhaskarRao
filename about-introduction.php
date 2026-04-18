@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">EMPOWERING CHANGE</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Commitment to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public Service</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao (I.P.S Retd.) is a name synonymous with integrity, discipline, and reform. With a distinguished career spanning over 32 years in the Indian Police Service, he has transitioned from safeguarding the streets to empowering the citizens. His journey is defined by a singular mission: to build a safer, more equitable, and self-reliant society through proactive leadership and unwavering commitment to the "National Spirit."</p>
@@ -92,7 +92,7 @@
 <!-- start timeline section -->
 <section class="bg-gradient-solitude-blue-fair-pink py-5 overflow-hidden">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="fs-16 text-uppercase text-dark-gray fw-700 ls-1px mb-5px d-inline-block">A LIFETIME OF SERVICE</span>
                 <div class="journey-header-underline mb-20px">
@@ -107,28 +107,28 @@
             <div class="col-12">
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center journey-timeline-row">
                     <!-- Item 1 -->
-                    <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h2 class="journey-year text-gradient-san-blue-new-york-red">1990s</h2>
                         <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">Formative Years</h6>
                         <p class="journey-description">Initial entry into administrative service, laying the foundation for a career focused on discipline and public welfare.</p>
                     </div>
                     <!-- Item 2 -->
-                    <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h2 class="journey-year text-gradient-san-blue-new-york-red">2000s</h2>
                         <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">Specialised Operations</h6>
                         <p class="journey-description">Led critical divisions including UN Peacekeeping in Kosovo and Internal Security Divisions in Karnataka.</p>
                     </div>
                     <!-- Item 3 -->
-                    <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 400, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h2 class="journey-year text-gradient-san-blue-new-york-red">2019</h2>
                         <div class="journey-dot navy"></div>
                         <h6 class="journey-subtitle">DG and IG - State of Karnataka</h6>
                         <p class="journey-description">Appointed as Commissioner of Police, Bengaluru City, earning the moniker "People's Commissioner."</p>
                     </div>
                     <!-- Item 4 -->
-                    <div class="col mb-4 md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col md-mb-30px text-center journey-column" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h2 class="journey-year text-gradient-san-blue-new-york-red">Now</h2>
                         <div class="journey-dot blue"></div>
                         <h6 class="journey-subtitle">Public Service</h6>

@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Pedalling for Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Building a Stronger, Greener, and <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Healthier Society</span></h3>
                 <p class="fs-18">Shri Bhaskar Rao is a well-known cycling enthusiast who uses the sport as a medium for mass social awareness. The "Karnataka Darshan" expedition was primarily focused on the Swachh Bharat mission, ending open defecation, and sharing the harmful effects of plastic waste.</p>

@@ -27,14 +27,14 @@
 <!-- start section -->
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Mission & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Vision</span></h3>
             </div>
         </div>
 
-        <div class="row justify-content-center mb-5 g-4" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <div class="row justify-content-center mb-3 g-4" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <!-- Mission Card -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-value-card text-center h-100 p-5">
@@ -110,7 +110,7 @@
 <!-- start core values section -->
 <section class="bg-white py-5">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">OUR ETHOS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Core <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Values.</span></h3>

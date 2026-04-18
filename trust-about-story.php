@@ -27,7 +27,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Empowering Change</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Commitment to <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Public Service.</span></h3>
                 <p class="fs-18">This is a sample content for the <strong>Our Story - BRCT</strong> page. We are in the process of gathering all the relevant information and media to showcase the full scope of our work in this area. Our goal is to provide a transparent and comprehensive view of our initiatives and their impact on the community.</p>
@@ -119,7 +119,7 @@
 <!-- start team section -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="fs-16 text-uppercase text-gradient-saffron fw-700 ls-1px mb-5px d-inline-block">The Foundation Team</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Led by <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Visionaries.</span></h3>

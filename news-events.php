@@ -79,7 +79,7 @@
 <!-- start section (News & Media) -->
 <section class="py-5 bg-white">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">IN THE PRESS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Bhaskar Rao in the <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Media.</span></h3>
@@ -124,7 +124,7 @@
 <!-- start section (Redesigned Gallery) -->
 <section class="bg-gradient-solitude-blue-fair-pink py-5 gallery-box">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">IMPACT STORIES</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">The People's <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Gallery.</span></h3>

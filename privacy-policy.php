@@ -27,7 +27,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">DATA PROTECTION</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Your Privacy is Our <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Responsibility.</span></h3>
                 <p class="fs-18">Transparency is the foundation of our movement. This policy outlines how the Office of Bhaskar Rao and the Bhaskar Rao Trust protect your personal information and ensure a secure browsing experience.</p>

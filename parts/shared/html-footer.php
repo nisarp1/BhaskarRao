@@ -11,7 +11,7 @@
             <p class="vision-text">Join Shri Bhaskar Rao IPS (Retd.) in his vision for a transparent, safe, and progressive Karnataka. Are you ready to be a part of the change?</p>
             <div class="vision-btns">
                 <button id="btn-vision-join" class="btn btn-vision-primary">YES, I'M IN</button>
-                <button id="btn-vision-explore" class="btn btn-vision-secondary">JUST EXPLORING</button>
+                <button id="btn-vision-explore" class="btn btn-vision-secondary">JOIN THE MOVEMENT</button>
             </div>
         </div>
     </div>
@@ -726,6 +726,11 @@
                 localStorage.setItem("rao_vision_seen", "true");
                 overlay.classList.remove("active");
                 document.body.style.overflow = ""; // Restore scrolling
+                // Open the Join the Movement modal
+                setTimeout(() => {
+                    const visionModal = new bootstrap.Modal(document.getElementById('vision-modal'));
+                    visionModal.show();
+                }, 300);
             });
         }
     })();

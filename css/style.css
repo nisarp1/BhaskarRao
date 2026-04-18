@@ -19662,13 +19662,13 @@ h1, h2, h3, h4, h5, h6, .alt-font {
 .name-last {
   font-weight: 800;
   font-size: 22px;
-  color: var(--saffron);
+  color: #0047AB;
 }
 .name-title {
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--deep-charcoal);
+  color: #0047AB;
 }
 
 .text-uppercase, .ls-1px, .ls-2px {
@@ -20028,8 +20028,6 @@ h1, h2, h3, h4, h5, h6, .alt-font {
 header.sticky-active .glass-nav {
   background: rgba(255, 255, 255, 0.85) !important;
   box-shadow: 0 10px 40px rgba(0,0,0,0.05);
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
 }
 
 header.sticky-active .glass-nav::before,
@@ -20151,7 +20149,7 @@ header.sticky-active .glass-nav::after {
 }
 
 .executive-logo .name-last {
-  color: var(--deep-charcoal) !important;
+  color: #0047AB !important;
   font-size: 26px !important;
   font-weight: 900 !important;
   text-transform: uppercase !important;
@@ -20160,7 +20158,7 @@ header.sticky-active .glass-nav::after {
 }
 
 .executive-logo .name-title {
-  color: var(--deep-charcoal) !important;
+  color: #0047AB !important;
   font-size: 13px !important;
   font-weight: 400 !important;
   text-transform: uppercase !important;

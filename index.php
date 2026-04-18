@@ -475,8 +475,7 @@
             <div class="row">
                 <div class="col-lg-6 position-relative md-mb-50px"
                     data-anime='{ "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="d-flex flex-column box-shadow-quadruple-large bg-white border-radius-8px overflow-hidden position-relative z-index-9"
-                        data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                    <div class="d-flex flex-column box-shadow-quadruple-large bg-white border-radius-8px overflow-hidden position-relative z-index-9">
                         <img src="images/new/modi-rao.jpg" class="w-100" alt="Bhaskar Rao Profile">
                     </div>
                     <img src="images/demo-lawyer-home-dotted-pattern.png"

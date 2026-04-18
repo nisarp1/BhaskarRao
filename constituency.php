@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Transforming Chamrajpet</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">A Vision for <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Sustainable Urban Excellence</span></h3>
                 <p class="fs-18">Chamrajpet is more than just a constituency; it is the historical soul of Bengaluru. Established in 1892, it represents a rich tapestry of culture and commerce. Shri Bhaskar Rao’s vision is to honor this 130-year legacy while implementing a modern blueprint for urban renewal that addresses the long-standing challenges of its residents.</p>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <a href="https://en.wikipedia.org/wiki/Chamarajpet" target="_blank" class="btn btn-large btn-rounded with-rounded bg-gradient-saffron text-white border-0 btn-box-shadow mt-30px">Learn more<span class="bg-white text-saffron"><i class="fab fa-wikipedia-w"></i></span></a>
-                <a href="javascript:void(0);" class="btn btn-large btn-rounded with-rounded btn-transparent-base-color btn-box-shadow mt-30px ms-4" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="T912dduUqxw">Watch Video<span class="bg-gradient-saffron text-white" style="-webkit-text-fill-color: white !important; color: white !important;"><i class="bi bi-play-fill fs-18 mt-minus-2px"></i></span></a>
+                <a href="javascript:void(0);" class="btn btn-large btn-rounded with-rounded btn-transparent-base-color btn-box-shadow mt-30px ms-4 text-saffron" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="T912dduUqxw">Watch Video<span class="bg-gradient-saffron text-white" style="-webkit-text-fill-color: white !important; color: white !important;"><i class="bi bi-play-fill fs-18 mt-minus-2px"></i></span></a>
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@
 <!-- start constituency vision section -->
 <section class="bg-white py-5">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">LOCAL FOCUS</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Heritage, Economic & Social <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Upliftment</span></h3>

@@ -27,14 +27,14 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">GET IN TOUCH</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Building a Safer <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Future Together.</span></h3>
                 <p class="fs-18">I wish to discuss community issues and learn more about the development initiatives. You can meet my team or send me a message through the form below. I promise a timely response to every genuine inquiry.</p>
             </div>
         </div>
         
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
             <!-- Feature 1 -->
             <div class="col md-mb-30px" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="premium-value-card text-center h-100">

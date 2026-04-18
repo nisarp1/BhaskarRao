@@ -27,7 +27,7 @@
 <!-- start section (Upcoming Events) -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">STAY CONNECTED</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Upcoming <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Events & Clubs.</span></h3>

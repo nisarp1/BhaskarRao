@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">Service Beyond Duty</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Protecting Lives and <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Dignity</span></h3>
                 <h5 class="alt-font text-dark-gray fw-600 mb-10px mt-4">Leadership at IRCS Karnataka</h5>
@@ -90,7 +90,7 @@
 <section class="py-5 bg-white">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">OFFICIAL CONTACT</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">IRCS Karnataka <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Headquarters</span></h3>
             </div>
@@ -129,7 +129,7 @@
 <!-- start humanitarian section -->
 <section class="bg-white py-5">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">IMPACT</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">Key Focus Areas & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Initiatives</span></h3>

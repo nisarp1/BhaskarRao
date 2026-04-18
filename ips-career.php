@@ -28,7 +28,7 @@
 <section class="bg-gradient-solitude-blue-fair-pink">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
+            <div class="col-lg-8 text-center mb-3">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">A Legacy of Integrity & Innovation</span>
                 <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">32 Years of Public Service: <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">From Ground Zero to Global Peacekeeping</span></h3>
                 <p class="fs-18">A distinguished 1990 batch IPS officer, Bhaskar Rao has navigated some of the most challenging administrative and security landscapes in India. His career is marked by a unique blend of firm enforcement and compassionate community engagement, earning him the respect of both colleagues and the common man.</p>
@@ -68,7 +68,7 @@
 <!-- start section (Additional capacity) -->
 <section class="py-5 bg-gradient-solitude-blue-fair-pink">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">RECOGNITIONS</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Honors & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Awards.</span></h3>
@@ -104,7 +104,7 @@
 
 <section class="bg-gradient-solitude-blue-fair-pink py-5">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
             <div class="col-lg-7 text-center">
                 <span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px mb-5px d-inline-block">DIVERSE ASSIGNMENTS</span>
                 <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px">Key Postings & <span class="fw-700 font-style-italic text-decoration-line-bottom-medium">Impact.</span></h3>
